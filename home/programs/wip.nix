@@ -14,7 +14,4 @@
     enable = true;
     extraConfig = builtins.readFile ./dotfiles/.tmux.conf;
   };
-
-  # Symlink nvim config entirely
-  home.file.".config/nvim".source = ./dotfiles/.config/nvim;
 }

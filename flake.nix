@@ -19,10 +19,7 @@
     home-manager,
     alacritty-theme,
     ...
-  }: let
-    system = "x86_64-linux";
-    pkgs = import nixpkgs {inherit system;};
-  in {
+  }: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       modules = [
         # Apply overlay at system level
@@ -39,15 +36,6 @@
           # Pass alacritty theme input to home.nix
           home-manager.extraSpecialArgs = {
             inherit alacritty-theme nvf;
-          };
-        }
-
-        {
-          programs.zsh.enable = true;
-          users.users.kha = {
-            isNormalUser = true;
-            extraGroups = ["wheel"];
-            shell = pkgs.zsh;
           };
         }
 

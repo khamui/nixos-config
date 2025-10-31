@@ -9,6 +9,9 @@
   programs.nvf = {
     enable = true;
 
+    configDir = "~/.config/nvim";
+    defaultEditor = true;
+
     settings.vim = {
       # Alias Config
       viAlias = true;

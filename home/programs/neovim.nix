@@ -5,8 +5,6 @@
 }: {
   imports = [nvf.homeManagerModules.default];
 
-  home.file.".config/nvf".source = ./dotfiles/.config/nvf;
-
   # inside your NixOS module list (flake.nix's nixosSystem.modules or configuration.nix)
   programs.nvf = {
     enable = true;

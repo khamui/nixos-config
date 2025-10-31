@@ -1,0 +1,33 @@
+/*
+# single files in root
+!/.gitignore
+!.zshrc
+!.tmux.conf
+!.alacritty.yml
+!.alacritty.toml
+
+# un-ignore subfolder
+!/.config/
+/.config/*
+
+!/.config/kscripts/
+
+# !/.config/codex/
+# /.config/codex/*
+# !/.config/codex/notes
+
+!/.config/nvim/
+/.config/nvim/*
+!/.config/nvim/init.lua
+!/.config/nvim/kha.nvim
+!/.config/nvim/kha.plugins
+!/.config/nvim/lua
+!/.config/nvim/ftplugin
+!/.config/starship.toml
+
+
+# Local Netlify folder
+.netlify
+
+# Exclude env variables
+/.zshenv

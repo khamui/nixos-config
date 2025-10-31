@@ -5,5 +5,6 @@
     ./git.nix
     ./neovim.nix
     ./starship.nix
+    ./wip.nix
   ];
 }

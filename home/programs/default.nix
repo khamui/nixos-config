@@ -1,7 +1,7 @@
 {
   imports = [
     ./alacritty.nix
-    ./bash.nix
+    ./ssh.nix
     ./git.nix
     ./neovim.nix
     ./starship.nix

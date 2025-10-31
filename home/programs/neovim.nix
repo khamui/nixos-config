@@ -9,7 +9,7 @@
   programs.nvf = {
     enable = true;
 
-    configDir = "~/.config/nvim";
+    configDir = "home/kha/.config/nvim";
     defaultEditor = true;
 
     settings.vim = {

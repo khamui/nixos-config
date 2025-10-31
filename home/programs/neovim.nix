@@ -10,12 +10,9 @@
     enable = true;
 
     settings.vim = {
-      luaConfigRC.myconfig = {
-        config = ''
-          dofile(vim.fn.expand("~/.config/nvf/lua/init.lua"))
-        '';
-        after = ["base"];
-      };
+      luaConfigRC.myconfig = ''
+        dofile(vim.fn.expand("~/.config/nvf/lua/init.lua"))
+      '';
 
       # Alias Config
       viAlias = true;

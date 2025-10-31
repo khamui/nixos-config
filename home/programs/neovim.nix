@@ -10,10 +10,11 @@
     enable = true;
 
     settings.vim = {
-      luaConfigRC.khamui-config-dir = {
+      luaConfigRC.myconfig = {
         config = ''
           dofile(vim.fn.expand("~/.config/nvf/lua/init.lua"))
         '';
+        after = ["base"];
       };
 
       # Alias Config

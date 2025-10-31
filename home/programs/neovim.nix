@@ -9,25 +9,27 @@
   programs.nvf = {
     enable = true;
 
-    configDir = "home/kha/.config/nvim";
-    defaultEditor = true;
-
     settings.vim = {
+      luaConfigRC.khamui-config-dir = {
+        config = ''
+          dofile(vim.fn.expand("~/.config/nvf/lua/init.lua"))
+        '';
+      };
+
       # Alias Config
       viAlias = true;
       vimAlias = true;
 
       # Options Config
       options = {
-        termguicolors = true;
-        hls = false;
-        splitbelow = true;
-        splitright = true;
-        colorcolumn = "80";
-        tabstop = 2;
-        shiftwidth = 0;
-        softtabstop = 2;
-        guicursor = "n-c:block,i-ci:ver50,r-cr-v-ve:hor80,o:hor50,a:blinkwait100-blinkoff150-blinkon150-Cursor";
+        #termguicolors = true;
+        #hls = false;
+        #splitbelow = true;
+        #splitright = true;
+        #colorcolumn = "80"; tabstop = 2;
+        #shiftwidth = 0;
+        #softtabstop = 2;
+        #guicursor = "n-c:block,i-ci:ver50,r-cr-v-ve:hor80,o:hor50,a:blinkwait100-blinkoff150-blinkon150-Cursor";
       };
 
       # LSP Config
@@ -50,14 +52,8 @@
         markdown.enable = true;
         html.enable = true;
         tailwind.enable = true;
-
-        ts = {
-          enable = true;
-        };
-
-        css = {
-          enable = true;
-        };
+        ts.enable = true;
+        css.enable = true;
       };
 
       # Statusline Config

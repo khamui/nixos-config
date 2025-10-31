@@ -105,5 +105,4 @@
   # the home Manager release notes for a list of state version
   # changes in each release.
   home.stateVersion = "25.05";
-  home.file.".config/nvf".source = ../programs/dotfiles/.config/nvf;
 }

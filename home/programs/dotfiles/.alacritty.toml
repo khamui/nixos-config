@@ -124,8 +124,9 @@ mods = "Shift"
 history = 1000
 
 [terminal.shell]
-args = ["-l", "-c", "tmux attach -2 || tmux -2"]
-program = "/bin/zsh"
+# args = ["-l", "-c", "tmux attach -2 || tmux -2"]
+args = ["-l"]
+program = "/etc/profiles/per-user/kha/bin/zsh"
 
 [window]
 decorations = "full"

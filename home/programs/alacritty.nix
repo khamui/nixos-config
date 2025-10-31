@@ -4,7 +4,6 @@
     settings = {
       terminal.shell = {
         program = "/bin/zsh";
-        args = ["-l" "-c" "tmux attach -2 || tmux -2"];
       };
 
       window = {

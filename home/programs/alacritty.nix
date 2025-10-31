@@ -1,4 +1,8 @@
 {pkgs, ...}: {
+  fonts.fonts = with pkgs; [
+    jetbrains-mono
+  ];
+
   programs.alacritty = {
     enable = true;
   };

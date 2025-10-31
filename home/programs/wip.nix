@@ -16,5 +16,5 @@
   };
 
   # Symlink nvim config entirely
-  home.file.".config/nvim".source = ./dotfiles/nvim;
+  home.file.".config/nvim".source = ./dotfiles/.config/nvim;
 }

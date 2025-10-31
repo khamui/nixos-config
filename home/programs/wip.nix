@@ -14,6 +14,4 @@
     enable = true;
     extraConfig = builtins.readFile ./dotfiles/.tmux.conf;
   };
-
-  home.file.".config/nvf".source = ./dotfiles/.config/nvf;
 }

@@ -12,7 +12,7 @@
   # Use home-manager's tmux module
   programs.tmux = {
     enable = true;
-    extraConfig = builtins.readFile ./dotfiles/tmux.conf;
+    extraConfig = builtins.readFile ./dotfiles/.tmux.conf;
   };
 
   # Symlink nvim config entirely

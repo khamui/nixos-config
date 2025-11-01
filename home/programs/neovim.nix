@@ -3,78 +3,92 @@
   nvf,
   ...
 }: {
-  imports = [nvf.homeManagerModules.default];
+  vim = {
+    additionalRuntimePaths = [
+      ./home/programs/dotfiles/.config/nvf/lua
+    ];
+
+    luaConfigRC.khaconfig =
+      /*
+      lua
+      */
+      ''
+        require("khaconfig")
+      '';
+  };
+
+  #imports = [nvf.homeManagerModules.default];
 
   # COMMAND: ln -s ~/reponame/home/programs/dotfiles/.config/nvf ~/.config/nvf
   # inside your NixOS module list (flake.nix's nixosSystem.modules or configuration.nix)
-  programs.nvf = {
-    enable = true;
+  #programs.nvf = {
+  #  enable = true;
 
-    settings.vim = {
-      luaConfigRC.nvim-config-dir = ''
-        require("khaconfig")
-      '';
+  #  settings.vim = {
+  #    luaConfigRC.nvim-config-dir = ''
+  #      require("khaconfig")
+  #    '';
 
-      # Alias Config
-      viAlias = true;
-      vimAlias = true;
+  #    # Alias Config
+  #    viAlias = true;
+  #    vimAlias = true;
 
-      # Options Config
-      options = {
-        #termguicolors = true;
-        #hls = false;
-        #splitbelow = true;
-        #splitright = true;
-        #colorcolumn = "80"; tabstop = 2;
-        #shiftwidth = 0;
-        #softtabstop = 2;
-        #guicursor = "n-c:block,i-ci:ver50,r-cr-v-ve:hor80,o:hor50,a:blinkwait100-blinkoff150-blinkon150-Cursor";
-      };
+  #    # Options Config
+  #    options = {
+  #      #termguicolors = true;
+  #      #hls = false;
+  #      #splitbelow = true;
+  #      #splitright = true;
+  #      #colorcolumn = "80"; tabstop = 2;
+  #      #shiftwidth = 0;
+  #      #softtabstop = 2;
+  #      #guicursor = "n-c:block,i-ci:ver50,r-cr-v-ve:hor80,o:hor50,a:blinkwait100-blinkoff150-blinkon150-Cursor";
+  #    };
 
-      # LSP Config
-      lsp = {
-        enable = true;
+  #    # LSP Config
+  #    lsp = {
+  #      enable = true;
 
-        formatOnSave = true;
-        lspkind.enable = false;
-        lightbulb.enable = true;
-        lspsaga.enable = true;
-      };
+  #      formatOnSave = true;
+  #      lspkind.enable = false;
+  #      lightbulb.enable = true;
+  #      lspsaga.enable = true;
+  #    };
 
-      # LSP Languages Config
-      languages = {
-        enableFormat = true;
-        enableTreesitter = true;
-        enableExtraDiagnostics = true;
+  #    # LSP Languages Config
+  #    languages = {
+  #      enableFormat = true;
+  #      enableTreesitter = true;
+  #      enableExtraDiagnostics = true;
 
-        nix.enable = true;
-        markdown.enable = true;
-        html.enable = true;
-        tailwind.enable = true;
-        ts.enable = true;
-        css.enable = true;
-      };
+  #      nix.enable = true;
+  #      markdown.enable = true;
+  #      html.enable = true;
+  #      tailwind.enable = true;
+  #      ts.enable = true;
+  #      css.enable = true;
+  #    };
 
-      # Statusline Config
-      statusline = {
-        lualine = {
-          enable = true;
-          theme = "github_light";
-        };
-      };
+  #    # Statusline Config
+  #    statusline = {
+  #      lualine = {
+  #        enable = true;
+  #        theme = "github_light";
+  #      };
+  #    };
 
-      # Colorscheme Config
-      #theme = {
-      #  enable = true;
-      #  name = "github";
-      #  style = "light";
-      #  transparent = true;
-      #};
+  #    # Colorscheme Config
+  #    #theme = {
+  #    #  enable = true;
+  #    #  name = "github";
+  #    #  style = "light";
+  #    #  transparent = true;
+  #    #};
 
-      # Autocomplete Config
-      autocomplete = {
-        nvim-cmp.enable = true;
-      };
-    };
-  }; # programs.nvf
+  #    # Autocomplete Config
+  #    autocomplete = {
+  #      nvim-cmp.enable = true;
+  #    };
+  #  };
+  #}; # programs.nvf
 }

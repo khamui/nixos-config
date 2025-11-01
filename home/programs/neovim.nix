@@ -3,18 +3,21 @@
   nvf,
   ...
 }: {
-  vim = {
-    additionalRuntimePaths = [
-      ./home/programs/dotfiles/.config/nvf/lua
-    ];
+  programs.nvf = {
+    enable = true;
+    settings.vim = {
+      additionalRuntimePaths = [
+        ./home/programs/dotfiles/.config/nvf/lua
+      ];
 
-    luaConfigRC.khaconfig =
-      /*
-      lua
-      */
-      ''
-        require("khaconfig")
-      '';
+      luaConfigRC.khaconfig =
+        /*
+        lua
+        */
+        ''
+          require("khaconfig")
+        '';
+    };
   };
 
   #imports = [nvf.homeManagerModules.default];

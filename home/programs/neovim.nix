@@ -3,6 +3,7 @@
   nvf,
   ...
 }: {
+  imports = [nvf.homeManagerModules.default];
   programs.nvf = {
     enable = true;
     settings.vim = {
@@ -19,8 +20,6 @@
         '';
     };
   };
-
-  #imports = [nvf.homeManagerModules.default];
 
   # COMMAND: ln -s ~/reponame/home/programs/dotfiles/.config/nvf ~/.config/nvf
   # inside your NixOS module list (flake.nix's nixosSystem.modules or configuration.nix)

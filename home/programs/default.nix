@@ -1,11 +1,11 @@
 {
   imports = [
     ./alacritty.nix
-    ./ssh.nix
     ./git.nix
-    # ./neovim.nix
     ./nvf.nix
+    ./ssh.nix
     ./starship.nix
-    ./wip.nix
+    ./tmux.nix
+    ./zsh.nix
   ];
 }

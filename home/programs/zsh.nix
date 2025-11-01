@@ -8,10 +8,4 @@
     # But source your existing complex config
     initExtra = builtins.readFile ./dotfiles/.zshrc;
   };
-
-  # Use home-manager's tmux module
-  programs.tmux = {
-    enable = true;
-    extraConfig = builtins.readFile ./dotfiles/.tmux.conf;
-  };
 }

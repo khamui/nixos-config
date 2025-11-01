@@ -65,11 +65,11 @@ text = "#EFF1F5"
 size = 11.0
 
 [font.bold]
-family = "BlexMono"
+family = "BlexMono Nerd Font"
 style = "Bold"
 
 [font.normal]
-family = "BlexMono"
+family = "BlexMono Nerd Font"
 style = "Regular"
 
 [[keyboard.bindings]]

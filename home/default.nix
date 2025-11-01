@@ -34,6 +34,13 @@
     # here is some command line tools I use frequently
     # feel free to add your own or remove some of them
     pkgs.ibm-plex
+    (pkgs.nerdfonts.override {
+      fonts = [
+        "IBMPlexMono"
+        "Iosevka"
+        "IosevkaTerm"
+      ];
+    })
     #neofetch
     #nnn # terminal file manager
 

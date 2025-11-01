@@ -1,4 +1,4 @@
-{...}: {
+{pkgs, ...}: {
   programs.tmux = {
     enable = true;
     extraConfig = ''
@@ -7,6 +7,9 @@
 
       # set mouse
       setw -g mouse on
+
+      # set zsh as shell
+      set -g default-command ${pkgs.zsh}/bin/zsh
 
       # making vi mode available (copy mode)
       setw -g mode-keys vi

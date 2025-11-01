@@ -88,6 +88,7 @@
     ];
   };
 
+  fonts.fontDir.enable = true;
   # Install firefox.
   programs.firefox.enable = true;
 

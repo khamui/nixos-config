@@ -63,6 +63,7 @@ cursor = "#7287FD"
 text = "#EFF1F5"
 
 [font]
+family = "BlexMono"
 size = 11.0
 
 #[font.bold]
@@ -70,7 +71,6 @@ size = 11.0
 #style = "Bold"
 #
 #[font.normal]
-#family = "Jetbrains Mono"
 #style = "Regular"
 
 [[keyboard.bindings]]
@@ -135,7 +135,3 @@ title = "Alacritty (zsh)"
 [window.dimensions]
 columns = 120
 lines = 40
-
-[window.padding]
-x = 8
-y = 8

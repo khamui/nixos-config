@@ -34,13 +34,6 @@
     # here is some command line tools I use frequently
     # feel free to add your own or remove some of them
     nerd-fonts.fira-code
-    #(pkgs.nerdfonts.override {
-    #  fonts = [
-    #    "IBMPlexMono"
-    #    "Iosevka"
-    #    "IosevkaTerm"
-    #  ];
-    #})
     #neofetch
     #nnn # terminal file manager
 

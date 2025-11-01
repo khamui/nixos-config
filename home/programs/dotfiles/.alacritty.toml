@@ -7,7 +7,6 @@ magenta = "#EA76CB"
 red = "#D20F39"
 white = "#BCC0CC"
 yellow = "#DF8E1D"
-
 [colors.cursor]
 cursor = "#DC8A78"
 text = "#EFF1F5"
@@ -63,15 +62,15 @@ cursor = "#7287FD"
 text = "#EFF1F5"
 
 [font]
-family = "BlexMono"
 size = 11.0
 
-#[font.bold]
-#family = "Jetbrains Mono"
-#style = "Bold"
-#
-#[font.normal]
-#style = "Regular"
+[font.bold]
+family = "BlexMono"
+style = "Bold"
+
+[font.normal]
+family = "BlexMono"
+style = "Regular"
 
 [[keyboard.bindings]]
 action = "Paste"

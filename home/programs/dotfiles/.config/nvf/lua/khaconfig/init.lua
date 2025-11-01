@@ -1,4 +1,4 @@
 -- require('plugins')
-require('appearance')
-require('aliases')
-require('keymappings')
+require('khaconfig.appearance')
+require('khaconfig.aliases')
+require('khaconfig.keymappings')

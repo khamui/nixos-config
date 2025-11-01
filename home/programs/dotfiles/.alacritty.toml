@@ -65,11 +65,11 @@ text = "#EFF1F5"
 size = 11.0
 
 [font.bold]
-family = "RecMonoLinear Nerd Font Mono"
+family = "FiraCode Nerd Font"
 style = "Bold"
 
 [font.normal]
-family = "RecMonoLinear Nerd Font Mono"
+family = "FiraCode Nerd Font"
 style = "Regular"
 
 [[keyboard.bindings]]

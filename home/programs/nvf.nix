@@ -29,6 +29,84 @@
           action = "<ESC>";
           silent = true;
         }
+        {
+          key = "H";
+          mode = ["n" "v"];
+          action = "0";
+          silent = true;
+        }
+        {
+          key = "L";
+          mode = ["n" "v"];
+          action = "$";
+          silent = true;
+        }
+        {
+          key = "vv";
+          mode = ["n"];
+          action = "0v$";
+          silent = true;
+        }
+        {
+          key = "<C-A>";
+          mode = ["n"];
+          action = "gg0vG$";
+          silent = true;
+        }
+        {
+          key = "v";
+          mode = ["n"];
+          action = "<C-v>";
+          silent = true;
+        }
+        {
+          key = "<leader>o";
+          mode = ["n"];
+          action = "o<ESC>";
+          silent = true;
+        }
+        {
+          key = "<leader>O";
+          mode = ["n"];
+          action = "O<ESC>";
+          silent = true;
+        }
+        {
+          key = "<M-l>";
+          mode = ["n"];
+          action = ":vsp<CR>";
+          silent = true;
+        }
+        {
+          key = "<M-j>";
+          mode = ["n"];
+          action = ":sp<CR>";
+          silent = true;
+        }
+        {
+          key = "<C-L>";
+          mode = ["n"];
+          action = "<C-W><C-L>";
+          silent = true;
+        }
+        {
+          key = "<C-H>";
+          mode = ["n"];
+          action = "<C-W><C-H>";
+          silent = true;
+        }
+        {
+          key = "<C-J>";
+          mode = ["n"];
+          action = "<C-W><C-J>";
+          silent = true;
+        }
+        {
+          key = "<C-K>";
+          mode = ["n"];
+          action = "<C-W><C-K>";
+          silent = true;
+        }
       ];
 
       debugMode = {

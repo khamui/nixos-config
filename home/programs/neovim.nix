@@ -5,17 +5,14 @@
 }: {
   imports = [nvf.homeManagerModules.default];
 
-  home.file.".config/nvf".source = builtins.path {
-    path = ./dotfiles/.config/nvf;
-  };
-
+  # COMMAND: ln -s ~/reponame/home/programs/dotfiles/.config/nvf ~/.config/nvf
   # inside your NixOS module list (flake.nix's nixosSystem.modules or configuration.nix)
   programs.nvf = {
     enable = true;
 
     settings.vim = {
-      luaConfigRC.myconfig = ''
-        dofile(vim.fn.expand("~/.config/nvf/lua/init.lua"))
+      luaConfigRC.nvim-config-dir = ''
+        require("khaconfig")
       '';
 
       # Alias Config

@@ -14,6 +14,23 @@
       viAlias = true;
       vimAlias = true;
 
+      globals.mapleader = ";";
+
+      options = {
+        tabstop = 2;
+        shiftwidth = 0;
+        softtabstop = 2;
+      };
+
+      keymaps = [
+        {
+          key = "jk";
+          mode = ["i"];
+          action = "<ESC>";
+          silent = true;
+        }
+      ];
+
       debugMode = {
         enable = false;
         level = 16;
@@ -105,7 +122,7 @@
       };
 
       visuals = {
-        nvim-scrollbar.enable = true;
+        nvim-scrollbar.enable = false;
         nvim-web-devicons.enable = true;
         nvim-cursorline.enable = true;
         cinnamon-nvim.enable = true;
@@ -121,14 +138,14 @@
       statusline = {
         lualine = {
           enable = true;
-          theme = "tokyonight";
+          theme = "catppuccin";
         };
       };
 
       theme = {
         enable = true;
-        name = "tokyonight";
-        style = "day";
+        name = "catppuccin";
+        style = "latte";
         transparent = false;
       };
 
@@ -205,7 +222,7 @@
         motion = {
           hop.enable = true;
           leap.enable = true;
-          precognition.enable = true;
+          precognition.enable = false;
         };
         images = {
           image-nvim.enable = false;
@@ -258,7 +275,7 @@
           cmp.enable = true;
         };
         codecompanion-nvim.enable = false;
-        avante-nvim.enable = true;
+        avante-nvim.enable = false;
       };
 
       session = {
@@ -270,7 +287,7 @@
       };
 
       comments = {
-        comment-nvim.enable = true;
+        comment-nvim.enable = false;
       };
 
       presence = {

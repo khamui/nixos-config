@@ -27,12 +27,18 @@
   #  "Xcursor.size" = 16;
   #  "Xft.dpi" = 172;
   #};
+  fonts.fontconfig.enable = true;
 
   # Packages that should be installed to the user profile.
   home.packages = with pkgs; [
     # here is some command line tools I use frequently
     # feel free to add your own or remove some of them
-
+    pkgs.ibm-plex
+    (pkgs.nerdfonts.override {
+      fonts = [
+        "IBMPlexMono"
+      ];
+    })
     #neofetch
     #nnn # terminal file manager
 

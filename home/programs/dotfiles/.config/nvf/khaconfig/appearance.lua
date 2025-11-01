@@ -4,7 +4,6 @@ local opt = vim.o
 cmd "syntax enable"
 opt.termguicolors = true
 opt.background = 'light'
-cmd.colorscheme 'melange'
 
 opt.ruler = true
 opt.backup = false

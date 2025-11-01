@@ -33,8 +33,8 @@
   home.packages = with pkgs; [
     # here is some command line tools I use frequently
     # feel free to add your own or remove some of them
-    pkgs.ibm-plex
-    pkgs.nerd-fonts.ibm-plex
+    nerd-fonts.ibm-plex
+    nerd-fonts.fira-code
     #(pkgs.nerdfonts.override {
     #  fonts = [
     #    "IBMPlexMono"

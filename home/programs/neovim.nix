@@ -8,7 +8,7 @@
     enable = true;
     settings.vim = {
       additionalRuntimePaths = [
-        ./home/programs/dotfiles/.config/nvf/lua
+        ./home/programs/dotfiles/.config/nvf
       ];
 
       luaConfigRC.khaconfig =

@@ -217,8 +217,8 @@
           obsidian.enable = false; # FIXME: neovim fails to build if obsidian is enabled
           neorg.enable = false;
           orgmode.enable = false;
-          mind-nvim.enable = true;
-          todo-comments.enable = true;
+          mind-nvim.enable = false;
+          todo-comments.enable = false;
         };
 
         terminal = {

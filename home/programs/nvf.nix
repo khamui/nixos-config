@@ -21,7 +21,7 @@
         };
 
         spellcheck = {
-          enable = true;
+          enable = false;
           programmingWordlist.enable = false;
         };
 
@@ -42,8 +42,8 @@
 
         debugger = {
           nvim-dap = {
-            enable = true;
-            ui.enable = true;
+            enable = false;
+            ui.enable = false;
           };
         };
 
@@ -72,8 +72,8 @@
           python.enable = true;
           typst.enable = false;
           rust = {
-            enable = true;
-            crates.enable = true;
+            enable = false;
+            crates.enable = false;
           };
 
           # Language modules that are not as common.
@@ -248,7 +248,7 @@
               go = ["90" "130"];
             };
           };
-          fastaction.enable = true;
+          fastaction.enable = false;
         };
 
         assistant = {

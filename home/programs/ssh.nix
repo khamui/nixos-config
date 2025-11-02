@@ -14,4 +14,5 @@
   };
 
   services.ssh-agent.enable = true;
+  services.xserver.xkbOptions = "caps:escape";
 }

@@ -20,27 +20,54 @@
     alacritty-theme,
     ...
   }: {
-    nixosConfigurations.wiegtnix = nixpkgs.lib.nixosSystem {
-      modules = [
-        # Apply overlay at system level
-        ({...}: {
-          nixpkgs.overlays = [alacritty-theme.overlays.default];
-        })
+    nixosConfigurations = {
+      nixos = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          # Apply overlay at system level
+          ({...}: {
+            nixpkgs.overlays = [alacritty-theme.overlays.default];
+          })
 
-        home-manager.nixosModules.home-manager
-        {
-          home-manager.useGlobalPkgs = true;
-          home-manager.useUserPackages = true;
-          home-manager.users.kha = import ./home;
+          home-manager.nixosModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.kha = import ./home/nixos;
 
-          # Pass alacritty theme input to home.nix
-          home-manager.extraSpecialArgs = {
-            inherit alacritty-theme nvf;
-          };
-        }
+            # Pass alacritty theme input to home.nix
+            home-manager.extraSpecialArgs = {
+              inherit alacritty-theme nvf;
+            };
+          }
 
-        ./configuration.nix
-      ];
+          ./hosts/nixos/configuration.nix
+        ];
+      };
+
+      laptop = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          # Apply overlay at system level
+          ({...}: {
+            nixpkgs.overlays = [alacritty-theme.overlays.default];
+          })
+
+          home-manager.nixosModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.khamui = import ./home/laptop;
+
+            # Pass alacritty theme input to home.nix
+            home-manager.extraSpecialArgs = {
+              inherit alacritty-theme nvf;
+            };
+          }
+
+          ./hosts/laptop/configuration.nix
+        ];
+      };
     };
   };
 }

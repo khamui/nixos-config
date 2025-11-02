@@ -13,6 +13,7 @@
     settings.vim = {
       viAlias = true;
       vimAlias = true;
+      withNodeJs = true;
 
       globals.mapleader = ";";
 

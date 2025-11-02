@@ -349,7 +349,7 @@
       assistant = {
         chatgpt.enable = false;
         copilot = {
-          enable = false;
+          enable = true;
           cmp.enable = true;
         };
         codecompanion-nvim.enable = false;

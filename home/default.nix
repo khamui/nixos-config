@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   # TODO please change the username & home directory to your own
-  home.username = "khamui";
-  home.homeDirectory = "/home/khamui";
+  home.username = "kha";
+  home.homeDirectory = "/home/kha";
 
   imports = [
     ./programs

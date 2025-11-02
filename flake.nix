@@ -20,7 +20,7 @@
     alacritty-theme,
     ...
   }: {
-    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.wiegtnix = nixpkgs.lib.nixosSystem {
       modules = [
         # Apply overlay at system level
         ({...}: {
@@ -31,7 +31,7 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.kha = import ./home;
+          home-manager.users.khamui = import ./home;
 
           # Pass alacritty theme input to home.nix
           home-manager.extraSpecialArgs = {

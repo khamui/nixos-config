@@ -26,9 +26,6 @@ alias soz='source ~/.zshrc'
 alias :q='exit'
 alias tmx='tmux'
 
-# lazygit aliases
-alias lg='lazygit'
-
 # work aliases
 alias wd='cd $ENV'
 

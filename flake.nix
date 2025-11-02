@@ -31,7 +31,7 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.khamui = import ./home;
+          home-manager.users.kha = import ./home;
 
           # Pass alacritty theme input to home.nix
           home-manager.extraSpecialArgs = {

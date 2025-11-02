@@ -130,7 +130,6 @@ program = "/etc/profiles/per-user/kha/bin/zsh"
 [window]
 decorations = "full"
 title = "Alacritty (zsh)"
-
-[window.dimensions]
 columns = 120
 lines = 40
+padding = { x = 8, y = 8 }

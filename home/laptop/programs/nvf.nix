@@ -85,27 +85,27 @@
           silent = true;
         }
         {
-          key = "<C-L>";
+          key = "<C-l>";
           mode = ["n"];
-          action = "<C-W><C-L>";
+          action = "<C-w>l";
           silent = true;
         }
         {
-          key = "<C-H>";
+          key = "<C-h>";
           mode = ["n"];
-          action = "<C-W><C-H>";
+          action = "<C-w>h";
           silent = true;
         }
         {
-          key = "<C-J>";
+          key = "<C-j>";
           mode = ["n"];
-          action = "<C-W><C-J>";
+          action = "<C-w>j";
           silent = true;
         }
         {
-          key = "<C-K>";
+          key = "<C-k>";
           mode = ["n"];
-          action = "<C-W><C-K>";
+          action = "<C-w>k";
           silent = true;
         }
       ];

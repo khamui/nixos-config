@@ -34,7 +34,8 @@
     "amdgpu.dcdebugmask=0x10" # Better power managemet
     "amd_pstate=active"
   ];
-  services.power-profiles-daemon.enable = true; # Modern alternative to TLP
+  # deactivate webcam
+  boot.blacklistedKernelModules = ["uvcvideo"];
   services.thermald.enable = false; # thermald is Intel-only
   services.fwupd.enable = true; # Firmware updates via LVFS
   services.fprintd.enable = true;
@@ -45,6 +46,28 @@
       tapping = true;
     };
   };
+
+  services.tlp = {
+    enable = true;
+    settings = {
+      CPU_SCALING_GOVERNOR_ON_AC = "schedutil";
+      CPU_SCALING_GOVERNOR_ON_BAT = "powersave";
+      CPU_ENERGY_PERF_POLICY_ON_AC = "balance_performance";
+      CPU_ENERGY_PERF_POLICY_ON_BAT = "power";
+      PLATFORM_PROFILE_ON_AC = "balanced";
+      PLATFORM_PROFILE_ON_BAT = "low-power";
+      RUNTIME_PM_ON_BAT = "auto";
+      RUNTIME_PM_ON_AC = "on";
+      USB_AUTOSUSPEND = 1;
+      WIFI_PWR_ON_BAT = "on";
+      DISK_DEVICES = "nvme0n1";
+      DISK_APM_LEVEL_ON_BAT = "128";
+      BLUETOOTH_POWER_ON_BAT = "off";
+    };
+  };
+
+  # Disable conflicting daemon
+  services.power-profiles-daemon.enable = false;
 
   programs.firefox.enable = true;
 

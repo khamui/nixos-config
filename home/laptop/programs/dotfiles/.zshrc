@@ -1,6 +1,5 @@
 # Updated 8.10.22 (manually, curl)
 eval "$(starship init zsh)"
-
 # zoxide
 eval "$(zoxide init zsh)"
 
@@ -32,6 +31,9 @@ alias wd='cd $ENV'
 # amapet aliases
 alias amas='lua ~/.config/kscripts/amapet_start.lua'
 alias amac='lua ~/.config/kscripts/amapet_start_clean.lua'
+
+# nixos aliases
+alias delgen='sudo nix-collect-garbage --delete-older-than "1d"'
 
 # fzf searcher
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

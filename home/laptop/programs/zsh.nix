@@ -6,6 +6,6 @@
     # ... basic config
 
     # But source your existing complex config
-    initExtra = builtins.readFile ./dotfiles/.zshrc;
+    initContent = builtins.readFile ./dotfiles/.zshrc;
   };
 }

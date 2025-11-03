@@ -28,7 +28,7 @@
   networking.wireless.enable = false;
   hardware.enableAllFirmware = true;
   hardware.cpu.amd.updateMicrocode = true;
-  hardware.opengl.enable = true;
+  hardware.graphics.enable = true;
   boot.kernelModules = ["amd-pstate"];
   boot.kernelParams = [
     "amdgpu.dcdebugmask=0x10" # Better power managemet

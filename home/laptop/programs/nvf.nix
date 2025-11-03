@@ -328,7 +328,7 @@
         borders.enable = true;
         noice.enable = true;
         colorizer.enable = true;
-        modes-nvim.enable = false; # the theme looks terrible with catppuccin
+        modes-nvim.enable = false; # the theme looks terrible with catppu
         illuminate.enable = true;
         breadcrumbs = {
           enable = true;
@@ -371,6 +371,12 @@
 
       presence = {
         neocord.enable = false;
+      };
+    };
+
+    settings.vim.extraPlugins = with pkgs.vimPlugins; {
+      vim-tmux-navigator = {
+        package = vim-tmux-navigator;
       };
     };
   }; # programs.nvf

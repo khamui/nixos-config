@@ -63,6 +63,18 @@
       DISK_DEVICES = "nvme0n1";
       DISK_APM_LEVEL_ON_BAT = "128";
       BLUETOOTH_POWER_ON_BAT = "off";
+
+      # Battery charge thresholds
+      START_CHARGE_THRESH_BAT0 = 40;
+      STOP_CHARGE_THRESH_BAT0 = 80;
+
+      # Optional: enable battery care options
+      RESTORE_THRESHOLDS_ON_BAT = 1;
+      RESTORE_THRESHOLDS_ON_AC = 1;
+
+      # You can also tune power modes
+      TLP_DEFAULT_MODE = "BAT";
+      TLP_PERSISTENT_DEFAULT = 1;
     };
   };
 

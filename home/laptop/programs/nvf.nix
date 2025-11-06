@@ -108,6 +108,18 @@
           action = "<C-w>k";
           silent = true;
         }
+        {
+          key = "<C-f>";
+          mode = ["n"];
+          action = "<Cmd>Neotree toggle<CR>";
+          silent = true;
+        }
+        {
+          key = "<leader>f";
+          mode = ["n"];
+          action = "<Cmd>Neotree reveal<CR>";
+          silent = true;
+        }
       ];
 
       debugMode = {

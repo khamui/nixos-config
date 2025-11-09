@@ -398,6 +398,12 @@
       presence = {
         neocord.enable = false;
       };
+
+      clipboard = {
+        enable = true;
+        providers.xclip.enable = true;
+        registers = "unnamedplus";
+      };
     };
 
     settings.vim.extraPlugins = with pkgs.vimPlugins; {

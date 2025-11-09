@@ -82,8 +82,8 @@
   services.power-profiles-daemon.enable = false;
 
   programs.firefox.enable = true;
-  services.pcscd.enable = true;
-  services.pcscd.plugins = [pkgs.ccid];
+  #services.pcscd.enable = true;
+  #services.pcscd.plugins = [pkgs.ccid];
 
   environment.systemPackages = with pkgs; [
     networkmanagerapplet

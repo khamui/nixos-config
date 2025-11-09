@@ -31,6 +31,18 @@
           silent = true;
         }
         {
+          key = "<leader>j";
+          mode = ["n"];
+          action = "<cmd>HopWord<CR>";
+          silent = true;
+        }
+        {
+          key = "<leader>k";
+          mode = ["n"];
+          action = "<cmd>HopWord<CR>";
+          silent = true;
+        }
+        {
           key = "H";
           mode = ["n" "v"];
           action = "0";

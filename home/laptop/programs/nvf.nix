@@ -142,10 +142,10 @@
         lspkind.enable = false;
         lightbulb.enable = true;
         lspsaga.enable = false;
-        trouble.enable = true;
+        trouble.enable = false;
         lspSignature.enable = false; # conflicts with blink in maximal
-        otter-nvim.enable = true;
-        nvim-docs-view.enable = true;
+        otter-nvim.enable = false;
+        nvim-docs-view.enable = false;
       };
 
       debugger = {
@@ -170,14 +170,14 @@
         bash.enable = true;
         css.enable = true;
         html.enable = true;
-        sql.enable = true;
+        sql.enable = false;
         java.enable = false;
         kotlin.enable = false;
         ts.enable = true;
-        go.enable = true;
+        go.enable = false;
         lua.enable = true;
         zig.enable = false;
-        python.enable = true;
+        python.enable = false;
         typst.enable = false;
         rust = {
           enable = false;
@@ -201,7 +201,7 @@
         ruby.enable = false;
         fsharp.enable = false;
 
-        tailwind.enable = false;
+        tailwind.enable = true;
         svelte.enable = false;
 
         # Nim LSP is broken on Darwin and therefore
@@ -260,14 +260,14 @@
       };
 
       tabline = {
-        nvimBufferline.enable = true;
+        nvimBufferline.enable = false;
       };
 
       treesitter.context.enable = true;
 
       binds = {
-        whichKey.enable = true;
-        cheatsheet.enable = true;
+        whichKey.enable = false;
+        cheatsheet.enable = false;
       };
 
       telescope.enable = true;
@@ -281,7 +281,7 @@
 
       minimap = {
         minimap-vim.enable = false;
-        codewindow.enable = true; # lighter, faster, and uses lua for configuration
+        codewindow.enable = false; # lighter, faster, and uses lua for configuration
       };
 
       dashboard = {
@@ -294,7 +294,7 @@
       };
 
       projects = {
-        project-nvim.enable = true;
+        project-nvim.enable = false;
       };
 
       utility = {
@@ -302,22 +302,23 @@
         vim-wakatime.enable = false;
         diffview-nvim.enable = true;
         yanky-nvim.enable = false;
-        icon-picker.enable = true;
+        icon-picker.enable = false;
         surround.enable = true;
         leetcode-nvim.enable = false;
         multicursors.enable = true;
         smart-splits.enable = true;
-        undotree.enable = true;
+        undotree.enable = false;
+        # hint at closing bracket
         nvim-biscuits.enable = true;
 
         motion = {
           hop.enable = true;
-          leap.enable = true;
+          leap.enable = false;
           precognition.enable = false;
         };
         images = {
           image-nvim.enable = false;
-          img-clip.enable = true;
+          img-clip.enable = false;
         };
       };
 
@@ -331,8 +332,8 @@
 
       terminal = {
         toggleterm = {
-          enable = true;
-          lazygit.enable = true;
+          enable = false;
+          lazygit.enable = false;
         };
       };
 
@@ -354,6 +355,7 @@
             ruby = "120";
             java = "130";
             go = ["90" "130"];
+            ts = "80";
           };
         };
         fastaction.enable = false;

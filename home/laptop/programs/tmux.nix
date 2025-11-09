@@ -13,7 +13,8 @@
 
       # making vi mode available (copy mode)
       setw -g mode-keys vi
-      bind-key -T copy-mode-vi y send-keys -X copy-selection
+      bind -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "${pkgs.xclip}/bin/xclip -i -selection clipboard"
+      bind -T copy-mode-vi y send-keys -X copy-pipe "${pkgs.xclip}/bin/xclip -i -selection clipboard"
 
       #set-option -g xterm-keys on
 

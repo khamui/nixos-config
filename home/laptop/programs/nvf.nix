@@ -152,6 +152,13 @@
           action = "<cmd>Lspsaga show_line_diagnostics<CR>";
           silent = true;
         }
+        ###### TELESCOPE ######
+        {
+          key = "gr";
+          mode = ["n"];
+          action = "require('telescope.builtin').lsp_references()";
+          silent = true;
+        }
         ###### SPLIT RESIZES ######
         {
           key = "-";
@@ -308,7 +315,7 @@
         nvimBufferline.enable = false;
       };
 
-      treesitter.context.enable = true;
+      treesitter.context.enable = false;
 
       binds = {
         whichKey.enable = false;

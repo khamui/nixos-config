@@ -396,7 +396,7 @@
         modes-nvim.enable = false; # the theme looks terrible with catppu
         illuminate.enable = true;
         breadcrumbs = {
-          enable = true;
+          enable = false;
           navbuddy.enable = false;
         };
         smartcolumn = {

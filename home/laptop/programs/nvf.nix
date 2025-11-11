@@ -390,7 +390,7 @@
         illuminate.enable = true;
         breadcrumbs = {
           enable = true;
-          navbuddy.enable = true;
+          navbuddy.enable = false;
         };
         smartcolumn = {
           enable = true;

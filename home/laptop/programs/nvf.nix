@@ -31,13 +31,7 @@
           silent = true;
         }
         {
-          key = "<leader>j";
-          mode = ["n"];
-          action = "<cmd>HopWord<CR>";
-          silent = true;
-        }
-        {
-          key = "<leader>k";
+          key = "<leader> ";
           mode = ["n"];
           action = "<cmd>HopWord<CR>";
           silent = true;
@@ -120,16 +114,55 @@
           action = "<C-w>k";
           silent = true;
         }
+        #### NEO TREE ####
         {
-          key = "<C-f>";
+          key = "<C-t>";
           mode = ["n"];
           action = "<Cmd>Neotree toggle<CR>";
           silent = true;
         }
         {
-          key = "<leader>f";
+          key = "<leader><C-f>";
           mode = ["n"];
           action = "<Cmd>Neotree reveal<CR>";
+          silent = true;
+        }
+        #### LSP SAGA ####
+        {
+          key = "gd";
+          mode = ["n"];
+          action = "<cmd>Lspsaga goto_definition<CR>";
+          silent = true;
+        }
+        {
+          key = "<leader>ca";
+          mode = ["n"];
+          action = "<cmd>Lspsaga code_action<CR>";
+          silent = true;
+        }
+        {
+          key = "gt";
+          mode = ["n"];
+          action = "<cmd>Lspsaga peek_type_definition<CR>";
+          silent = true;
+        }
+        {
+          key = "gl";
+          mode = ["n"];
+          action = "<cmd>Lspsaga show_line_diagnostics<CR>";
+          silent = true;
+        }
+        ###### SPLIT RESIZES ######
+        {
+          key = "-";
+          mode = ["n"];
+          action = "<cmd>vertical resize -5<CR>";
+          silent = true;
+        }
+        {
+          key = "+";
+          mode = ["n"];
+          action = "<cmd>vertical resize +5<CR>";
           silent = true;
         }
       ];
@@ -152,8 +185,8 @@
 
         formatOnSave = true;
         lspkind.enable = false;
-        lightbulb.enable = true;
-        lspsaga.enable = false;
+        lightbulb.enable = false;
+        lspsaga.enable = true;
         trouble.enable = false;
         lspSignature.enable = false; # conflicts with blink in maximal
         otter-nvim.enable = false;
@@ -228,7 +261,7 @@
         nvim-scrollbar.enable = false;
         nvim-web-devicons.enable = true;
         nvim-cursorline.enable = true;
-        cinnamon-nvim.enable = true;
+        cinnamon-nvim.enable = false;
         fidget-nvim.enable = true;
 
         highlight-undo.enable = true;
@@ -351,7 +384,7 @@
 
       ui = {
         borders.enable = true;
-        noice.enable = true;
+        noice.enable = false;
         colorizer.enable = true;
         modes-nvim.enable = false; # the theme looks terrible with catppu
         illuminate.enable = true;

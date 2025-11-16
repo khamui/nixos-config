@@ -5,8 +5,8 @@
 }: {
   imports = [nvf.homeManagerModules.default];
 
+  programs.neovim.defaultEditor = true;
   # COMMAND: ln -s ~/reponame/home/programs/dotfiles/.config/nvf ~/.config/nvf
-  # inside your NixOS module list (flake.nix's nixosSystem.modules or configuration.nix)
   programs.nvf = {
     enable = true;
 

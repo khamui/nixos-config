@@ -18,14 +18,14 @@
     };
   };
 
-  # For XFCE, configure the keybinding via xfconf
-  home.activation.xfceRofiKeybinding = config.lib.dag.entryAfter ["writeBoundary"] ''
-    $DRY_RUN_CMD ${pkgs.xfce.xfconf}/bin/xfconf-query -c xfce4-keyboard-shortcuts \
-      -p "/commands/custom/<Alt>e" \
-      -n -t string \
-      -s "${config.programs.rofi.package}/bin/rofi -show drun" || \
-    $DRY_RUN_CMD ${pkgs.xfce.xfconf}/bin/xfconf-query -c xfce4-keyboard-shortcuts \
-      -p "/commands/custom/<Alt>e" \
-      -s "${config.programs.rofi.package}/bin/rofi -show drun"
+  # Remove the home.activation block and add this instead:
+  xdg.configFile."autostart/rofi-keybinding.desktop".text = ''
+    [Desktop Entry]
+    Type=Application
+    Name=Setup Rofi Keybinding
+    Exec=${pkgs.xfce.xfconf}/bin/xfconf-query -c xfce4-keyboard-shortcuts -p "/commands/custom/<Alt>e" -n -t string -s "${config.programs.rofi.package}/bin/rofi -show drun"
+    Terminal=false
+    StartupNotify=false
+    Hidden=false
   '';
 }

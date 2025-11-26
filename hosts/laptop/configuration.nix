@@ -89,5 +89,6 @@
     networkmanagerapplet
     powertop
     ryzen-monitor-ng # AMD CPU monitoring
+    gimp
   ];
 }

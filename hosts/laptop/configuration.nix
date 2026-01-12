@@ -25,7 +25,7 @@
   ###############################
   # Specific X13 GEN4 AMD config#
   ###############################
-  networking.wireless.enable = false;
+  #networking.wireless.enable = false;
   hardware.enableAllFirmware = true;
   hardware.cpu.amd.updateMicrocode = true;
   hardware.graphics.enable = true;

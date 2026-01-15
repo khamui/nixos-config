@@ -54,8 +54,12 @@
 
       # color settings
       set -g default-terminal "xterm-256color"
-      set -g status-bg black
-      set -g status-fg white
+      set -g status-style bg=#1a1b26,fg=#c0caf5
+      set -g window-status-current-style bg=#3b4261,fg=#7aa2f7,bold
+      set -g window-status-style bg=#1a1b26,fg=#565f89
+      set -g pane-border-style fg=#3b4261
+      set -g pane-active-border-style fg=#7aa2f7
+      set -g message-style bg=#1a1b26,fg=#7aa2f7
     '';
   };
 }

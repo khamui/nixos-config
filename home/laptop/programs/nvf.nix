@@ -281,15 +281,18 @@
       statusline = {
         lualine = {
           enable = true;
-          theme = "catppuccin";
+          theme = "tokyonight";
         };
       };
 
       theme = {
         enable = true;
-        name = "catppuccin";
-        style = "latte";
+        name = "tokyonight";
         transparent = false;
+        style = "night";
+        extraConfig = ''
+          vim.o.background = "dark"
+        '';
       };
 
       autopairs.nvim-autopairs.enable = true;

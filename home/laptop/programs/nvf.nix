@@ -361,7 +361,7 @@
         smart-splits.enable = true;
         undotree.enable = false;
         # hint at closing bracket
-        nvim-biscuits.enable = true;
+        #nvim-biscuits.enable = true;
 
         motion = {
           hop.enable = true;

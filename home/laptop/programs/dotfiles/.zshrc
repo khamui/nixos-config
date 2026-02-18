@@ -35,6 +35,8 @@ alias amac='lua ~/.config/kscripts/amapet_start_clean.lua'
 # nixos aliases
 alias delgen='sudo nix-collect-garbage --delete-older-than "1d"'
 
+alias fox='firefox -width 812 -height 1084'
+
 # fzf searcher
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # bindkey '^[[A' fzf-history-widget

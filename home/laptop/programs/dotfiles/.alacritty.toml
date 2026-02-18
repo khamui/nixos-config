@@ -3,8 +3,7 @@
 #blue = "#1E66F5"
 #cyan = "#179299"
 #green = "#40A02B"
-#magenta = "#EA76CB"
-#red = "#D20F39"
+#magenta = "#EA76CB" red = "#D20F39"
 #white = "#BCC0CC"
 #yellow = "#DF8E1D"
 #[colors.cursor]
@@ -128,6 +127,8 @@ args = ["-l"]
 program = "/etc/profiles/per-user/khamui/bin/zsh"
 
 [window]
+position = { x = 35, y = 30 }
+dimensions = { columns = 88, lines = 56 }
 decorations = "full"
 title = "Alacritty (zsh)"
 padding = { x = 8, y = 8 }

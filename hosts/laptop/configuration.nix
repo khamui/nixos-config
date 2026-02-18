@@ -90,5 +90,17 @@
     powertop
     ryzen-monitor-ng # AMD CPU monitoring
     gimp
+    easyeffects
+    (pkgs.wrapOBS {
+      plugins = with pkgs.obs-studio-plugins; [
+        wlrobs
+        obs-backgroundremoval
+        obs-pipewire-audio-capture
+        obs-vaapi #optional AMD hardware acceleration
+        obs-gstreamer
+        obs-vkcapture
+        obs-vertical-canvas
+      ];
+    })
   ];
 }

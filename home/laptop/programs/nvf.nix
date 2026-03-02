@@ -200,6 +200,16 @@
         nvim-docs-view.enable = false;
       };
 
+      formatter.conform-nvim = {
+        enable = true;
+        setupOpts = {
+          formatters_by_ft = {
+            html = ["prettier"];
+            htmlangular = ["prettier"];
+          };
+        };
+      };
+
       debugger = {
         nvim-dap = {
           enable = false;
@@ -221,7 +231,13 @@
         # Languages that are enabled in the maximal configuration.
         bash.enable = true;
         css.enable = true;
-        html.enable = true;
+        html = {
+          enable = true;
+          treesitter.enable = true;
+          lsp.enable = false; # superhtml doesn't understand Angular template syntax
+          format.enable = false; # using prettier via conform-nvim instead
+          extraDiagnostics.enable = false; # htmlhint complains about missing doctype in Angular templates
+        };
         sql.enable = false;
         java.enable = false;
         kotlin.enable = false;
@@ -447,6 +463,14 @@
         providers.xclip.enable = true;
         registers = "unnamedplus";
       };
+
+      luaConfigRC.angular-filetype = ''
+        vim.filetype.add({
+          extension = {
+            html = "htmlangular",
+          },
+        })
+      '';
     };
 
     settings.vim.extraPlugins = with pkgs.vimPlugins; {

@@ -90,7 +90,8 @@
     powertop
     ryzen-monitor-ng # AMD CPU monitoring
     gimp
-    easyeffects
+    opencode
+    claude-code
     (pkgs.wrapOBS {
       plugins = with pkgs.obs-studio-plugins; [
         wlrobs

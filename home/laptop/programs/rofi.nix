@@ -23,7 +23,7 @@
     [Desktop Entry]
     Type=Application
     Name=Setup Rofi Keybinding
-    Exec=${pkgs.xfce.xfconf}/bin/xfconf-query -c xfce4-keyboard-shortcuts -p "/commands/custom/<Alt>e" -n -t string -s "${config.programs.rofi.package}/bin/rofi -show drun"
+    Exec=${pkgs.xfconf}/bin/xfconf-query -c xfce4-keyboard-shortcuts -p "/commands/custom/<Alt>e" -n -t string -s "${config.programs.rofi.package}/bin/rofi -show drun"
     Terminal=false
     StartupNotify=false
     Hidden=false

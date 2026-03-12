@@ -23,6 +23,7 @@
         softtabstop = 2;
       };
 
+      # ── Keymaps ──
       keymaps = [
         {
           key = "jk";
@@ -174,61 +175,30 @@
         }
       ];
 
-      debugMode = {
-        enable = false;
-        level = 16;
-        logFile = "/tmp/nvim.log";
-      };
-
-      spellcheck = {
-        enable = false;
-        programmingWordlist.enable = false;
-      };
-
+      # ── LSP ──
       lsp = {
-        # This must be enabled for the language modules to hook into
-        # the LSP API.
         enable = true;
-
         formatOnSave = true;
-        lspkind.enable = false;
-        lightbulb.enable = false;
         lspsaga.enable = true;
-        trouble.enable = false;
-        lspSignature.enable = false; # conflicts with blink in maximal
-        otter-nvim.enable = false;
-        nvim-docs-view.enable = false;
       };
 
+      # ── Formatter ──
       formatter.conform-nvim = {
         enable = true;
-        setupOpts = {
-          formatters_by_ft = {
-            html = ["prettier"];
-            htmlangular = ["prettier"];
-          };
+        setupOpts.formatters_by_ft = {
+          html = ["prettier"];
+          htmlangular = ["prettier"];
         };
       };
 
-      debugger = {
-        nvim-dap = {
-          enable = false;
-          ui.enable = false;
-        };
-      };
-
-      # This section does not include a comprehensive list of available language modules.
-      # To list all available language module options, please visit the nvf manual.
+      # ── Languages ──
       languages = {
         enableFormat = true;
         enableTreesitter = true;
         enableExtraDiagnostics = true;
 
-        # Languages that will be supported in default and maximal configurations.
         nix.enable = true;
         markdown.enable = true;
-
-        # Languages that are enabled in the maximal configuration.
         bash.enable = true;
         css.enable = true;
         html = {
@@ -238,72 +208,28 @@
           format.enable = false; # using prettier via conform-nvim instead
           extraDiagnostics.enable = false; # htmlhint complains about missing doctype in Angular templates
         };
-        sql.enable = false;
-        java.enable = false;
-        kotlin.enable = false;
         ts = {
           enable = true;
           treesitter.enable = true;
         };
-        go.enable = false;
         lua.enable = true;
-        zig.enable = false;
-        python.enable = false;
-        typst.enable = false;
-        rust = {
-          enable = false;
-          extensions.crates-nvim.enable = false;
-        };
-
-        # Language modules that are not as common.
-        assembly.enable = false;
-        astro.enable = false;
-        nu.enable = false;
-        csharp.enable = false;
-        julia.enable = false;
-        vala.enable = false;
-        scala.enable = false;
-        r.enable = false;
-        gleam.enable = false;
-        dart.enable = false;
-        ocaml.enable = false;
-        elixir.enable = false;
-        haskell.enable = false;
-        ruby.enable = false;
-        fsharp.enable = false;
-
         tailwind.enable = true;
-        svelte.enable = false;
-
-        # Nim LSP is broken on Darwin and therefore
-        # should be disabled by default. Users may still enable
-        # `vim.languages.vim` to enable it, this does not restrict
-        # that.
-        # See: <https://github.com/PMunch/nimlsp/issues/178#issue-2128106096>
-        nim.enable = false;
       };
 
+      # ── Visuals ──
       visuals = {
-        nvim-scrollbar.enable = false;
         nvim-web-devicons.enable = true;
-        nvim-cursorline.enable = true;
-        cinnamon-nvim.enable = false;
         fidget-nvim.enable = true;
-
-        highlight-undo.enable = true;
         indent-blankline.enable = true;
-
-        # Fun
-        cellular-automaton.enable = false;
       };
 
-      statusline = {
-        lualine = {
-          enable = true;
-          theme = "tokyonight";
-        };
+      # ── Statusline ──
+      statusline.lualine = {
+        enable = true;
+        theme = "tokyonight";
       };
 
+      # ── Theme ──
       theme = {
         enable = true;
         name = "tokyonight";
@@ -316,39 +242,20 @@
 
       autopairs.nvim-autopairs.enable = true;
 
-      # nvf provides various autocomplete options. The tried and tested nvim-cmp
-      # is enabled in default package, because it does not trigger a build. We
-      # enable blink-cmp in maximal because it needs to build its rust fuzzy
-      # matcher library.
-      autocomplete = {
-        nvim-cmp.enable = true;
-        blink-cmp.enable = false;
-      };
+      # ── Autocomplete ──
+      autocomplete.nvim-cmp.enable = true;
 
       snippets.luasnip.enable = true;
 
-      filetree = {
-        neo-tree = {
-          enable = true;
-        };
-      };
+      # ── Filetree ──
+      filetree.neo-tree.enable = true;
 
-      tabline = {
-        nvimBufferline.enable = false;
-      };
-
-      treesitter = {
-        context.enable = false;
-        highlight.enable = true;
-      };
-
-      binds = {
-        whichKey.enable = false;
-        cheatsheet.enable = false;
-      };
+      # ── Treesitter ──
+      treesitter.highlight.enable = true;
 
       telescope.enable = true;
 
+      # ── Git ──
       git = {
         enable = true;
         gitsigns.enable = true;
@@ -356,78 +263,22 @@
         neogit.enable = true;
       };
 
-      minimap = {
-        minimap-vim.enable = false;
-        codewindow.enable = false; # lighter, faster, and uses lua for configuration
-      };
-
-      dashboard = {
-        dashboard-nvim.enable = false;
-        alpha.enable = true;
-      };
-
-      notify = {
-        nvim-notify.enable = true;
-      };
-
-      projects = {
-        project-nvim.enable = false;
-      };
-
+      # ── Utility ──
       utility = {
-        ccc.enable = false;
-        vim-wakatime.enable = false;
         diffview-nvim.enable = true;
-        yanky-nvim.enable = false;
-        icon-picker.enable = false;
         surround.enable = true;
-        leetcode-nvim.enable = false;
-        multicursors.enable = true;
         smart-splits.enable = true;
-        undotree.enable = false;
-        # hint at closing bracket
-        #nvim-biscuits.enable = true;
-
-        motion = {
-          hop.enable = true;
-          leap.enable = false;
-          precognition.enable = false;
-        };
-        images = {
-          image-nvim.enable = false;
-          img-clip.enable = false;
-        };
+        motion.hop.enable = true;
       };
 
-      notes = {
-        obsidian.enable = false; # FIXME: neovim fails to build if obsidian is enabled
-        neorg.enable = false;
-        orgmode.enable = false;
-        mind-nvim.enable = false;
-        todo-comments.enable = false;
-      };
-
-      terminal = {
-        toggleterm = {
-          enable = false;
-          lazygit.enable = false;
-        };
-      };
-
+      # ── UI ──
       ui = {
         borders.enable = true;
-        noice.enable = false;
         colorizer.enable = true;
-        modes-nvim.enable = false; # the theme looks terrible with catppu
         illuminate.enable = true;
-        breadcrumbs = {
-          enable = false;
-          navbuddy.enable = false;
-        };
         smartcolumn = {
           enable = true;
           setupOpts.custom_colorcolumn = {
-            # this is a freeform module, it's `buftype = int;` for configuring column position
             nix = "110";
             ruby = "120";
             java = "130";
@@ -435,41 +286,22 @@
             ts = "80";
           };
         };
-        fastaction.enable = false;
       };
 
-      assistant = {
-        chatgpt.enable = false;
-        copilot = {
-          enable = true;
-          cmp.enable = true;
-        };
-        codecompanion-nvim.enable = false;
-        avante-nvim.enable = false;
+      # ── AI Assistant ──
+      assistant.copilot = {
+        enable = true;
+        cmp.enable = true;
       };
 
-      session = {
-        nvim-session-manager.enable = false;
-      };
-
-      gestures = {
-        gesture-nvim.enable = false;
-      };
-
-      comments = {
-        comment-nvim.enable = false;
-      };
-
-      presence = {
-        neocord.enable = false;
-      };
-
+      # ── Clipboard ──
       clipboard = {
         enable = true;
         providers.xclip.enable = true;
         registers = "unnamedplus";
       };
 
+      # ── Custom Lua Config ──
       luaConfigRC.angular-filetype = ''
         vim.filetype.add({
           extension = {

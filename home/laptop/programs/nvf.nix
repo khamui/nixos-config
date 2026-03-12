@@ -241,7 +241,10 @@
         sql.enable = false;
         java.enable = false;
         kotlin.enable = false;
-        ts.enable = true;
+        ts = {
+          enable = true;
+          treesitter.enable = true;
+        };
         go.enable = false;
         lua.enable = true;
         zig.enable = false;
@@ -249,7 +252,7 @@
         typst.enable = false;
         rust = {
           enable = false;
-          crates.enable = false;
+          extensions.crates-nvim.enable = false;
         };
 
         # Language modules that are not as common.
@@ -334,7 +337,10 @@
         nvimBufferline.enable = false;
       };
 
-      treesitter.context.enable = false;
+      treesitter = {
+        context.enable = false;
+        highlight.enable = true;
+      };
 
       binds = {
         whichKey.enable = false;
@@ -469,6 +475,21 @@
           extension = {
             html = "htmlangular",
           },
+        })
+      '';
+
+      luaConfigRC.tsx-syntax = ''
+        vim.api.nvim_create_autocmd("FileType", {
+          pattern = {"typescriptreact", "javascriptreact"},
+          callback = function()
+            vim.bo.syntax = "typescriptreact"
+          end,
+        })
+        vim.api.nvim_create_autocmd("FileType", {
+          pattern = {"typescript", "javascript"},
+          callback = function()
+            vim.bo.syntax = "typescript"
+          end,
         })
       '';
     };

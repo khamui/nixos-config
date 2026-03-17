@@ -16,8 +16,8 @@ alias ls='ls -alrt -G'
 alias r='rm -rfv'
 alias s=git_status
 alias b='git branch'
-alias a=git_add
-alias co=git_checkout
+alias a='git add .'
+alias co='git checkout'
 alias hist='git log --oneline --graph --decorate --all'
 alias soz='source ~/.zshrc'
 

@@ -157,7 +157,13 @@
         {
           key = "gr";
           mode = ["n"];
-          action = "require('telescope.builtin').lsp_references()";
+          action = "<cmd>lua require('telescope.builtin').lsp_references()<CR>";
+          silent = true;
+        }
+        {
+          key = "<leader>ff";
+          mode = ["n"];
+          action = "<cmd>lua require('telescope.builtin').find_files({hidden = true, no_ignore = true, find_command = {'find', '.', '-type', 'f'}})<CR>";
           silent = true;
         }
         ###### SPLIT RESIZES ######

@@ -92,6 +92,7 @@
     gimp
     opencode
     claude-code
+    google-chrome
     (pkgs.wrapOBS {
       plugins = with pkgs.obs-studio-plugins; [
         wlrobs

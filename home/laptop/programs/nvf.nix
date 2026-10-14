@@ -214,12 +214,12 @@
           format.enable = false; # using prettier via conform-nvim instead
           extraDiagnostics.enable = false; # htmlhint complains about missing doctype in Angular templates
         };
-        ts = {
+        typescript = {
           enable = true;
           treesitter.enable = true;
         };
         lua.enable = true;
-        tailwind.enable = true;
+        #tailwind.enable = true;
       };
 
       # ── Visuals ──

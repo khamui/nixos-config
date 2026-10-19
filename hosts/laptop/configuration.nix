@@ -85,6 +85,15 @@
   #services.pcscd.enable = true;
   #services.pcscd.plugins = [pkgs.ccid];
 
+  # setup wireguard
+  networking.wg-quick.interfaces.wg0 = {
+    configFile = "/etc/wireguard/wg0.conf";
+  };
+
+  networking.hosts = {
+    "10.8.0.1" = ["portainer.helpa.ws" "me.helpa.ws" "proxyman.helpa.ws" "vault.helpa.ws"];
+  };
+
   environment.systemPackages = with pkgs; [
     networkmanagerapplet
     powertop

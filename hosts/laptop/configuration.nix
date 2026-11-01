@@ -34,8 +34,6 @@
     "amdgpu.dcdebugmask=0x10" # Better power managemet
     "amd_pstate=active"
   ];
-  # deactivate webcam
-  boot.blacklistedKernelModules = ["uvcvideo"];
   services.thermald.enable = false; # thermald is Intel-only
   services.fwupd.enable = true; # Firmware updates via LVFS
   services.fprintd.enable = true;
@@ -59,6 +57,7 @@
       RUNTIME_PM_ON_BAT = "auto";
       RUNTIME_PM_ON_AC = "on";
       USB_AUTOSUSPEND = 1;
+      USB_DENYLIST = "174f:11a8"; # Integrated webcam: prevent autosuspend freezing it mid-call
       WIFI_PWR_ON_BAT = "on";
       DISK_DEVICES = "nvme0n1";
       DISK_APM_LEVEL_ON_BAT = "128";
@@ -102,6 +101,8 @@
     opencode
     claude-code
     google-chrome
+    teams-for-linux
+    gh
     (pkgs.wrapOBS {
       plugins = with pkgs.obs-studio-plugins; [
         wlrobs

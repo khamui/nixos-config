@@ -128,29 +128,13 @@
           action = "<Cmd>Neotree reveal<CR>";
           silent = true;
         }
+        # LSP keymaps (gd/gl/<leader>ca) are configured via lsp.mappings below,
+        # using nvf's builtin bindings to native vim.lsp.buf.* functions.
         #### LSP SAGA ####
-        {
-          key = "gd";
-          mode = ["n"];
-          action = "<cmd>Lspsaga goto_definition<CR>";
-          silent = true;
-        }
-        {
-          key = "<leader>ca";
-          mode = ["n"];
-          action = "<cmd>Lspsaga code_action<CR>";
-          silent = true;
-        }
         {
           key = "gt";
           mode = ["n"];
-          action = "<cmd>Lspsaga peek_type_definition<CR>";
-          silent = true;
-        }
-        {
-          key = "gl";
-          mode = ["n"];
-          action = "<cmd>Lspsaga show_line_diagnostics<CR>";
+          action = "<cmd>Lspsaga peek_type_definition<CR>"; # float window
           silent = true;
         }
         ###### TELESCOPE ######
@@ -185,7 +169,18 @@
       lsp = {
         enable = true;
         formatOnSave = true;
-        lspsaga.enable = true;
+        lspsaga.enable = true; # kept only for the float-peek command (gt)
+
+        # Rebind nvf's builtin LSP mappings (native vim.lsp.buf.* / vim.diagnostic.*)
+        # to the same keys previously served by lspsaga. These bind buffer-locally
+        # on LspAttach.
+        # Note: gt is intentionally NOT set here — native type_definition only jumps.
+        # It is bound separately to Lspsaga peek_type_definition for a float window.
+        mappings = {
+          goToDefinition = "gd"; # vim.lsp.buf.definition
+          openDiagnosticFloat = "gl"; # vim.diagnostic.open_float
+          codeAction = "<leader>ca"; # vim.lsp.buf.code_action
+        };
       };
 
       # ── Formatter ──

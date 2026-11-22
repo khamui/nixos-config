@@ -75,11 +75,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1795351960,
-        "narHash": "sha256-5qTKXfAybfpQKVIwivX2EaDIuOC2QWCu8CHd+wxMj5g=",
+        "lastModified": 1795361901,
+        "narHash": "sha256-t4EIZ7ST5zdVY7hfrozGw/IozYWgYu2kKEmBmI92e+w=",
         "owner": "khamui",
         "repo": "flake-updater",
-        "rev": "530f26956cd931c3664c6ffa3a66223392a02698",
+        "rev": "78f08bb29bef70ebb0b10d3eb904bd1de4fe98ba",
         "type": "github"
       },
       "original": {

@@ -20,5 +20,7 @@
     };
   };
 
-  services.ssh-agent.enable = true;
+  # Use gnome-keyring's gcr-ssh-agent: it stores the key passphrase in the
+  # login keyring, which is unlocked at login.
+  home.sessionVariables.SSH_AUTH_SOCK = "$XDG_RUNTIME_DIR/gcr/ssh";
 }

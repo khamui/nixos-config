@@ -2,7 +2,7 @@
 {config, ...}: {
   programs.ssh = {
     enable = true;
-    addKeysToAgent = "yes";
+    settings."*".AddKeysToAgent = "yes";
 
     matchBlocks = {
       "github.com" = {

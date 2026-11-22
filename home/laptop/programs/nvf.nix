@@ -3,7 +3,7 @@
   nvf,
   ...
 }: {
-  imports = [nvf.homeManagerModules.default];
+  imports = [nvf.homeModules.default];
 
   programs.neovim.defaultEditor = true;
   # COMMAND: ln -s ~/reponame/home/programs/dotfiles/.config/nvf ~/.config/nvf

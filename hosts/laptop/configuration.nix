@@ -93,7 +93,17 @@
     "10.8.0.1" = ["portainer.helpa.ws" "me.helpa.ws" "proxyman.helpa.ws" "vault.helpa.ws"];
   };
 
+  # unattended flake updates (github:khamui/flake-updater)
+  services.flake-agent = {
+    enable = true;
+    repo = "/home/khamui/Repos/nixos-config";
+    user = "khamui";
+    # from `claude setup-token`; root-owned, 0400, outside the repo
+    tokenFile = "/etc/flake-agent/claude-token";
+  };
+
   environment.systemPackages = with pkgs; [
+    xfce4-genmon-plugin # panel: `flake-agent status --panel`, period 60 s
     networkmanagerapplet
     powertop
     ryzen-monitor-ng # AMD CPU monitoring

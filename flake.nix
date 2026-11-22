@@ -11,6 +11,9 @@
     nvf.inputs.nixpkgs.follows = "nixpkgs";
 
     alacritty-theme.url = "github:alexghr/alacritty-theme.nix";
+
+    # unattended updates; its nixpkgs is not followed, so updating nixpkgs never rebuilds the updater itself
+    flake-updater.url = "github:khamui/flake-updater";
   };
 
   outputs = {
@@ -18,6 +21,7 @@
     nvf,
     home-manager,
     alacritty-theme,
+    flake-updater,
     ...
   }: {
     nixosConfigurations = {
@@ -65,6 +69,7 @@
             };
           }
 
+          flake-updater.nixosModules.default
           ./hosts/laptop/configuration.nix
         ];
       };

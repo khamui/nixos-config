@@ -1,0 +1,96 @@
+{
+  "results": {
+    "alacritty": {
+      "errors": [],
+      "warnings": []
+    },
+    "git": {
+      "errors": [],
+      "warnings": []
+    },
+    "neovim": {
+      "errors": [],
+      "warnings": []
+    },
+    "ssh": {
+      "errors": [],
+      "warnings": [
+        "github.com: Pseudo-terminal will not be allocated because stdin is not a terminal.",
+        "vps: Pseudo-terminal will not be allocated because stdin is not a terminal.",
+        "probe: Pseudo-terminal will not be allocated because stdin is not a terminal."
+      ]
+    },
+    "starship": {
+      "errors": [],
+      "warnings": []
+    },
+    "tmux": {
+      "errors": [],
+      "warnings": []
+    },
+    "zsh": {
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "starts": {
+    "bash": {
+      "unchecked": "no obvious binary"
+    },
+    "dconf": {
+      "unchecked": "no obvious binary"
+    },
+    "firefox": {
+      "code": 0,
+      "stderr": []
+    },
+    "fuse": {
+      "unchecked": "no obvious binary"
+    },
+    "info": {
+      "unchecked": "no obvious binary"
+    },
+    "lazygit": {
+      "code": 0,
+      "stderr": []
+    },
+    "less": {
+      "code": 0,
+      "stderr": []
+    },
+    "man": {
+      "code": 0,
+      "stderr": []
+    },
+    "nano": {
+      "code": 0,
+      "stderr": []
+    },
+    "neovim-flake": {
+      "unchecked": "no obvious binary"
+    },
+    "rofi": {
+      "code": 1,
+      "stderr": [
+        "(process:N): XNHelper-WARNING **: N:N:N.N: Failed to open display: (null)",
+        "(process:N): Rofi-WARNING **: N:N:N.N: No valid backend was found. Make sure to launch rofi from a valid XN or Wayland session."
+      ]
+    },
+    "thunar": {
+      "code": 0,
+      "stderr": [
+        "(process:N): thunar-WARNING **: N:N:N.N: thunar: Failed to initialize Xfconf: Cannot autolaunch D-Bus without XN $DISPLAY",
+        "(process:N): GLib-GObject-CRITICAL **: N:N:N.N: invalid (NULL) pointer instance",
+        "(process:N): GLib-GObject-CRITICAL **: N:N:N.N: g_signal_handler_disconnect: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed"
+      ]
+    },
+    "xfconf": {
+      "unchecked": "no obvious binary"
+    },
+    "zoxide": {
+      "code": 0,
+      "stderr": []
+    }
+  },
+  "tier": "T2"
+}

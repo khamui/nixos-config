@@ -1,0 +1,765 @@
+{
+  "files": {
+    "etc/NetworkManager/NetworkManager.conf": {
+      "hash": "1965ddc456430d396015ccdc57a800ee01c6035a5767685dc163fd8c369a7a1f",
+      "path": "/nix/store/blrdzbkdnig02j9vh02afvrhyr11n7jj-NetworkManager.conf"
+    },
+    "etc/NetworkManager/dispatcher.d/99tlp-rdw-nm": {
+      "hash": "77af246af0f550b55ada6ef8d35b55c54a632711ab2d8e32cc155e6f313027fc",
+      "path": "/nix/store/z3y0wn6rczilzlxg2ldsnmdv9fgl6v4d-tlp-1.10.2/lib/NetworkManager/dispatcher.d/99tlp-rdw-nm"
+    },
+    "etc/UPower/UPower.conf": {
+      "hash": "14745c8190ba5628a6a13e19110a5b7f06f494e8a84c491aef920a040c686497",
+      "path": "/nix/store/40z5iwb795vq5v8pn14llk78n9mcwh89-etc-UPower-UPower.conf"
+    },
+    "etc/X11/xorg.conf.d/00-keyboard.conf": {
+      "hash": "1c35a9bf1c13fc4a9b129004132b9aa2a8a5db44db9ce3b9f9e542695848fe9e",
+      "path": "/nix/store/a9sr5yymlcvb5ilsav3hc6m09v938izs-etc-X11-xorg.conf.d-00-keyboard.conf"
+    },
+    "etc/X11/xorg.conf.d/10-evdev.conf": {
+      "hash": "979ae1ed10ece98fdf9812ae3fe7198859703e6b96829373f7b7bf445a7cf6b1",
+      "path": "/nix/store/w9s9avmpkgjkvini5k8k6ni1a2dw2ckm-xf86-input-evdev-2.11.0/share/X11/xorg.conf.d/10-evdev.conf"
+    },
+    "etc/X11/xorg.conf.d/40-libinput.conf": {
+      "hash": "05009d632170ecfedaa9aa566cf5ac1334d7fae3290e89fbf2e8d085c50f428b",
+      "path": "/nix/store/q2m96b9i03y8kaw7rhs26cizssrg2xx0-xf86-input-libinput-1.5.0/share/X11/xorg.conf.d/40-libinput.conf"
+    },
+    "etc/alsa/conf.d/49-pipewire-modules.conf": {
+      "hash": "28c36394915fa302ac4ad6bf444311fa393f38137dbb4ffe35390b0f67c60e57",
+      "path": "/nix/store/gn0xry33b04w8409x2j6n956a35qgax0-etc-alsa-conf.d-49-pipewire-modules.conf"
+    },
+    "etc/alsa/conf.d/50-pipewire.conf": {
+      "hash": "101d1b134d1a0ce4c5a0e5a4264f63aa263c05073712c458cb433caeb25bea0b",
+      "path": "/nix/store/dsa4ky2h1m6khl1hf0g1vvl4bvx4hxg8-pipewire-1.6.9/share/alsa/alsa.conf.d/50-pipewire.conf"
+    },
+    "etc/alsa/conf.d/99-pipewire-default.conf": {
+      "hash": "f52f257069a93f698a496fc433c2d946a4dc0ed81e1f9c634a2e41da01636bca",
+      "path": "/nix/store/dsa4ky2h1m6khl1hf0g1vvl4bvx4hxg8-pipewire-1.6.9/share/alsa/alsa.conf.d/99-pipewire-default.conf"
+    },
+    "etc/bash_logout": {
+      "hash": "41b418f0012f09ecdfea21ab794d03396c696933c87993ed6c36893c11fdfebc",
+      "path": "/nix/store/6hf9wr8a384rd36pdy1n2nnzihybdb99-etc-bash_logout"
+    },
+    "etc/bashrc": {
+      "hash": "36f0503fb95469fd0c68582ff8b08f5f04de4068d2de048fb95955d4842cf9f9",
+      "path": "/nix/store/m0qwbhg4dwj4w8pqyadshnb3v56r63al-etc-bashrc"
+    },
+    "etc/binfmt.d/nixos.conf": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "/nix/store/g28l15mbdbig59n102zd0ardsfisiw32-binfmt_nixos.conf"
+    },
+    "etc/cups": {
+      "hash": "524be7a81468725c935562ddaa32378ca1e77aa8335ec382806f17cbb9f91e82",
+      "path": "/var/lib/cups"
+    },
+    "etc/dbus-1": {
+      "hash": "8fc701afaadbdc7803465a84f86427704446f5a4f35af1b4a812778aabba27a6",
+      "path": "/nix/store/h7fnkik74yf0y8yjr1353qa9fsdkfvjn-dbus-1"
+    },
+    "etc/default/useradd": {
+      "hash": "d424d4e4dc050567fa34ff4b95aef5397a913d7e02a6182ad32cddf92eb807c3",
+      "path": "/nix/store/68zazph4l2rp6jh7igcln1xhf5m9dikw-useradd"
+    },
+    "etc/environment.d/50-systemd-path.conf": {
+      "hash": "312ec13e897d18cb4c9eca41a194fd8566cd6122982bf03026b6437b555c4e28",
+      "path": "/nix/store/pihcwxhqyc2k3wy2k1fs252l9xklbm78-etc-environment.d-50-systemd-path.conf"
+    },
+    "etc/firefox/policies/policies.json": {
+      "hash": "677dc784e5420dd8601d68c25bba139cc4a5fb5262e7dd1a359e8dea0c6ef311",
+      "path": "/nix/store/n59zaq1cwygcb6zn7naz5493yl98z98i-firefox-policies.json"
+    },
+    "etc/flake-agent/config.json": {
+      "hash": "3aa0192df59d022f884695edbbc5466d3c3006ce238119334a747180b9557612",
+      "path": "/nix/store/g1y0jk1bpj9d9gjdn1vsxcnjcrf5rkh5-flake-agent.json"
+    },
+    "etc/fonts": {
+      "hash": "f6d15c6580ed9e578d9a487c5ced2feb231cc491a38765e619be8b675895bc51",
+      "path": "/nix/store/gi3xmhi6gvhdgiv26ndrfhpd1gd81pv3-fontconfig-conf/etc/fonts"
+    },
+    "etc/fstab": {
+      "hash": "9759cd29f4e64f225a053ca845eeeacd0de0d47e18cacb7234b6f96f3f7eb039",
+      "path": "/nix/store/6sqxmmw280ya1k01p1y3sif7ik61x81a-etc-fstab"
+    },
+    "etc/fuse.conf": {
+      "hash": "12705dee38f963318d16385a5647745413c865b793089b7466c50a2004e41425",
+      "path": "/nix/store/xi4h80xjciy490cddxik79nzr1ckzggm-etc-fuse.conf"
+    },
+    "etc/fwupd/fwupd.conf": {
+      "hash": "2fe7ba0856d6b32a8d77a0f410765c4afbb4c198bc4acd2f89e43df00c5a44db",
+      "path": "/nix/store/asbidrn23vwv7ph6xc0f84lkw9gfm9ms-fwupd.conf"
+    },
+    "etc/fwupd/fwupd.conf.gid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/fwupd/fwupd.conf.gid"
+    },
+    "etc/fwupd/fwupd.conf.mode": {
+      "hash": "44fcc4d74c02f8b43859225eda608a8bce8392e88d6e471c0e0eacd8400f48ab",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/fwupd/fwupd.conf.mode"
+    },
+    "etc/fwupd/fwupd.conf.uid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/fwupd/fwupd.conf.uid"
+    },
+    "etc/fwupd/remotes.d/lvfs-embargo.conf": {
+      "hash": "1389f32598cebdf9aa69b7d59e26ca5c099a2ce1a4a8bb9c8886f0b878d28f58",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/fwupd/remotes.d/lvfs-embargo.conf"
+    },
+    "etc/fwupd/remotes.d/lvfs-testing.conf": {
+      "hash": "a7f9cad7cf83d0adbc9635b2f6e9f8b1fd92345d463cb6fdfb67885d38701d4f",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/fwupd/remotes.d/lvfs-testing.conf"
+    },
+    "etc/fwupd/remotes.d/lvfs.conf": {
+      "hash": "db9d7a27a9db4f3736605724492d12ac52dcf8f3864dd24aa3a9c9f5ad0bf9a5",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/fwupd/remotes.d/lvfs.conf"
+    },
+    "etc/fwupd/remotes.d/vendor-directory.conf": {
+      "hash": "68a776ffd18768e9e829baeb6823c599e17f9b22c5dc423df585411f8905ca66",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/fwupd/remotes.d/vendor-directory.conf"
+    },
+    "etc/fwupd/remotes.d/vendor.conf": {
+      "hash": "74546b6f4ff1917c90b73a6c45411d0b24e560cc1caab63b97646201be7cda3a",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/fwupd/remotes.d/vendor.conf"
+    },
+    "etc/gai.conf": {
+      "hash": "269f2b2a3a5727ee9159d19a67a2e5515fd088f5bff9c8848dd7f988a573ca74",
+      "path": "/nix/store/fnrd0q69ld9gyr386rvvfq7x3a1507yl-etc-gai.conf"
+    },
+    "etc/host.conf": {
+      "hash": "380f5fe21d755923b44203b58ca3c8b9681c485d152bd5d7e3914f67d821d32a",
+      "path": "/nix/store/b3fn6is4r5v717i7dlrfa36ib4zbf6j3-etc-host.conf"
+    },
+    "etc/hostname": {
+      "hash": "36c0c5247d2aab0fa78f843f4a407c68cc85380cc1c777c48125860e62aa7007",
+      "path": "/nix/store/w2cc1jllmcixh5q3v3sq2yiz0hgg6aiw-etc-hostname"
+    },
+    "etc/hosts": {
+      "hash": "cd83ce8f85922cc36fa136d14c1bad5ff1a54578acbd70537a0ab6313af3a9b6",
+      "path": "/nix/store/02zdn9kgl4jx75df1082ms5aqm57n4jm-hosts"
+    },
+    "etc/inputrc": {
+      "hash": "59660bdd0176efcbae35a811c9bb492fe6388cee36ec4775c82c249cc2c9641b",
+      "path": "/nix/store/dwv0wf3szv3ipgyyyrf1zxh4iqlckiip-inputrc"
+    },
+    "etc/ipsec.secrets": {
+      "hash": "43a5834932856640614f67446431786b9378bdf2c90971b1fc2e96018920dd98",
+      "path": "/nix/store/pqw0bcaplwjkk5ydb4yqxlw9kn9zfbpc-etc-ipsec.secrets"
+    },
+    "etc/issue": {
+      "hash": "ca5a4c77200f008267abed260da109e1b303fb8cc720ab2235614fc2286301ed",
+      "path": "/nix/store/zs8i57pjncb8hwrsh2aa9bfl6nygq6if-issue"
+    },
+    "etc/kbd": {
+      "hash": "5582c8d83d32fff3612e6d2335e70a31a50d21a1483bcaaa308639ddc77de486",
+      "path": "/nix/store/kajdfcyrgxg2040iwblynanfdm4s3svz-console-env/share"
+    },
+    "etc/libblockdev/3/conf.d/00-default.cfg": {
+      "hash": "6afa00a0215b73f1349897e2440fef98ec2a233f278075c3612a01ea72ce8971",
+      "path": "/nix/store/55sjb06fxc4a1h920vb3mfmyiyrpim5z-libblockdev-3.5.0/etc/libblockdev/3/conf.d/00-default.cfg"
+    },
+    "etc/libblockdev/3/conf.d/10-lvm-dbus.cfg": {
+      "hash": "e65fa1a3eb47fa0b98dcd6155cc19b10ac4bb9554ddcd7742f1b886fe22b8cde",
+      "path": "/nix/store/55sjb06fxc4a1h920vb3mfmyiyrpim5z-libblockdev-3.5.0/etc/libblockdev/3/conf.d/10-lvm-dbus.cfg"
+    },
+    "etc/lightdm/lightdm-gtk-greeter.conf": {
+      "hash": "321648154a7e02307716d5223647aee8b9d7239dd55a928a2b1673b162ec3c8b",
+      "path": "/nix/store/iqzhyc3wphf7wrv0a3acfnmazpzpxgyj-lightdm-gtk-greeter.conf"
+    },
+    "etc/lightdm/lightdm.conf": {
+      "hash": "493b105d4babcf559836436db1f70f51f5cd2fdd9cd29c58f06883beccd98188",
+      "path": "/nix/store/7b5z3h373vrrix6q1vlkj2v0bar1wbqy-lightdm.conf"
+    },
+    "etc/lightdm/users.conf": {
+      "hash": "62b5a16b0442f38be5c2de46b500f06b00eefa4e3afcff5038280d4c8973fe68",
+      "path": "/nix/store/jqy9y8vgbrlh27s8m1z0m2mmvnl878h4-users.conf"
+    },
+    "etc/locale.conf": {
+      "hash": "a4a20a8bed75f6f175c71f3e2691211cfbaa4e73b50647fec54168c706941a59",
+      "path": "/nix/store/nalansy2acc15b1xkh4vnrfmv4yy1hn5-locale.conf"
+    },
+    "etc/localtime": {
+      "hash": "f8331486e91af174aa1bef0419c44f2c5d62623b622466bee5163a60ba354383",
+      "path": "/nix/store/n8fqcpnr5ni28l3i9svqa70wz46798v9-tzdata-2026d/share/zoneinfo/Europe/Berlin"
+    },
+    "etc/localtime.gid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/localtime.gid"
+    },
+    "etc/localtime.mode": {
+      "hash": "04a3b646e1e2964422971fbe75e9d84fe807587a89bfae73329537143934ddfa",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/localtime.mode"
+    },
+    "etc/localtime.uid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/localtime.uid"
+    },
+    "etc/login.defs": {
+      "hash": "a3ddd17ddce7a279ff860b68f6c0ef3c64860f089158b100cc5733dd375d2008",
+      "path": "/nix/store/gqrsqxy97y36h06kh7ni49army5xsk4z-login.defs"
+    },
+    "etc/logrotate.conf": {
+      "hash": "4f1d89648890846488a313b6ef0765a84f2cdcfcecf10db5874b53e8b4214245",
+      "path": "/nix/store/y483mkpx8v76qwqsxf8b0l6a10fqqpqc-logrotate.conf"
+    },
+    "etc/logrotate.conf.gid": {
+      "hash": "53175bcc0524f37b47062fafdda28e3f8eb91d519ca0a184ca71bbebe72f969a",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/logrotate.conf.gid"
+    },
+    "etc/logrotate.conf.mode": {
+      "hash": "75d9e806bb13d2abd85e22c8ec1667f7f094fafb614b349458643da2cdb79b34",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/logrotate.conf.mode"
+    },
+    "etc/logrotate.conf.uid": {
+      "hash": "53175bcc0524f37b47062fafdda28e3f8eb91d519ca0a184ca71bbebe72f969a",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/logrotate.conf.uid"
+    },
+    "etc/lsb-release": {
+      "hash": "cde84c72d17e11192d33f3ef7ad4492e47884daa99d1ecd0bacae9bb8da9f8e6",
+      "path": "/nix/store/99f5nsm7sjdmlzsk2hs21fmvg8y7rki8-etc-lsb-release"
+    },
+    "etc/lvm/lvm.conf": {
+      "hash": "baa8fc9a41dc06d04bd6739b8d83bcb187c0a09a6643ffa2122aa67baee3ec36",
+      "path": "/nix/store/cak9j8qd1v3icwclwis0a4i2zsk9pkx5-etc-lvm-lvm.conf"
+    },
+    "etc/man_db.conf": {
+      "hash": "3f7c7e1e5f8dd2061daeed4265023f22f4b55f47bc92c03624f9c34f7fbdd5f5",
+      "path": "/nix/store/j2v2myj5h0cirdbf28krsmhahqy570v5-etc-man_db.conf"
+    },
+    "etc/modprobe.d/debian.conf": {
+      "hash": "1fdec4985b23cc8560990da89c4e66f497aaa97d54c1fb3f5c094bef40299af7",
+      "path": "/nix/store/q81m4zrk03vi5cc7q9q95zdmzmayvdd8-kmod-debian-aliases.conf-30+20230601-2"
+    },
+    "etc/modprobe.d/firmware.conf": {
+      "hash": "2e04b818aba1024a25e1c116150e9db816708d752505a12b18853149d4898bfd",
+      "path": "/nix/store/ma6qnfg8hcg07pnp26zdp1n7nwrgxw0k-etc-modprobe.d-firmware.conf"
+    },
+    "etc/modprobe.d/nixos.conf": {
+      "hash": "8647b2266dc0703d3d7a172e326def381ae1ab027df35fda2d4b1aa4a689361b",
+      "path": "/nix/store/pgpbyym06agzm8wsmv25mmr8shx6c3vb-etc-modprobe.d-nixos.conf"
+    },
+    "etc/modprobe.d/systemd.conf": {
+      "hash": "e5a3958cbd3684b63f3cada6604469cc56f727b106d5524daf5aefa6935a48ce",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/lib/modprobe.d/systemd.conf"
+    },
+    "etc/modprobe.d/ubuntu.conf": {
+      "hash": "168f891ef68036a677b7918c3d362feeb09ccf678380443e7dc6a1b7f6005e10",
+      "path": "/nix/store/skrx7ww8cyigr762k1axqxzk5bywvjjg-kmod-blacklist-31+20240202-2ubuntu8/modprobe.conf"
+    },
+    "etc/modules-load.d/nixos.conf": {
+      "hash": "ddda51cfebda001acca2d259bb5245c79fec6d6c97cf7fe704a5b419453eec3e",
+      "path": "/nix/store/a2yjqpxvf556h4kxa3nwqiy69s86cm87-nixos.conf"
+    },
+    "etc/mtab": {
+      "hash": "17b37cf7dfb0a0aae4bba53e2150822dfda532a4ce27b9efd7f02143f813c3df",
+      "path": "/proc/58626/mounts"
+    },
+    "etc/mtab.gid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/mtab.gid"
+    },
+    "etc/mtab.mode": {
+      "hash": "04a3b646e1e2964422971fbe75e9d84fe807587a89bfae73329537143934ddfa",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/mtab.mode"
+    },
+    "etc/mtab.uid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/mtab.uid"
+    },
+    "etc/nanorc": {
+      "hash": "bc732cd0775aa9f8c7bb7efe36f47f899ee3c00e8f91301409394bb4df793ee2",
+      "path": "/nix/store/s7d28xdd7ppbzi33mp6j24n3j2kf3bk1-etc-nanorc"
+    },
+    "etc/netgroup": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "/nix/store/7wd2h24b7cpyswjd9mdcxzl6y9i8zrw1-etc-netgroup"
+    },
+    "etc/nix/nix.conf": {
+      "hash": "300b4e51532876f09e7d8f2b41b5a53b609b14761501e4e671d7ec4a8f2355c3",
+      "path": "/nix/store/8479r6132gc3hlcrmx682b4v5qa70d04-nix.conf"
+    },
+    "etc/nix/registry.json": {
+      "hash": "f883dda2c72c1e04f780201915437715faea7fc8bf9d0f155c2d057b477fdd46",
+      "path": "/nix/store/59058dn0df536rqd6b9yvmvn9fw7vrp7-etc-nix-registry.json"
+    },
+    "etc/nscd.conf": {
+      "hash": "7f6709696492694df6953aa3ac45caf749622cacb6db0de392f70196a7a06ceb",
+      "path": "/nix/store/ps55awi26nyjhzsdig37wzvl84djjn98-etc-nscd.conf"
+    },
+    "etc/nsswitch.conf": {
+      "hash": "1f3e38dac596965527663f2972b4d67074a32bb0b73d8575eb26b42f8bafd1f4",
+      "path": "/nix/store/lxi39fq84rgdgy9smwzp02xfkl37kzd4-etc-nsswitch.conf"
+    },
+    "etc/os-release": {
+      "hash": "d892dd5a06daff1d2b569b583b008bc90220f88d1eae3b0b0082c1f4ec19808d",
+      "path": "/nix/store/q3qz072fs4s7zqwiacz52irkmid6vzpm-etc-os-release"
+    },
+    "etc/pam.d/chfn": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/chfn"
+    },
+    "etc/pam.d/chpasswd": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/chpasswd"
+    },
+    "etc/pam.d/chsh": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/chsh"
+    },
+    "etc/pam.d/cups": {
+      "hash": "944a632e544030dbc901125adf1d6765b283329b5cf6aa838e11eea9e19f0e7f",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/cups"
+    },
+    "etc/pam.d/groupadd": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/groupadd"
+    },
+    "etc/pam.d/groupdel": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/groupdel"
+    },
+    "etc/pam.d/groupmems": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/groupmems"
+    },
+    "etc/pam.d/groupmod": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/groupmod"
+    },
+    "etc/pam.d/lightdm": {
+      "hash": "8436ca87f53a6fd9577ef7697376ee09029d82a49ac125d9c38ff89ce50e3ae4",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/lightdm"
+    },
+    "etc/pam.d/lightdm-autologin": {
+      "hash": "277a18fa1f9233128751e752023823740b0a2969eeb31ca721ecf32566a91944",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/lightdm-autologin"
+    },
+    "etc/pam.d/lightdm-greeter": {
+      "hash": "7496ad12fb8a4a2ab08e938609730c58407afaf680c13eef2f6c03fb62da2d39",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/lightdm-greeter"
+    },
+    "etc/pam.d/login": {
+      "hash": "436a5fa716adbe5d247265e7381732fe231940696a5ddf4ee121114654daeff3",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/login"
+    },
+    "etc/pam.d/other": {
+      "hash": "5c35ab423eb7b6a683b2175456cc50e662a3ad8ed512d567ac463d976edb2452",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/other"
+    },
+    "etc/pam.d/passwd": {
+      "hash": "944a632e544030dbc901125adf1d6765b283329b5cf6aa838e11eea9e19f0e7f",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/passwd"
+    },
+    "etc/pam.d/polkit-1": {
+      "hash": "944a632e544030dbc901125adf1d6765b283329b5cf6aa838e11eea9e19f0e7f",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/polkit-1"
+    },
+    "etc/pam.d/runuser": {
+      "hash": "ddbafd1ffcf35ba5556a864c6562f7accf97f6a2cadef5567a88f82b0858af12",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/runuser"
+    },
+    "etc/pam.d/runuser-l": {
+      "hash": "2839352003c9161934eca320f110acc1db34ed9efc278b258a1ce30e150d8062",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/runuser-l"
+    },
+    "etc/pam.d/su": {
+      "hash": "b4d9deb260703353135f923adcc05b6feb1a8a7460648ef7cdb05bb2b55fc96e",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/su"
+    },
+    "etc/pam.d/sudo": {
+      "hash": "944a632e544030dbc901125adf1d6765b283329b5cf6aa838e11eea9e19f0e7f",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/sudo"
+    },
+    "etc/pam.d/systemd-run0": {
+      "hash": "c3989a1c9c901999ffbaaee9996061ff5f9e0f94c700ce5598933ed1b24e8e63",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/systemd-run0"
+    },
+    "etc/pam.d/systemd-user": {
+      "hash": "32795b0f28cf9ecaddac7f88be00fde1852b863de8fa92b3ef79576eaeb367ea",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/systemd-user"
+    },
+    "etc/pam.d/useradd": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/useradd"
+    },
+    "etc/pam.d/userdel": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/userdel"
+    },
+    "etc/pam.d/usermod": {
+      "hash": "ddc769a66c490ed56787d72170d21a3b46a27bc233538f1c4f5993e68b6bd9b6",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/usermod"
+    },
+    "etc/pam.d/vlock": {
+      "hash": "944a632e544030dbc901125adf1d6765b283329b5cf6aa838e11eea9e19f0e7f",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/vlock"
+    },
+    "etc/pam.d/xfce4-screensaver": {
+      "hash": "944a632e544030dbc901125adf1d6765b283329b5cf6aa838e11eea9e19f0e7f",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/xfce4-screensaver"
+    },
+    "etc/pam.d/xlock": {
+      "hash": "944a632e544030dbc901125adf1d6765b283329b5cf6aa838e11eea9e19f0e7f",
+      "path": "/nix/store/pmalmjmh62sr6zkxy7wgwav45m4yyixw-pam.d/xlock"
+    },
+    "etc/pam/environment": {
+      "hash": "39086fc809fe896592b245e94a97f7fdeb3c81ca9e40d9e58c83fa13f6c5e1d9",
+      "path": "/nix/store/cxdcs5gj2gzngb9m1iyfsyxlhaqha6d1-etc-pam-environment"
+    },
+    "etc/pipewire": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "/nix/store/izqywvklsjqacj3mqg0w9z099rq055jh-pipewire-configs/share/pipewire"
+    },
+    "etc/pki/fwupd-metadata/LVFS-CA-2025PQ.pem": {
+      "hash": "a140d047f7763e5a3a2646898752c79a4db7f071451e0fcc98c2cfce37b0c814",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/pki/fwupd-metadata/LVFS-CA-2025PQ.pem"
+    },
+    "etc/pki/fwupd-metadata/LVFS-CA.pem": {
+      "hash": "6b46718d04424994c07a2b158680b47c354c019d62cfaeec6745c8753c3b1321",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/pki/fwupd-metadata/LVFS-CA.pem"
+    },
+    "etc/pki/fwupd/LVFS-CA-2025PQ.pem": {
+      "hash": "a140d047f7763e5a3a2646898752c79a4db7f071451e0fcc98c2cfce37b0c814",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/pki/fwupd/LVFS-CA-2025PQ.pem"
+    },
+    "etc/pki/fwupd/LVFS-CA.pem": {
+      "hash": "6b46718d04424994c07a2b158680b47c354c019d62cfaeec6745c8753c3b1321",
+      "path": "/nix/store/r2p47i3gh0vg6kxzw8npk1480mhhk60i-fwupd-2.1.8/etc/pki/fwupd/LVFS-CA.pem"
+    },
+    "etc/pki/tls/certs/ca-bundle.crt": {
+      "hash": "ac9cf2870da3a2adabc88a066574d06948610fdfb8306dcfa0a30ac7fe01a7ec",
+      "path": "/nix/store/15x4d7i4p60sjqvls7riw7sd42551s19-nss-cacert-3.126/etc/ssl/certs/ca-bundle.crt"
+    },
+    "etc/polkit-1/polkitd.conf": {
+      "hash": "cea1153d0883720bd51ec87e49b7e2ac64f4247851e1f65e453e51428442ef45",
+      "path": "/nix/store/6dcc4x2qjfvy9md35jnaignamnj98r0k-polkitd.conf"
+    },
+    "etc/polkit-1/rules.d/10-nixos.rules": {
+      "hash": "53e9a74d610f21c0a3b8d8010834c304d9d6339ba30c2972bb3784d401a0f008",
+      "path": "/nix/store/wd45xfm206hkfl0m5n18rlwrzixhqnm7-etc-polkit-1-rules.d-10-nixos.rules"
+    },
+    "etc/profile": {
+      "hash": "a016a48f5411b34b9dad1ad22c57dd6ad4422a37f3081ea0ada31a9575422f82",
+      "path": "/nix/store/f54zz6cn6mdl479ib7rpid0sl03ya7xa-etc-profile"
+    },
+    "etc/protocols": {
+      "hash": "4e5305d4f7b92fd90e6b5036d8f55a07f1a02c8e54091701d7bbe145e4f011e6",
+      "path": "/nix/store/3ppjkfrmkr0s0c74hs4ddmld3c9cqkzr-iana-etc-20251215/etc/protocols"
+    },
+    "etc/resolvconf.conf": {
+      "hash": "585625e3d38e89af6c9e407fe3c4835033316351f5b2c861d5aa828e2921efce",
+      "path": "/nix/store/v3rxmxpmsgaqs86k939fw9f78gv5cg0q-etc-resolvconf.conf"
+    },
+    "etc/rpc": {
+      "hash": "3b24a975dcde688434258566813a83ce256a4c73efd7a8a9c3998327b0b4de68",
+      "path": "/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/etc/rpc"
+    },
+    "etc/services": {
+      "hash": "bfbba82cdc36368fe4b72a11286332475646f392d57d1cab6136c84f3ce1c971",
+      "path": "/nix/store/3ppjkfrmkr0s0c74hs4ddmld3c9cqkzr-iana-etc-20251215/etc/services"
+    },
+    "etc/set-environment": {
+      "hash": "ac34466575888be0fc3af8a9aac16deca741e280eaffa84f26248fa1eb06d7cd",
+      "path": "/nix/store/6iz074lj9azlbyb3da9srk5smcj78rrk-set-environment"
+    },
+    "etc/shells": {
+      "hash": "392e0123e5648a2d4b6480d16cf98585af3f6f00500bbc277675503891162c45",
+      "path": "/nix/store/39ffxf2q5bwnyjai1cxbm3kyrdnjca8w-etc-shells"
+    },
+    "etc/speech-dispatcher": {
+      "hash": "4f91ea2d4a206a32cb40701f9ac5060b601e836dfe4fdc527e2d72072599ff94",
+      "path": "/nix/store/0n4z7ma4d5wafmbmvhyyjmwxrybqkff3-speech-dispatcher-0.12.1/etc/speech-dispatcher"
+    },
+    "etc/ssh/ssh_config": {
+      "hash": "b4d9e48f3a53c87001573642ac1f910e869be867523a6a0f4842218b4f42ea1c",
+      "path": "/nix/store/914iz9n4y3m4d06ibqd4an1swwhd4slc-etc-ssh-ssh_config"
+    },
+    "etc/ssh/ssh_known_hosts": {
+      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "path": "/nix/store/idv5wpvj7b0kcz707jl6x33gyikz2d8x-etc-ssh-ssh_known_hosts"
+    },
+    "etc/ssl/certs/ca-bundle.crt": {
+      "hash": "ac9cf2870da3a2adabc88a066574d06948610fdfb8306dcfa0a30ac7fe01a7ec",
+      "path": "/nix/store/15x4d7i4p60sjqvls7riw7sd42551s19-nss-cacert-3.126/etc/ssl/certs/ca-bundle.crt"
+    },
+    "etc/ssl/certs/ca-certificates.crt": {
+      "hash": "ac9cf2870da3a2adabc88a066574d06948610fdfb8306dcfa0a30ac7fe01a7ec",
+      "path": "/nix/store/15x4d7i4p60sjqvls7riw7sd42551s19-nss-cacert-3.126/etc/ssl/certs/ca-bundle.crt"
+    },
+    "etc/ssl/trust-source": {
+      "hash": "0d16e26a8c7318b13d75523d55b259456d5556a98ef84dae2a8065d981cfef8d",
+      "path": "/nix/store/ywqiff1a9r5dvby83mmvg5wg63h636bh-nss-cacert-3.126-p11kit/etc/ssl/trust-source"
+    },
+    "etc/sudoers": {
+      "hash": "e0f9a5a17f448d446b13bf106466b5bbc474e6ee02366d1a9510df337257a214",
+      "path": "/nix/store/hqdpfqwdl32m20qxnmhabd7djqkizq36-sudoers"
+    },
+    "etc/sudoers.gid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/sudoers.gid"
+    },
+    "etc/sudoers.mode": {
+      "hash": "e161a1ebe7a3b98a2b4f0fcd8508997711336068a4b179c5f288943b5ab30a97",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/sudoers.mode"
+    },
+    "etc/sudoers.uid": {
+      "hash": "bfccdd6c5c2faa710a992013eb60ebc3159d693e638b8215aaf74602a09fd058",
+      "path": "/nix/store/rvhipalzr44659rs372lrzfs1zi27di7-etc/etc/sudoers.uid"
+    },
+    "etc/sysctl.d/50-coredump.conf": {
+      "hash": "0e870a9367cdf90fe1b00e0d93ae12b18ac2cc1f527c089c146fec66345a4eab",
+      "path": "/nix/store/mks3x9w6pxd9p6p66bfsxqvza22dhrgw-50-coredump.conf"
+    },
+    "etc/sysctl.d/50-default.conf": {
+      "hash": "5f836b672f2e83426b0fb2379379c454886d7b66865771a9d25707ed96fcc64f",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/sysctl.d/50-default.conf"
+    },
+    "etc/sysctl.d/55-nixos-aslr-entropy.conf": {
+      "hash": "fb3cadf6a7f2716555ff9e87a39e2df786c6da0494349ddf485d07c5dc720e36",
+      "path": "/nix/store/i2b6ics15z664ydax2716jgbg776rn6x-55-nixos-aslr-entropy.conf"
+    },
+    "etc/sysctl.d/60-nixos.conf": {
+      "hash": "e0c7a8bbe2fc4c926cdc2ddd8b1025662bc9f1f130cf7e417f6a343305d5a741",
+      "path": "/nix/store/mjjyrl3l5vdkdz6dmjhfgx8jd8riqaby-etc-sysctl.d-60-nixos.conf"
+    },
+    "etc/systemd/coredump.conf": {
+      "hash": "9b374a7e9508dcca79619d219e87d03436eb322f7d525da7a0dd1b08abad3759",
+      "path": "/nix/store/cq6ijqj0ykdyhfiyzd4hfsc46n2w3pf6-etc-systemd-coredump.conf"
+    },
+    "etc/systemd/generator-environment.json": {
+      "hash": "6888a2b486a5803a5ef432551d8dc1d89818ca9b91babbcce39771af9472219a",
+      "path": "/nix/store/n0v7f9s3sjxiwy5lm9jh6vvkrdwdcyq7-systemd-generator-environment.json"
+    },
+    "etc/systemd/journald.conf": {
+      "hash": "ccd03c6967f3823ec6984cde65474e6d0a43a9ca08b4dc0518fa283392d0d3c4",
+      "path": "/nix/store/xnjwmxy2l7mksfcsiw3h8x8js75sing0-etc-systemd-journald.conf"
+    },
+    "etc/systemd/logind.conf": {
+      "hash": "0f8937f5f92bfd18828bfc717b74d9279ebbab92ae8c4d295889d74ddc698c87",
+      "path": "/nix/store/r8q9nc3aa762nbljn329s8mfxhpw8y57-etc-systemd-logind.conf"
+    },
+    "etc/systemd/oomd.conf": {
+      "hash": "c2c54a7a365d70583a1479d0920b5b101901d11b7084e87ce7dc668dbb6df1de",
+      "path": "/nix/store/akb9hfry9wf8abisx012gi9j1qaimnvl-etc-systemd-oomd.conf"
+    },
+    "etc/systemd/sleep.conf": {
+      "hash": "ab9c1e07f6bc622106840f03313bd0fef6f9a879404a5892bd518eed97ea5e9d",
+      "path": "/nix/store/mlaaridzymz2wizlaxbva8srkkvfdpij-etc-systemd-sleep.conf"
+    },
+    "etc/systemd/system": {
+      "hash": "b60a4a161f5a68c33f6c467a1c967da94033b289eb9cc728d3c84d3eaf8d8703",
+      "path": "/nix/store/07x31m4hjfcv1mhhkax4z12yf84fspj0-system-units"
+    },
+    "etc/systemd/system-environment-generators/env-generator": {
+      "hash": "00a822a7ed04a0bbb9849e7cccb8616d48f0741328bff55884cf4ad077f772f0",
+      "path": "/nix/store/vn1jgsj62yrlkap951djcj8npjlirjml-nixos-init-0.1.0/bin/nixos-init"
+    },
+    "etc/systemd/system-generators": {
+      "hash": "4b596291e42c12e42f0ae589e3f9cc51ef3e15f1546de601502235064edc06aa",
+      "path": "/nix/store/zgynjpk6sg5ggix5x1v9k27blgf2fp5v-system-generators"
+    },
+    "etc/systemd/system-preset/00-nixos.preset": {
+      "hash": "6843d5d0e34a79a3a8125ef506800888a8b6cde8c934a60f1c04f250ba9a2a6f",
+      "path": "/nix/store/2ja49r9pca0nh99fm5zmd7kg53z905gy-etc-systemd-system-preset-00-nixos.preset"
+    },
+    "etc/systemd/system-shutdown": {
+      "hash": "08600acf2676f479bd2ddaa9cb9f1a86c8b195206f572173ed4e03210c32bacd",
+      "path": "/nix/store/990179jrwv4g7knmlrlz5g72lqn3qs63-system-shutdown"
+    },
+    "etc/systemd/system.conf": {
+      "hash": "01dc373f44f0a5a49c7c72545846a351b101f6cb3ace9923219b631700783b75",
+      "path": "/nix/store/pafzp6v81dl4kw5zgdlwn5jyp9pad54l-etc-systemd-system.conf"
+    },
+    "etc/systemd/timesyncd.conf": {
+      "hash": "f6bf15926eaf3b6004434b3dbb2093471d4dc4a928db5f27cf1ca20280f8deb6",
+      "path": "/nix/store/5vk35x0rflfmv1zp2m6iimh4ig1g979k-etc-systemd-timesyncd.conf"
+    },
+    "etc/systemd/user": {
+      "hash": "d09f93b0f5a3294987de646952824601e88cab6dd2e52fbd1d61dc7d5c319034",
+      "path": "/nix/store/j5x3y1f6jdlva6kqwnpbdr86b0gcrfyf-user-units"
+    },
+    "etc/systemd/user-generators": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "/nix/store/6yhb5j8p4sk4j6c9bi7x4c26h02n4a6m-user-generators"
+    },
+    "etc/systemd/user-preset/00-nixos.preset": {
+      "hash": "6843d5d0e34a79a3a8125ef506800888a8b6cde8c934a60f1c04f250ba9a2a6f",
+      "path": "/nix/store/njji7faq16i7s08ss2lgw85ngc6587xk-etc-systemd-user-preset-00-nixos.preset"
+    },
+    "etc/systemd/user.conf": {
+      "hash": "93d9148a9b15a78050b5b5fb1a14706ff6d9f0a333e192696f2054ff60a1694d",
+      "path": "/nix/store/bagsdi61p9vx6kay9h5x8y8dmmki0cdf-etc-systemd-user.conf"
+    },
+    "etc/terminfo": {
+      "hash": "023b3cb6d89ff29c9fd716da264b82656989e4e084340db60eb742fd3771ee96",
+      "path": "/nix/store/4sgvbp98q3sqpv1xv48qrr66vp5n5wsx-system-path/share/terminfo"
+    },
+    "etc/tlp.conf": {
+      "hash": "1be15ae7c8d093027e2b54350e61235b58e0020a10f329b6c3186188cfd6c633",
+      "path": "/nix/store/v5r0z7fi035rxa311zm6afvqrhfm8g99-etc-tlp.conf"
+    },
+    "etc/tmpfiles.d/00-nixos.conf": {
+      "hash": "1f3f4f3bbd25da6504ce8e3148da86bcc6d4a0b6cae223ed523b3b01a791ee74",
+      "path": "/nix/store/1285waxqp68a78adnrk6ipxa12pg42cg-nixos-tmpfiles.d/lib/tmpfiles.d/00-nixos.conf"
+    },
+    "etc/tmpfiles.d/colord.conf": {
+      "hash": "81e06f312b30f164803291d20ff7f13f7bed0b221594ac7048d0bed6fe0223a9",
+      "path": "/nix/store/nn8jp94lgma7nn4q9qv3jj4wj6qpqr37-colord-1.4.8/lib/tmpfiles.d/colord.conf"
+    },
+    "etc/tmpfiles.d/credstore.conf": {
+      "hash": "2bafed09323dcb75c9c59ffd863510c2d05b6939fbcda267a82198875d1b4ddb",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/credstore.conf"
+    },
+    "etc/tmpfiles.d/graphics-driver.conf": {
+      "hash": "686ab3250f557135f9055edbe1a5e3222bc58577bdb6af54dff66fc8b2ed50b6",
+      "path": "/nix/store/zmpdrf8lxrmvav9hpvq7xfdbjq7h8gwv-graphics-driver.conf/lib/tmpfiles.d/graphics-driver.conf"
+    },
+    "etc/tmpfiles.d/home.conf": {
+      "hash": "fcc7434662a40ed081eec2c608dd1a3ac8c909440359a7890c08175fb685ff68",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/home.conf"
+    },
+    "etc/tmpfiles.d/journal-nocow.conf": {
+      "hash": "b0cfe7fb70a62747fd4002a8c5945f7b2a1784a7b482e65da6512987d0ba307d",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/journal-nocow.conf"
+    },
+    "etc/tmpfiles.d/lastlog2-tmpfiles.conf": {
+      "hash": "465d9c226ada2d203a63f9a8e12882fbeac5301e4479b04b1d3617075d7ea3ae",
+      "path": "/nix/store/xx02hjyazza7h8dw0jx8zamsxhl16g8q-util-linux-2.42.3-lastlog/lib/tmpfiles.d/lastlog2-tmpfiles.conf"
+    },
+    "etc/tmpfiles.d/lvm2.conf": {
+      "hash": "670a21702d32d3a14a15494d8419aea5f2de9ca058ba9da46dd951492cf18411",
+      "path": "/nix/store/dc7k9548nrfcr8cmkdk7nqr2bzwhf3mn-lvm2-2.03.41/lib/tmpfiles.d/lvm2.conf"
+    },
+    "etc/tmpfiles.d/networkmanager.conf": {
+      "hash": "1f1239683ee2bab95e96ec4a170860f7d5548bfe665b2d955508ad9389371d7f",
+      "path": "/nix/store/5q74qakkj056cjsqdxfqdj05bx3fkgic-networkmanager.conf/lib/tmpfiles.d/networkmanager.conf"
+    },
+    "etc/tmpfiles.d/nix-daemon.conf": {
+      "hash": "c300b4d3ed80f927cc5ab28eb5cb42aa9e023133f7d91d42d982a3317d0808ac",
+      "path": "/nix/store/f0rfa5pcykqbv313j74x7l7wa8nl4bj4-nix-2.34.8/lib/tmpfiles.d/nix-daemon.conf"
+    },
+    "etc/tmpfiles.d/portables.conf": {
+      "hash": "00c398c1f82a0908f1cb45ce482dafcd99c2287a9432acdb385cc9d9a27cdd43",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/portables.conf"
+    },
+    "etc/tmpfiles.d/static-nodes-permissions.conf": {
+      "hash": "a7c394eee2a442337d71cedf426d789daebf73879ebe1a8037be2651a5e270b2",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/static-nodes-permissions.conf"
+    },
+    "etc/tmpfiles.d/systemd-nologin.conf": {
+      "hash": "b97c3f92a569dd84957eb263f3438cc7d98ea2a4ffe5f5e9d090c04d14b725b9",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/systemd-nologin.conf"
+    },
+    "etc/tmpfiles.d/systemd-nspawn.conf": {
+      "hash": "29464830fe7050c98670a1560d76df2672ea1792e5d4ba00d13e16a15801808c",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/systemd-nspawn.conf"
+    },
+    "etc/tmpfiles.d/systemd-tmp.conf": {
+      "hash": "224e8d4145ed4a049d7a0ffb7c7d20f5278c60f08eff6369f4e82f2397abc2bc",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/systemd-tmp.conf"
+    },
+    "etc/tmpfiles.d/systemd.conf": {
+      "hash": "6b458361cd76f40ecff2079fac7732f819f7078cd7eac34d57f2ae7985704024",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/systemd.conf"
+    },
+    "etc/tmpfiles.d/tmp.conf": {
+      "hash": "a1dae3c409fab42c6e48d93ad36364cd6b35ac4705488f1e91b8593ef41ea931",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/tmp.conf"
+    },
+    "etc/tmpfiles.d/var.conf": {
+      "hash": "138662fd2276f09362f4da672f7a33cbc92b6d100e3ba7a753c66c871526d6a5",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/var.conf"
+    },
+    "etc/tmpfiles.d/x11.conf": {
+      "hash": "12f002545e3d091184e05d360faaef938eceb8b4843ddb2ea1aeda0a9bd8da36",
+      "path": "/nix/store/l5hiab3932k2n4d6nirh09mk6xgxp61w-systemd-261.3/example/tmpfiles.d/x11.conf"
+    },
+    "etc/udev/hwdb.bin": {
+      "hash": "4d736985ab3b0cd80002947c137620b051ae81e1e8d91d59f478a27485cd02a6",
+      "path": "/nix/store/9n99qsdwqk840w4m8zyyqycbpwwyqxql-hwdb.bin"
+    },
+    "etc/udev/rules.d": {
+      "hash": "7a290765596e6d2326793a2c99a13ff093d317426e8a7f9149bfd38a98dac078",
+      "path": "/nix/store/k8h189ss2mq78w87zw7nnqb3456qq775-udev-rules"
+    },
+    "etc/udisks2/udisks2.conf": {
+      "hash": "9a2e1e2139fcbd64590cae78b053697a8cf2bcc7c85c45e64b094151d3b41c44",
+      "path": "/nix/store/wlxjb7gsn1crb2alca4vh65sxn2ghgay-udisks2.conf"
+    },
+    "etc/vconsole.conf": {
+      "hash": "bb0a30962efaa6b21c8fefffaf55b43f28363f5544edfbb96014884deb870093",
+      "path": "/nix/store/3glnz18pab5yzf4zmmrzikfziwv2h25s-vconsole.conf"
+    },
+    "etc/wpa_supplicant/nixos.conf": {
+      "hash": "6ec1ffc1fe8c77561e4baec49476d549d985132fdffb0eae2bbc809b3e9c70dc",
+      "path": "/nix/store/ya60qnwxi7xb15vyx4byjwkh4a5qb8a4-etc-wpa_supplicant-nixos.conf"
+    },
+    "etc/zoneinfo": {
+      "hash": "3c7b8788fde48d826c37ad961d296f63fe7d3435376a59c2d55c7ed57274f793",
+      "path": "/nix/store/n8fqcpnr5ni28l3i9svqa70wz46798v9-tzdata-2026d/share/zoneinfo"
+    },
+    "home:khamui/.cache/.keep": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "/nix/store/pg5pp44gb08svxpnsh4i72lpcf7p6mjv-hm_homekhamui.cache.keep"
+    },
+    "home:khamui/.config/alacritty/alacritty.toml": {
+      "hash": "1edefa2730e4bb6b69966ad425b39eb19c694d5ab9db08617a288dc340658582",
+      "path": "/nix/store/r314xlfc5iwf7m3yx48q5r7v2xqibkyq-hm_.alacritty.toml"
+    },
+    "home:khamui/.config/autostart/rofi-keybinding.desktop": {
+      "hash": "d53ff8ce65ae59de88545c40d9e5ee4d3f1f634ca66657127d640081c82cb979",
+      "path": "/nix/store/kdz818lpmy0r18wh2998mz13zxvark39-hm_autostartrofikeybinding.desktop"
+    },
+    "home:khamui/.config/environment.d/10-home-manager.conf": {
+      "hash": "0ba650747ce31da32bba77015b0916fb49f29987fc8d847d67b44fe612545d77",
+      "path": "/nix/store/rkpk4kh6xq6piwq82f1dmw8w7mrpvqmm-hm_environment.d10homemanager.conf"
+    },
+    "home:khamui/.config/fontconfig/conf.d/10-hm-fonts.conf": {
+      "hash": "e55eac5b39861dedb552f70dedd224447d35ced3a34aa34a24862ecd765b2670",
+      "path": "/nix/store/vlydzfwrljjx03gksi9adddsv8656wfj-hm_hmfontconfigfonts.xml"
+    },
+    "home:khamui/.config/fontconfig/conf.d/52-hm-default-fonts.conf": {
+      "hash": "a5ab2d02531cddb25b1a6734d49aa412cad789955772c2f3300aca55023e5cae",
+      "path": "/nix/store/xvs2js5ydj2adx74mcandgr15ylwldak-hm_hmfontconfigdefaultfonts.xml"
+    },
+    "home:khamui/.config/git/config": {
+      "hash": "104f7a08cbd6da55486aa8f190b779640e0f69bde11af1eaaae07fc5cdb5e175",
+      "path": "/nix/store/mlcz1pzzfqfj51k1kw086ls8pi06dllv-hm_gitconfig"
+    },
+    "home:khamui/.config/rofi/config.rasi": {
+      "hash": "1f1ab44d3cf27f9e911b52864ccc4d8dfd0072ca665b9d774a81a5e9d6c2ddff",
+      "path": "/nix/store/0k2lp2jymgnbbdgs80krs1iw0wj0xnfy-hm_homekhamui.configroficonfig.rasi"
+    },
+    "home:khamui/.config/starship.toml": {
+      "hash": "edef5b98b91fdfb632063a514c67101bcbf079be725b3353606e8c758da43e3a",
+      "path": "/nix/store/78s11xdidrjd3jqkjmd2fi6p208j8ll6-starship-config"
+    },
+    "home:khamui/.config/systemd/user/tray.target": {
+      "hash": "e53a0b4466297830025a9884f0da068a6b7f91e81edf9967eb5524ac4aa5d983",
+      "path": "/nix/store/rqjjcw9kg5r15m2lbldzs27l5l7kf0n5-tray.target/tray.target"
+    },
+    "home:khamui/.config/tmux/tmux.conf": {
+      "hash": "ff8921ff943a86cc2c934a9eb70457273fa8c20021b9a6505d793a7bcb7dc92c",
+      "path": "/nix/store/kxd4iqcii3wg59saag8pn7f5mfd92yb2-hm_tmuxtmux.conf"
+    },
+    "home:khamui/.local/state/.keep": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "/nix/store/msh7md7qyadxfmid1rf9kf7cl5r3kqyc-hm_homekhamui.localstate.keep"
+    },
+    "home:khamui/.ssh/config": {
+      "hash": "2fd70b76956a0ed569d4b5e02bb6f6b56830d118d3d0dfcb3635a9f3cc5bcf8e",
+      "path": "/nix/store/1x31vay8dvi05ypr7j5sww9gbyhadm6s-hm_.sshconfig"
+    },
+    "home:khamui/.zprofile": {
+      "hash": "6cc57e63eac6be1a09d69a7738eba8ddf3bfdfd0269f927c391f040dee2de873",
+      "path": "/nix/store/77ka5v5zdjs7spzrrhr5hqjxd3jbq94k-hm_..zprofile"
+    },
+    "home:khamui/.zshenv": {
+      "hash": "b9708c2bd85b790aba491d92a1c22246c454f1755d96d29f26263b31a13696b2",
+      "path": "/nix/store/5dhz0pgrg5a7v5bw4irzh5mww0ix62mp-hm_..zshenv"
+    },
+    "home:khamui/.zshrc": {
+      "hash": "9e6139d6518e3dbaf3639a350be9dffdce654af3918a470e6a7778106707fb6e",
+      "path": "/nix/store/m3jqj7691g225ghzrnzzf0j2f4bjs04n-hm_..zshrc"
+    }
+  },
+  "tier": "T1"
+}

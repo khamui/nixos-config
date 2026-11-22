@@ -1,0 +1,1792 @@
+{
+  "binaries": {
+    "system": {
+      "ModemManager": "modemmanager-1.24.2",
+      "NetworkManager": "networkmanager-1.58.1",
+      "Thunar": "thunar-4.20.10",
+      "X": "xorg-server-21.1.24",
+      "Xephyr": "xorg-server-21.1.24",
+      "Xnest": "xorg-server-21.1.24",
+      "Xorg": "xorg-server-21.1.24",
+      "Xvfb": "xorg-server-21.1.24",
+      "[": "coreutils-full-9.11",
+      "accessdb": "man-db-2.13.1",
+      "aconnect": "alsa-utils-1.2.16",
+      "addpart": "util-linux-2.42.3-bin",
+      "agetty": "util-linux-2.42.3-bin",
+      "alsa-info": "alsa-utils-1.2.16",
+      "alsabat": "alsa-utils-1.2.16",
+      "alsabat-test.sh": "alsa-utils-1.2.16",
+      "alsaconf": "alsa-utils-1.2.16",
+      "alsactl": "alsa-utils-1.2.16",
+      "alsaloop": "alsa-utils-1.2.16",
+      "alsamixer": "alsa-utils-1.2.16",
+      "alsatplg": "alsa-utils-1.2.16",
+      "alsaucm": "alsa-utils-1.2.16",
+      "amidi": "alsa-utils-1.2.16",
+      "amixer": "alsa-utils-1.2.16",
+      "amuFormat.sh": "mtools-4.0.49",
+      "aplay": "alsa-utils-1.2.16",
+      "aplaymidi": "alsa-utils-1.2.16",
+      "aplaymidi2": "alsa-utils-1.2.16",
+      "apropos": "man-db-2.13.1",
+      "arch": "coreutils-full-9.11",
+      "arecord": "alsa-utils-1.2.16",
+      "arecordmidi": "alsa-utils-1.2.16",
+      "arecordmidi2": "alsa-utils-1.2.16",
+      "arpd": "iproute2-7.1.0",
+      "arping": "iputils-20250605",
+      "arptables": "iptables-1.8.13",
+      "arptables-nft": "iptables-1.8.13",
+      "arptables-nft-restore": "iptables-1.8.13",
+      "arptables-nft-save": "iptables-1.8.13",
+      "arptables-restore": "iptables-1.8.13",
+      "arptables-save": "iptables-1.8.13",
+      "arptables-translate": "iptables-1.8.13",
+      "aseqdump": "alsa-utils-1.2.16",
+      "aseqnet": "alsa-utils-1.2.16",
+      "aseqsend": "alsa-utils-1.2.16",
+      "attr": "attr-2.6.0-bin",
+      "awk": "gawk-5.4.1",
+      "axfer": "alsa-utils-1.2.16",
+      "b2sum": "coreutils-full-9.11",
+      "badblocks": "e2fsprogs-1.47.4-bin",
+      "base32": "coreutils-full-9.11",
+      "base64": "coreutils-full-9.11",
+      "basename": "coreutils-full-9.11",
+      "basenc": "coreutils-full-9.11",
+      "bash": "bash-interactive-5.3p15",
+      "bashbug": "bash-interactive-5.3p15",
+      "bcache": "bcache-tools-1.1",
+      "bcache-super-show": "bcache-tools-1.1",
+      "bits": "util-linux-2.42.3-bin",
+      "blkdiscard": "util-linux-2.42.3-bin",
+      "blkid": "util-linux-2.42.3-bin",
+      "blkpr": "util-linux-2.42.3-bin",
+      "blkzone": "util-linux-2.42.3-bin",
+      "blockdev": "util-linux-2.42.3-bin",
+      "bluetooth": "tlp-1.10.2",
+      "bootctl": "systemd-261.3",
+      "bridge": "iproute2-7.1.0",
+      "broadwayd": "gtk+3-3.24.52",
+      "bunzip2": "bzip2-1.0.8-bin",
+      "busctl": "systemd-261.3",
+      "bzcat": "bzip2-1.0.8-bin",
+      "bzcmp": "bzip2-1.0.8-bin",
+      "bzdiff": "bzip2-1.0.8-bin",
+      "bzegrep": "bzip2-1.0.8-bin",
+      "bzfgrep": "bzip2-1.0.8-bin",
+      "bzgrep": "bzip2-1.0.8-bin",
+      "bzip2": "bzip2-1.0.8-bin",
+      "bzip2recover": "bzip2-1.0.8-bin",
+      "bzless": "bzip2-1.0.8-bin",
+      "bzmore": "bzip2-1.0.8-bin",
+      "cal": "util-linux-2.42.3-bin",
+      "cancel": "cups-2.4.19",
+      "capsh": "libcap-2.78",
+      "captoinfo": "ncurses-6.6",
+      "captree": "libcap-2.78",
+      "cat": "coreutils-full-9.11",
+      "catman": "man-db-2.13.1",
+      "cd-create-profile": "colord-1.4.8",
+      "cd-fix-profile": "colord-1.4.8",
+      "cd-iccdump": "colord-1.4.8",
+      "cd-it8": "colord-1.4.8",
+      "cfdisk": "util-linux-2.42.3-bin",
+      "chacl": "acl-2.4.0-bin",
+      "chage": "shadow-4.20.2",
+      "chattr": "e2fsprogs-1.47.4-bin",
+      "chcon": "coreutils-full-9.11",
+      "chcpu": "util-linux-2.42.3-bin",
+      "chfn": "shadow-4.20.2",
+      "chgpasswd": "shadow-4.20.2",
+      "chgrp": "coreutils-full-9.11",
+      "chmem": "util-linux-2.42.3-bin",
+      "chmod": "coreutils-full-9.11",
+      "choom": "util-linux-2.42.3-bin",
+      "chown": "coreutils-full-9.11",
+      "chpasswd": "shadow-4.20.2",
+      "chroot": "coreutils-full-9.11",
+      "chrt": "util-linux-2.42.3-bin",
+      "chsh": "shadow-4.20.2",
+      "chvt": "kbd-2.9.0",
+      "cksum": "coreutils-full-9.11",
+      "claude": "claude-code-2.1.296",
+      "clear": "ncurses-6.6",
+      "clockdiff": "iputils-20250605",
+      "clrunimap": "kbd-2.9.0",
+      "cmp": "diffutils-3.12",
+      "col": "util-linux-2.42.3-bin",
+      "colcrt": "util-linux-2.42.3-bin",
+      "colormgr": "colord-1.4.8",
+      "colrm": "util-linux-2.42.3-bin",
+      "column": "util-linux-2.42.3-bin",
+      "comm": "coreutils-full-9.11",
+      "copyfilerange": "util-linux-2.42.3-bin",
+      "coredumpctl": "systemd-261.3",
+      "corelist": "perl-5.42.3",
+      "coresched": "util-linux-2.42.3-bin",
+      "coreutils": "coreutils-full-9.11",
+      "cp": "coreutils-full-9.11",
+      "cpan": "perl-5.42.3",
+      "cpio": "cpio-2.15",
+      "csplit": "coreutils-full-9.11",
+      "ctrlaltdel": "util-linux-2.42.3-bin",
+      "ctstat": "iproute2-7.1.0",
+      "cupsaccept": "cups-2.4.19",
+      "cupsctl": "cups-2.4.19",
+      "cupsd": "cups-2.4.19",
+      "cupsdisable": "cups-2.4.19",
+      "cupsenable": "cups-2.4.19",
+      "cupsfilter": "cups-2.4.19",
+      "cupsreject": "cups-2.4.19",
+      "cupstestppd": "cups-2.4.19",
+      "curl": "curl-8.22.0-bin",
+      "cut": "coreutils-full-9.11",
+      "cvtsudoers": "sudo-1.9.17p2",
+      "date": "coreutils-full-9.11",
+      "dbus-broker": "dbus-broker-37",
+      "dbus-broker-launch": "dbus-broker-37",
+      "dbus-cleanup-sockets": "dbus-1.16.2",
+      "dbus-daemon": "dbus-1.16.2",
+      "dbus-launch": "dbus-1.16.2-lib",
+      "dbus-monitor": "dbus-1.16.2",
+      "dbus-run-session": "dbus-1.16.2",
+      "dbus-send": "dbus-1.16.2",
+      "dbus-test-tool": "dbus-1.16.2",
+      "dbus-update-activation-environment": "dbus-1.16.2",
+      "dbus-uuidgen": "dbus-1.16.2",
+      "dbxtool": "fwupd-2.1.8",
+      "dcb": "iproute2-7.1.0",
+      "dconf": "dconf-0.49.0",
+      "dd": "coreutils-full-9.11",
+      "deallocvt": "kbd-2.9.0",
+      "debugfs": "e2fsprogs-1.47.4-bin",
+      "delpart": "util-linux-2.42.3-bin",
+      "depmod": "kmod-31",
+      "desktop-file-edit": "desktop-file-utils-0.28",
+      "desktop-file-install": "desktop-file-utils-0.28",
+      "desktop-file-validate": "desktop-file-utils-0.28",
+      "devlink": "iproute2-7.1.0",
+      "df": "coreutils-full-9.11",
+      "diff": "diffutils-3.12",
+      "diff3": "diffutils-3.12",
+      "dir": "coreutils-full-9.11",
+      "dircolors": "coreutils-full-9.11",
+      "dirname": "coreutils-full-9.11",
+      "dm-tool": "lightdm-1.33.1",
+      "dmesg": "util-linux-2.42.3-bin",
+      "dmsetup": "lvm2-2.03.41-bin",
+      "dmstats": "lvm2-2.03.41-bin",
+      "dmvdostats": "lvm2-2.03.41-bin",
+      "dosfsck": "dosfstools-4.2",
+      "dosfslabel": "dosfstools-4.2",
+      "dpll": "iproute2-7.1.0",
+      "du": "coreutils-full-9.11",
+      "dumpe2fs": "e2fsprogs-1.47.4-bin",
+      "dumpkeys": "kbd-2.9.0",
+      "e2freefrag": "e2fsprogs-1.47.4-bin",
+      "e2fsck": "e2fsprogs-1.47.4-bin",
+      "e2image": "e2fsprogs-1.47.4-bin",
+      "e2label": "e2fsprogs-1.47.4-bin",
+      "e2mmpstatus": "e2fsprogs-1.47.4-bin",
+      "e2undo": "e2fsprogs-1.47.4-bin",
+      "e4crypt": "e2fsprogs-1.47.4-bin",
+      "e4defrag": "e2fsprogs-1.47.4-bin",
+      "ebtables": "iptables-1.8.13",
+      "ebtables-nft": "iptables-1.8.13",
+      "ebtables-nft-restore": "iptables-1.8.13",
+      "ebtables-nft-save": "iptables-1.8.13",
+      "ebtables-restore": "iptables-1.8.13",
+      "ebtables-save": "iptables-1.8.13",
+      "ebtables-translate": "iptables-1.8.13",
+      "echo": "coreutils-full-9.11",
+      "egrep": "gnugrep-3.12",
+      "eject": "util-linux-2.42.3-bin",
+      "enc2xs": "perl-5.42.3",
+      "encguess": "perl-5.42.3",
+      "enosys": "util-linux-2.42.3-bin",
+      "env": "coreutils-full-9.11",
+      "exch": "util-linux-2.42.3-bin",
+      "exo-desktop-item-edit": "exo-4.20.0",
+      "exo-open": "exo-4.20.0",
+      "expand": "coreutils-full-9.11",
+      "expr": "coreutils-full-9.11",
+      "factor": "coreutils-full-9.11",
+      "fadvise": "util-linux-2.42.3-bin",
+      "faillock": "linux-pam-1.7.2",
+      "faillog": "shadow-4.20.2",
+      "fallocate": "util-linux-2.42.3-bin",
+      "false": "coreutils-full-9.11",
+      "fatlabel": "dosfstools-4.2",
+      "fc-cache": "fontconfig-2.18.3-bin",
+      "fc-cat": "fontconfig-2.18.3-bin",
+      "fc-conflist": "fontconfig-2.18.3-bin",
+      "fc-list": "fontconfig-2.18.3-bin",
+      "fc-match": "fontconfig-2.18.3-bin",
+      "fc-pattern": "fontconfig-2.18.3-bin",
+      "fc-query": "fontconfig-2.18.3-bin",
+      "fc-scan": "fontconfig-2.18.3-bin",
+      "fc-validate": "fontconfig-2.18.3-bin",
+      "fdisk": "util-linux-2.42.3-bin",
+      "fgconsole": "kbd-2.9.0",
+      "fgrep": "gnugrep-3.12",
+      "filefrag": "e2fsprogs-1.47.4-bin",
+      "fincore": "util-linux-2.42.3-bin",
+      "find": "findutils-4.11.0",
+      "findfs": "util-linux-2.42.3-bin",
+      "findmnt": "util-linux-2.42.3-bin",
+      "firefox": "firefox-157.0.1",
+      "flake-agent": "flake-agent-0.1.0",
+      "flock": "util-linux-2.42.3-bin",
+      "fmt": "coreutils-full-9.11",
+      "fold": "coreutils-full-9.11",
+      "fprintd-delete": "fprintd-1.94.5",
+      "fprintd-enroll": "fprintd-1.94.5",
+      "fprintd-list": "fprintd-1.94.5",
+      "fprintd-verify": "fprintd-1.94.5",
+      "free": "procps-4.0.7",
+      "fsck": "util-linux-2.42.3-bin",
+      "fsck.cramfs": "util-linux-2.42.3-bin",
+      "fsck.ext2": "e2fsprogs-1.47.4-bin",
+      "fsck.ext3": "e2fsprogs-1.47.4-bin",
+      "fsck.ext4": "e2fsprogs-1.47.4-bin",
+      "fsck.fat": "dosfstools-4.2",
+      "fsck.minix": "util-linux-2.42.3-bin",
+      "fsck.msdos": "dosfstools-4.2",
+      "fsck.vfat": "dosfstools-4.2",
+      "fsfreeze": "util-linux-2.42.3-bin",
+      "fstrim": "util-linux-2.42.3-bin",
+      "fusermount": "fuse-2.9.9-bin",
+      "fusermount3": "fuse-3.18.2-bin",
+      "fwupdmgr": "fwupd-2.1.8",
+      "fwupdtool": "fwupd-2.1.8",
+      "gapplication": "glib-2.88.3-bin",
+      "gawk": "gawk-5.4.1",
+      "gdbus": "glib-2.88.3-bin",
+      "gencat": "glibc-2.44-25-bin",
+      "genl": "iproute2-7.1.0",
+      "getcap": "libcap-2.78",
+      "getconf": "glibc-2.44-25-bin",
+      "getent": "glibc-2.44-25-getent",
+      "getfacl": "acl-2.4.0-bin",
+      "getfattr": "attr-2.6.0-bin",
+      "getino": "util-linux-2.42.3-bin",
+      "getkeycodes": "kbd-2.9.0",
+      "getopt": "util-linux-2.42.3-bin",
+      "getpcaps": "libcap-2.78",
+      "getsubids": "shadow-4.20.2",
+      "getunimap": "kbd-2.9.0",
+      "gh": "gh-2.102.0",
+      "gi-compile-repository": "glib-2.88.3-bin",
+      "gi-decompile-typelib": "glib-2.88.3-bin",
+      "gi-inspect-typelib": "glib-2.88.3-bin",
+      "gimp": "gimp-3.2.6",
+      "gimp-3": "gimp-3.2.6",
+      "gimp-3.2": "gimp-3.2.6",
+      "gimp-console": "gimp-3.2.6",
+      "gimp-console-3": "gimp-3.2.6",
+      "gimp-console-3.2": "gimp-3.2.6",
+      "gimp-script-fu-interpreter-3.0": "gimp-3.2.6",
+      "gimp-test-clipboard": "gimp-3.2.6",
+      "gimp-test-clipboard-3": "gimp-3.2.6",
+      "gimp-test-clipboard-3.2": "gimp-3.2.6",
+      "gimptool": "gimp-3.2.6",
+      "gimptool-3": "gimp-3.2.6",
+      "gimptool-3.2": "gimp-3.2.6",
+      "gio": "glib-2.88.3-bin",
+      "gnome-keyring": "gnome-keyring-50.0",
+      "gnome-keyring-3": "gnome-keyring-50.0",
+      "gnome-keyring-daemon": "gnome-keyring-50.0",
+      "google-chrome": "google-chrome-155.0.8059.39",
+      "google-chrome-stable": "google-chrome-155.0.8059.39",
+      "gpasswd": "shadow-4.20.2",
+      "grep": "gnugrep-3.12",
+      "groupadd": "shadow-4.20.2",
+      "groupdel": "shadow-4.20.2",
+      "groupmod": "shadow-4.20.2",
+      "groups": "coreutils-full-9.11",
+      "grpck": "shadow-4.20.2",
+      "grpconv": "shadow-4.20.2",
+      "grpunconv": "shadow-4.20.2",
+      "gsettings": "glib-2.88.3-bin",
+      "gtf": "xorg-server-21.1.24",
+      "gtk-launch": "gtk+3-3.24.52",
+      "gtk-update-icon-cache": "gtk+3-3.24.52",
+      "gunzip": "gzip-1.14",
+      "gzexe": "gzip-1.14",
+      "gzip": "gzip-1.14",
+      "h2ph": "perl-5.42.3",
+      "h2xs": "perl-5.42.3",
+      "halt": "systemd-261.3",
+      "hardlink": "util-linux-2.42.3-bin",
+      "hd": "util-linux-2.42.3-bin",
+      "head": "coreutils-full-9.11",
+      "hexdump": "util-linux-2.42.3-bin",
+      "homectl": "systemd-261.3",
+      "host": "bind-9.20.29-host",
+      "hostid": "coreutils-full-9.11",
+      "hostname": "hostname-debian-3.25",
+      "hostnamectl": "systemd-261.3",
+      "hugetop": "procps-4.0.7",
+      "hwclock": "util-linux-2.42.3-bin",
+      "i386": "util-linux-2.42.3-bin",
+      "iceauth": "iceauth-1.0.11",
+      "iconv": "glibc-2.44-25-bin",
+      "iconvconfig": "glibc-2.44-25-bin",
+      "id": "coreutils-full-9.11",
+      "iecset": "alsa-utils-1.2.16",
+      "ifstat": "iproute2-7.1.0",
+      "importctl": "systemd-261.3",
+      "info": "texinfo-interactive-7.3",
+      "infocmp": "ncurses-6.6",
+      "infotocap": "ncurses-6.6",
+      "init": "systemd-261.3",
+      "insmod": "kmod-31",
+      "install": "coreutils-full-9.11",
+      "install-info": "texinfo-interactive-7.3",
+      "instmodsh": "perl-5.42.3",
+      "ionice": "util-linux-2.42.3-bin",
+      "ip": "iproute2-7.1.0",
+      "ip6tables": "iptables-1.8.13",
+      "ip6tables-apply": "iptables-1.8.13",
+      "ip6tables-legacy": "iptables-1.8.13",
+      "ip6tables-legacy-restore": "iptables-1.8.13",
+      "ip6tables-legacy-save": "iptables-1.8.13",
+      "ip6tables-nft": "iptables-1.8.13",
+      "ip6tables-nft-restore": "iptables-1.8.13",
+      "ip6tables-nft-save": "iptables-1.8.13",
+      "ip6tables-restore": "iptables-1.8.13",
+      "ip6tables-restore-translate": "iptables-1.8.13",
+      "ip6tables-save": "iptables-1.8.13",
+      "ip6tables-translate": "iptables-1.8.13",
+      "ipcmk": "util-linux-2.42.3-bin",
+      "ipcrm": "util-linux-2.42.3-bin",
+      "ipcs": "util-linux-2.42.3-bin",
+      "ippeveprinter": "cups-2.4.19",
+      "ippfind": "cups-2.4.19",
+      "ipptool": "cups-2.4.19",
+      "iptables": "iptables-1.8.13",
+      "iptables-apply": "iptables-1.8.13",
+      "iptables-legacy": "iptables-1.8.13",
+      "iptables-legacy-restore": "iptables-1.8.13",
+      "iptables-legacy-save": "iptables-1.8.13",
+      "iptables-nft": "iptables-1.8.13",
+      "iptables-nft-restore": "iptables-1.8.13",
+      "iptables-nft-save": "iptables-1.8.13",
+      "iptables-restore": "iptables-1.8.13",
+      "iptables-restore-translate": "iptables-1.8.13",
+      "iptables-save": "iptables-1.8.13",
+      "iptables-translate": "iptables-1.8.13",
+      "iptables-xml": "iptables-1.8.13",
+      "irqtop": "util-linux-2.42.3-bin",
+      "isosize": "util-linux-2.42.3-bin",
+      "join": "coreutils-full-9.11",
+      "journalctl": "systemd-261.3",
+      "json_pp": "perl-5.42.3",
+      "kbd_mode": "kbd-2.9.0",
+      "kbdinfo": "kbd-2.9.0",
+      "kbdrate": "kbd-2.9.0",
+      "kexec": "kexec-tools-2.0.32",
+      "kill": "util-linux-2.42.3-bin",
+      "kmod": "kmod-31",
+      "koi8rxterm": "xterm-411",
+      "last": "util-linux-2.42.3-bin",
+      "lastb": "util-linux-2.42.3-bin",
+      "lastlog2": "util-linux-2.42.3-lastlog",
+      "ld.so": "glibc-2.44-25",
+      "ldattach": "util-linux-2.42.3-bin",
+      "ldconfig": "glibc-2.44-25-bin",
+      "ldd": "glibc-2.44-25-bin",
+      "less": "less-710",
+      "lexgrog": "man-db-2.13.1",
+      "libnetcfg": "perl-5.42.3",
+      "lightdm": "lightdm-1.33.1",
+      "link": "coreutils-full-9.11",
+      "linux32": "util-linux-2.42.3-bin",
+      "linux64": "util-linux-2.42.3-bin",
+      "ln": "coreutils-full-9.11",
+      "lnstat": "iproute2-7.1.0",
+      "loadkeys": "kbd-2.9.0",
+      "loadunimap": "kbd-2.9.0",
+      "locale": "glibc-2.44-25-bin",
+      "localectl": "systemd-261.3",
+      "localedef": "glibc-2.44-25-bin",
+      "logger": "util-linux-2.42.3-bin",
+      "login": "shadow-4.20.2",
+      "loginctl": "systemd-261.3",
+      "logname": "coreutils-full-9.11",
+      "logsave": "e2fsprogs-1.47.4-bin",
+      "look": "util-linux-2.42.3-bin",
+      "losetup": "util-linux-2.42.3-bin",
+      "lp": "cups-2.4.19",
+      "lpadmin": "cups-2.4.19",
+      "lpc": "cups-2.4.19",
+      "lpinfo": "cups-2.4.19",
+      "lpmove": "cups-2.4.19",
+      "lpoptions": "cups-2.4.19",
+      "lpq": "cups-2.4.19",
+      "lpr": "cups-2.4.19",
+      "lprm": "cups-2.4.19",
+      "lpstat": "cups-2.4.19",
+      "ls": "coreutils-full-9.11",
+      "lsattr": "e2fsprogs-1.47.4-bin",
+      "lsblk": "util-linux-2.42.3-bin",
+      "lsclocks": "util-linux-2.42.3-bin",
+      "lscpu": "util-linux-2.42.3-bin",
+      "lsfd": "util-linux-2.42.3-bin",
+      "lsipc": "util-linux-2.42.3-bin",
+      "lsirq": "util-linux-2.42.3-bin",
+      "lslocks": "util-linux-2.42.3-bin",
+      "lslogins": "util-linux-2.42.3-bin",
+      "lsmem": "util-linux-2.42.3-bin",
+      "lsmod": "kmod-31",
+      "lsns": "util-linux-2.42.3-bin",
+      "lvchange": "lvm2-2.03.41-bin",
+      "lvconvert": "lvm2-2.03.41-bin",
+      "lvcreate": "lvm2-2.03.41-bin",
+      "lvdisplay": "lvm2-2.03.41-bin",
+      "lvextend": "lvm2-2.03.41-bin",
+      "lvm": "lvm2-2.03.41-bin",
+      "lvmconfig": "lvm2-2.03.41-bin",
+      "lvmdevices": "lvm2-2.03.41-bin",
+      "lvmdiskscan": "lvm2-2.03.41-bin",
+      "lvmsadc": "lvm2-2.03.41-bin",
+      "lvmsar": "lvm2-2.03.41-bin",
+      "lvreduce": "lvm2-2.03.41-bin",
+      "lvremove": "lvm2-2.03.41-bin",
+      "lvrename": "lvm2-2.03.41-bin",
+      "lvresize": "lvm2-2.03.41-bin",
+      "lvs": "lvm2-2.03.41-bin",
+      "lvscan": "lvm2-2.03.41-bin",
+      "lz": "mtools-4.0.49",
+      "lzcat": "xz-5.8.4-bin",
+      "lzcmp": "xz-5.8.4-bin",
+      "lzdiff": "xz-5.8.4-bin",
+      "lzegrep": "xz-5.8.4-bin",
+      "lzfgrep": "xz-5.8.4-bin",
+      "lzgrep": "xz-5.8.4-bin",
+      "lzless": "xz-5.8.4-bin",
+      "lzma": "xz-5.8.4-bin",
+      "lzmadec": "xz-5.8.4-bin",
+      "lzmainfo": "xz-5.8.4-bin",
+      "lzmore": "xz-5.8.4-bin",
+      "machinectl": "systemd-261.3",
+      "make-bcache": "bcache-tools-1.1",
+      "makedb": "glibc-2.44-25-bin",
+      "makeinfo": "texinfo-interactive-7.3",
+      "man": "man-db-2.13.1",
+      "man-recode": "man-db-2.13.1",
+      "mandb": "man-db-2.13.1",
+      "manpath": "man-db-2.13.1",
+      "mapscrn": "kbd-2.9.0",
+      "mattrib": "mtools-4.0.49",
+      "mbadblocks": "mtools-4.0.49",
+      "mcat": "mtools-4.0.49",
+      "mcd": "mtools-4.0.49",
+      "mcheck": "mtools-4.0.49",
+      "mcomp": "mtools-4.0.49",
+      "mcookie": "util-linux-2.42.3-bin",
+      "mcopy": "mtools-4.0.49",
+      "md5sum": "coreutils-full-9.11",
+      "mdel": "mtools-4.0.49",
+      "mdeltree": "mtools-4.0.49",
+      "mdir": "mtools-4.0.49",
+      "mdoctorfat": "mtools-4.0.49",
+      "mdu": "mtools-4.0.49",
+      "mesg": "util-linux-2.42.3-bin",
+      "mformat": "mtools-4.0.49",
+      "minfo": "mtools-4.0.49",
+      "mkdir": "coreutils-full-9.11",
+      "mkdosfs": "dosfstools-4.2",
+      "mke2fs": "e2fsprogs-1.47.4-bin",
+      "mkfifo": "coreutils-full-9.11",
+      "mkfs": "util-linux-2.42.3-bin",
+      "mkfs.bfs": "util-linux-2.42.3-bin",
+      "mkfs.cramfs": "util-linux-2.42.3-bin",
+      "mkfs.ext2": "e2fsprogs-1.47.4-bin",
+      "mkfs.ext3": "e2fsprogs-1.47.4-bin",
+      "mkfs.ext4": "e2fsprogs-1.47.4-bin",
+      "mkfs.fat": "dosfstools-4.2",
+      "mkfs.minix": "util-linux-2.42.3-bin",
+      "mkfs.msdos": "dosfstools-4.2",
+      "mkfs.vfat": "dosfstools-4.2",
+      "mkhomedir_helper": "linux-pam-1.7.2",
+      "mklost+found": "e2fsprogs-1.47.4-bin",
+      "mkmanifest": "mtools-4.0.49",
+      "mknod": "coreutils-full-9.11",
+      "mkpasswd": "mkpasswd-5.6.6",
+      "mkswap": "util-linux-2.42.3-bin",
+      "mktemp": "coreutils-full-9.11",
+      "mlabel": "mtools-4.0.49",
+      "mmcli": "modemmanager-1.24.2",
+      "mmd": "mtools-4.0.49",
+      "mmount": "mtools-4.0.49",
+      "mmove": "mtools-4.0.49",
+      "modinfo": "kmod-31",
+      "modprobe": "kmod-31",
+      "more": "util-linux-2.42.3-bin",
+      "mount": "util-linux-2.42.3-mount",
+      "mount.ddi": "systemd-261.3",
+      "mount.fuse": "fuse-2.9.9-bin",
+      "mount.fuse3": "fuse-3.18.2-bin",
+      "mount.mstack": "systemd-261.3",
+      "mount.storage": "systemd-261.3",
+      "mountpoint": "util-linux-2.42.3-bin",
+      "mousepad": "mousepad-0.7.0",
+      "mpartition": "mtools-4.0.49",
+      "mrd": "mtools-4.0.49",
+      "mren": "mtools-4.0.49",
+      "mshortname": "mtools-4.0.49",
+      "mshowfat": "mtools-4.0.49",
+      "mtools": "mtools-4.0.49",
+      "mtoolstest": "mtools-4.0.49",
+      "mtrace": "glibc-2.44-25-bin",
+      "mtype": "mtools-4.0.49",
+      "mv": "coreutils-full-9.11",
+      "mxtar": "mtools-4.0.49",
+      "mzip": "mtools-4.0.49",
+      "namei": "util-linux-2.42.3-bin",
+      "nano": "nano-9.2",
+      "nc": "libressl-4.3.2-nc",
+      "netshaper": "iproute2-7.1.0",
+      "networkctl": "systemd-261.3",
+      "newgidmap": "shadow-4.20.2",
+      "newgrp": "shadow-4.20.2",
+      "newuidmap": "shadow-4.20.2",
+      "newusers": "shadow-4.20.2",
+      "nfbpf_compile": "iptables-1.8.13",
+      "nfc": "tlp-1.10.2",
+      "nfnl_osf": "iptables-1.8.13",
+      "nfsynproxy": "iptables-1.8.13",
+      "nhlt-dmic-info": "alsa-utils-1.2.16",
+      "nice": "coreutils-full-9.11",
+      "nix": "nix-2.34.8",
+      "nix-build": "nix-2.34.8",
+      "nix-channel": "nix-2.34.8",
+      "nix-collect-garbage": "nix-2.34.8",
+      "nix-copy-closure": "nix-2.34.8",
+      "nix-daemon": "nix-2.34.8",
+      "nix-env": "nix-2.34.8",
+      "nix-hash": "nix-2.34.8",
+      "nix-info": "nix-info",
+      "nix-instantiate": "nix-2.34.8",
+      "nix-prefetch-url": "nix-2.34.8",
+      "nix-shell": "nix-2.34.8",
+      "nix-store": "nix-2.34.8",
+      "nixos-build-vms": "nixos-build-vms",
+      "nixos-enter": "nixos-enter",
+      "nixos-firewall-tool": "nixos-firewall-tool-26.11",
+      "nixos-generate-config": "nixos-generate-config",
+      "nixos-help": "nixos-help",
+      "nixos-install": "nixos-install",
+      "nixos-option": "nixos-option-26.11",
+      "nixos-rebuild": "nixos-rebuild-ng-26.11",
+      "nixos-version": "nixos-version",
+      "nl": "coreutils-full-9.11",
+      "nm-applet": "network-manager-applet-1.36.0",
+      "nm-connection-editor": "network-manager-applet-1.36.0",
+      "nm-online": "networkmanager-1.58.1",
+      "nmcli": "networkmanager-1.58.1",
+      "nmtui": "networkmanager-1.58.1",
+      "nmtui-connect": "networkmanager-1.58.1",
+      "nmtui-edit": "networkmanager-1.58.1",
+      "nmtui-hostname": "networkmanager-1.58.1",
+      "nohup": "coreutils-full-9.11",
+      "nologin": "shadow-4.20.2",
+      "nproc": "coreutils-full-9.11",
+      "nscd": "glibc-2.44-25-bin",
+      "nsenter": "util-linux-2.42.3-bin",
+      "nstat": "iproute2-7.1.0",
+      "numfmt": "coreutils-full-9.11",
+      "obs": "wrapped-obs-studio-32.2.2",
+      "obs-ffmpeg-mux": "obs-studio-32.2.2",
+      "obs-gamecapture": "obs-vkcapture-1.5.6",
+      "obs-gamecapture32": "obs-vkcapture-1.5.6",
+      "obs-glcapture": "obs-vkcapture-1.5.6",
+      "obs-glcapture32": "obs-vkcapture-1.5.6",
+      "obs-nvenc-test": "obs-studio-32.2.2",
+      "obs-vkcapture": "obs-vkcapture-1.5.6",
+      "obs-vkcapture32": "obs-vkcapture-1.5.6",
+      "od": "coreutils-full-9.11",
+      "oomctl": "systemd-261.3",
+      "opencode": "opencode-1.19.0",
+      "openvt": "kbd-2.9.0",
+      "outpsfheader": "kbd-2.9.0",
+      "pam_timestamp_check": "linux-pam-1.7.2",
+      "pamixer": "pamixer-1.6",
+      "parole": "parole-4.20.0",
+      "partx": "util-linux-2.42.3-bin",
+      "passwd": "shadow-4.20.2",
+      "paste": "coreutils-full-9.11",
+      "patch": "patch-2.8",
+      "pathchk": "coreutils-full-9.11",
+      "pavucontrol": "pavucontrol-6.2",
+      "pcprofiledump": "glibc-2.44-25-bin",
+      "pdftexi2dvi": "texinfo-interactive-7.3",
+      "perl": "perl-5.42.3",
+      "perl5.42.3": "perl-5.42.3",
+      "perlbug": "perl-5.42.3",
+      "perldoc": "perl-5.42.3",
+      "perlivp": "perl-5.42.3",
+      "perlthanks": "perl-5.42.3",
+      "pgrep": "procps-4.0.7",
+      "piconv": "perl-5.42.3",
+      "pidof": "procps-4.0.7",
+      "pidwait": "procps-4.0.7",
+      "ping": "iputils-20250605",
+      "pinky": "coreutils-full-9.11",
+      "pipesz": "util-linux-2.42.3-bin",
+      "pipewire": "pipewire-1.6.9",
+      "pipewire-aes67": "pipewire-1.6.9",
+      "pipewire-avb": "pipewire-1.6.9",
+      "pipewire-pulse": "pipewire-1.6.9",
+      "pipewire-vulkan": "pipewire-1.6.9",
+      "pivot_root": "util-linux-2.42.3-bin",
+      "pkaction": "polkit-127-bin",
+      "pkcheck": "polkit-127-bin",
+      "pkexec": "polkit-127-bin",
+      "pkill": "procps-4.0.7",
+      "pkttyagent": "polkit-127-bin",
+      "pl2pm": "perl-5.42.3",
+      "pldd": "glibc-2.44-25-bin",
+      "pmap": "procps-4.0.7",
+      "pod2html": "perl-5.42.3",
+      "pod2man": "perl-5.42.3",
+      "pod2texi": "texinfo-interactive-7.3",
+      "pod2text": "perl-5.42.3",
+      "pod2usage": "perl-5.42.3",
+      "podchecker": "perl-5.42.3",
+      "portablectl": "systemd-261.3",
+      "poweroff": "systemd-261.3",
+      "powertop": "powertop-2.15",
+      "ppdc": "cups-2.4.19",
+      "ppdhtml": "cups-2.4.19",
+      "ppdi": "cups-2.4.19",
+      "ppdmerge": "cups-2.4.19",
+      "ppdpo": "cups-2.4.19",
+      "pr": "coreutils-full-9.11",
+      "printenv": "coreutils-full-9.11",
+      "printf": "coreutils-full-9.11",
+      "prlimit": "util-linux-2.42.3-bin",
+      "prove": "perl-5.42.3",
+      "ps": "procps-4.0.7",
+      "psfaddtable": "kbd-2.9.0",
+      "psfgettable": "kbd-2.9.0",
+      "psfstriptable": "kbd-2.9.0",
+      "psfxtable": "kbd-2.9.0",
+      "ptar": "perl-5.42.3",
+      "ptardiff": "perl-5.42.3",
+      "ptargrep": "perl-5.42.3",
+      "ptx": "coreutils-full-9.11",
+      "pvchange": "lvm2-2.03.41-bin",
+      "pvck": "lvm2-2.03.41-bin",
+      "pvcreate": "lvm2-2.03.41-bin",
+      "pvdisplay": "lvm2-2.03.41-bin",
+      "pvmove": "lvm2-2.03.41-bin",
+      "pvremove": "lvm2-2.03.41-bin",
+      "pvresize": "lvm2-2.03.41-bin",
+      "pvs": "lvm2-2.03.41-bin",
+      "pvscan": "lvm2-2.03.41-bin",
+      "pw-cat": "pipewire-1.6.9",
+      "pw-cli": "pipewire-1.6.9",
+      "pw-config": "pipewire-1.6.9",
+      "pw-container": "pipewire-1.6.9",
+      "pw-dot": "pipewire-1.6.9",
+      "pw-dsdplay": "pipewire-1.6.9",
+      "pw-dump": "pipewire-1.6.9",
+      "pw-encplay": "pipewire-1.6.9",
+      "pw-link": "pipewire-1.6.9",
+      "pw-loopback": "pipewire-1.6.9",
+      "pw-metadata": "pipewire-1.6.9",
+      "pw-midi2play": "pipewire-1.6.9",
+      "pw-midi2record": "pipewire-1.6.9",
+      "pw-mididump": "pipewire-1.6.9",
+      "pw-midiplay": "pipewire-1.6.9",
+      "pw-midirecord": "pipewire-1.6.9",
+      "pw-mon": "pipewire-1.6.9",
+      "pw-play": "pipewire-1.6.9",
+      "pw-profiler": "pipewire-1.6.9",
+      "pw-record": "pipewire-1.6.9",
+      "pw-reserve": "pipewire-1.6.9",
+      "pw-sysex": "pipewire-1.6.9",
+      "pw-top": "pipewire-1.6.9",
+      "pw-v4l2": "pipewire-1.6.9",
+      "pwck": "shadow-4.20.2",
+      "pwconv": "shadow-4.20.2",
+      "pwd": "coreutils-full-9.11",
+      "pwdx": "procps-4.0.7",
+      "pwhistory_helper": "linux-pam-1.7.2",
+      "pwunconv": "shadow-4.20.2",
+      "pzstd": "zstd-1.5.7-bin",
+      "rdma": "iproute2-7.1.0",
+      "readlink": "coreutils-full-9.11",
+      "readprofile": "util-linux-2.42.3-bin",
+      "realpath": "coreutils-full-9.11",
+      "reboot": "systemd-261.3",
+      "rename": "util-linux-2.42.3-bin",
+      "renice": "util-linux-2.42.3-bin",
+      "reset": "ncurses-6.6",
+      "resize": "xterm-411",
+      "resize2fs": "e2fsprogs-1.47.4-bin",
+      "resizecons": "kbd-2.9.0",
+      "resizepart": "util-linux-2.42.3-bin",
+      "resolvconf": "openresolv-3.17.4",
+      "resolvectl": "systemd-261.3",
+      "rev": "util-linux-2.42.3-bin",
+      "rfkill": "util-linux-2.42.3-bin",
+      "ristretto": "ristretto-0.14.0",
+      "rm": "coreutils-full-9.11",
+      "rmdir": "coreutils-full-9.11",
+      "rmmod": "kmod-31",
+      "rnano": "nano-9.2",
+      "rsync": "rsync-3.5.0",
+      "rsync-ssl": "rsync-3.5.0",
+      "rtacct": "iproute2-7.1.0",
+      "rtcwake": "util-linux-2.42.3-bin",
+      "rtkitctl": "rtkit-0.14",
+      "rtmon": "iproute2-7.1.0",
+      "rtstat": "iproute2-7.1.0",
+      "run-on-ac": "tlp-1.10.2",
+      "run-on-bat": "tlp-1.10.2",
+      "run0": "systemd-261.3",
+      "runcon": "coreutils-full-9.11",
+      "runuser": "util-linux-2.42.3-bin",
+      "ryzen_monitor": "ryzen-monitor-ng-0-unstable-2026-03-28",
+      "scp": "openssh-10.5p1",
+      "screendump": "kbd-2.9.0",
+      "script": "util-linux-2.42.3-bin",
+      "scriptlive": "util-linux-2.42.3-bin",
+      "scriptreplay": "util-linux-2.42.3-bin",
+      "sdiff": "diffutils-3.12",
+      "sed": "gnused-4.10",
+      "seq": "coreutils-full-9.11",
+      "setarch": "util-linux-2.42.3-bin",
+      "setcap": "libcap-2.78",
+      "setfacl": "acl-2.4.0-bin",
+      "setfattr": "attr-2.6.0-bin",
+      "setfont": "kbd-2.9.0",
+      "setkeycodes": "kbd-2.9.0",
+      "setleds": "kbd-2.9.0",
+      "setlogcons": "kbd-2.9.0",
+      "setmetamode": "kbd-2.9.0",
+      "setpalette": "kbd-2.9.0",
+      "setpgid": "util-linux-2.42.3-bin",
+      "setpriv": "util-linux-2.42.3-bin",
+      "setsid": "util-linux-2.42.3-bin",
+      "setterm": "util-linux-2.42.3-bin",
+      "setvesablank": "kbd-2.9.0",
+      "setvtrgb": "kbd-2.9.0",
+      "setxkbmap": "setxkbmap-1.3.4",
+      "sfdisk": "util-linux-2.42.3-bin",
+      "sftp": "openssh-10.5p1",
+      "sg": "shadow-4.20.2",
+      "sh": "bash-interactive-5.3p15",
+      "sha1sum": "coreutils-full-9.11",
+      "sha224sum": "coreutils-full-9.11",
+      "sha256sum": "coreutils-full-9.11",
+      "sha384sum": "coreutils-full-9.11",
+      "sha512sum": "coreutils-full-9.11",
+      "shasum": "perl-5.42.3",
+      "showconsolefont": "kbd-2.9.0",
+      "showkey": "kbd-2.9.0",
+      "shred": "coreutils-full-9.11",
+      "shuf": "coreutils-full-9.11",
+      "shutdown": "systemd-261.3",
+      "slabtop": "procps-4.0.7",
+      "sleep": "coreutils-full-9.11",
+      "sln": "glibc-2.44-25-bin",
+      "sort": "coreutils-full-9.11",
+      "sotruss": "glibc-2.44-25-bin",
+      "spa-acp-tool": "pipewire-1.6.9",
+      "spa-inspect": "pipewire-1.6.9",
+      "spa-json-dump": "pipewire-1.6.9",
+      "spa-monitor": "pipewire-1.6.9",
+      "spa-resample": "pipewire-1.6.9",
+      "spawn_console": "kbd-2.9.0",
+      "spawn_login": "kbd-2.9.0",
+      "spd-conf": "speech-dispatcher-0.12.1",
+      "spd-say": "speech-dispatcher-0.12.1",
+      "spdsend": "speech-dispatcher-0.12.1",
+      "speaker-test": "alsa-utils-1.2.16",
+      "speech-dispatcher": "speech-dispatcher-0.12.1",
+      "splain": "perl-5.42.3",
+      "split": "coreutils-full-9.11",
+      "sprof": "glibc-2.44-25-bin",
+      "ss": "iproute2-7.1.0",
+      "ssh": "openssh-10.5p1",
+      "ssh-add": "openssh-10.5p1",
+      "ssh-agent": "openssh-10.5p1",
+      "ssh-copy-id": "openssh-10.5p1",
+      "ssh-keygen": "openssh-10.5p1",
+      "ssh-keyscan": "openssh-10.5p1",
+      "sshd": "openssh-10.5p1",
+      "startxfce4": "xfce4-session-4.20.4",
+      "stat": "coreutils-full-9.11",
+      "stdbuf": "coreutils-full-9.11",
+      "storagectl": "systemd-261.3",
+      "strace": "strace-7.2",
+      "strace-log-merge": "strace-7.2",
+      "streamzip": "perl-5.42.3",
+      "stty": "coreutils-full-9.11",
+      "su": "shadow-4.20.2-su",
+      "sudo": "sudo-1.9.17p2",
+      "sudo_logsrvd": "sudo-1.9.17p2",
+      "sudo_sendlog": "sudo-1.9.17p2",
+      "sudoedit": "sudo-1.9.17p2",
+      "sudoreplay": "sudo-1.9.17p2",
+      "sulogin": "util-linux-2.42.3-login",
+      "sum": "coreutils-full-9.11",
+      "swaplabel": "util-linux-2.42.3-bin",
+      "swapoff": "util-linux-2.42.3-swap",
+      "swapon": "util-linux-2.42.3-swap",
+      "switch_root": "util-linux-2.42.3-bin",
+      "sync": "coreutils-full-9.11",
+      "sysctl": "procps-4.0.7",
+      "systemctl": "systemd-261.3",
+      "systemd-ac-power": "systemd-261.3",
+      "systemd-analyze": "systemd-261.3",
+      "systemd-ask-password": "systemd-261.3",
+      "systemd-cat": "systemd-261.3",
+      "systemd-cgls": "systemd-261.3",
+      "systemd-cgtop": "systemd-261.3",
+      "systemd-confext": "systemd-261.3",
+      "systemd-creds": "systemd-261.3",
+      "systemd-cryptenroll": "systemd-261.3",
+      "systemd-cryptsetup": "systemd-261.3",
+      "systemd-delta": "systemd-261.3",
+      "systemd-detect-virt": "systemd-261.3",
+      "systemd-dissect": "systemd-261.3",
+      "systemd-escape": "systemd-261.3",
+      "systemd-firstboot": "systemd-261.3",
+      "systemd-home-fallback-shell": "systemd-261.3",
+      "systemd-hwdb": "systemd-261.3",
+      "systemd-id128": "systemd-261.3",
+      "systemd-inhibit": "systemd-261.3",
+      "systemd-machine-id-setup": "systemd-261.3",
+      "systemd-mount": "systemd-261.3",
+      "systemd-mstack": "systemd-261.3",
+      "systemd-mute-console": "systemd-261.3",
+      "systemd-notify": "systemd-261.3",
+      "systemd-nspawn": "systemd-261.3",
+      "systemd-path": "systemd-261.3",
+      "systemd-pty-forward": "systemd-261.3",
+      "systemd-repart": "systemd-261.3",
+      "systemd-resolve": "systemd-261.3",
+      "systemd-run": "systemd-261.3",
+      "systemd-socket-activate": "systemd-261.3",
+      "systemd-stdio-bridge": "systemd-261.3",
+      "systemd-sysext": "systemd-261.3",
+      "systemd-sysinstall": "systemd-261.3",
+      "systemd-sysupdate": "systemd-261.3",
+      "systemd-sysusers": "systemd-261.3",
+      "systemd-tmpfiles": "systemd-261.3",
+      "systemd-tty-ask-password-agent": "systemd-261.3",
+      "systemd-umount": "systemd-261.3",
+      "systemd-vmspawn": "systemd-261.3",
+      "systemd-vpick": "systemd-261.3",
+      "tabs": "ncurses-6.6",
+      "tac": "coreutils-full-9.11",
+      "tail": "coreutils-full-9.11",
+      "tar": "gnutar-1.35",
+      "taskset": "util-linux-2.42.3-bin",
+      "tc": "iproute2-7.1.0",
+      "teams-for-linux": "teams-for-linux-2.23.0",
+      "tee": "coreutils-full-9.11",
+      "test": "coreutils-full-9.11",
+      "texi2any": "texinfo-interactive-7.3",
+      "texi2dvi": "texinfo-interactive-7.3",
+      "texi2pdf": "texinfo-interactive-7.3",
+      "texindex": "texinfo-interactive-7.3",
+      "tgz": "mtools-4.0.49",
+      "thunar": "thunar-4.20.10",
+      "thunar-settings": "thunar-4.20.10",
+      "tic": "ncurses-6.6",
+      "time": "time-1.10",
+      "timedatectl": "systemd-261.3",
+      "timeout": "coreutils-full-9.11",
+      "tipc": "iproute2-7.1.0",
+      "tload": "procps-4.0.7",
+      "tlp": "tlp-1.10.2",
+      "tlp-rdw": "tlp-1.10.2",
+      "tlp-stat": "tlp-1.10.2",
+      "top": "procps-4.0.7",
+      "touch": "coreutils-full-9.11",
+      "tput": "ncurses-6.6",
+      "tr": "coreutils-full-9.11",
+      "tracepath": "iputils-20250605",
+      "true": "coreutils-full-9.11",
+      "truncate": "coreutils-full-9.11",
+      "tset": "ncurses-6.6",
+      "tsort": "coreutils-full-9.11",
+      "tty": "coreutils-full-9.11",
+      "tune2fs": "e2fsprogs-1.47.4-bin",
+      "tzselect": "glibc-2.44-25-bin",
+      "uclampset": "util-linux-2.42.3-bin",
+      "udevadm": "systemd-261.3",
+      "udisksctl": "udisks-2.11.2",
+      "ul": "util-linux-2.42.3-bin",
+      "ulockmgr_server": "fuse-2.9.9-bin",
+      "umount": "util-linux-2.42.3-mount",
+      "umount.udisks2": "udisks-2.11.2",
+      "uname": "coreutils-full-9.11",
+      "uname26": "util-linux-2.42.3-bin",
+      "uncompress": "gzip-1.14",
+      "unexpand": "coreutils-full-9.11",
+      "uniq": "coreutils-full-9.11",
+      "unix_chkpwd": "linux-pam-1.7.2",
+      "unlink": "coreutils-full-9.11",
+      "unlzma": "xz-5.8.4-bin",
+      "unshare": "util-linux-2.42.3-bin",
+      "unxz": "xz-5.8.4-bin",
+      "unzstd": "zstd-1.5.7-bin",
+      "update-desktop-database": "desktop-file-utils-0.28",
+      "update-mime-database": "shared-mime-info-2.5.1",
+      "updatectl": "systemd-261.3",
+      "upower": "upower-1.91.4",
+      "uptime": "coreutils-full-9.11",
+      "useradd": "shadow-4.20.2",
+      "userdbctl": "systemd-261.3",
+      "userdel": "shadow-4.20.2",
+      "usermod": "shadow-4.20.2",
+      "users": "coreutils-full-9.11",
+      "utmpdump": "util-linux-2.42.3-bin",
+      "uuidd": "util-linux-2.42.3-bin",
+      "uuidgen": "util-linux-2.42.3-bin",
+      "uuidparse": "util-linux-2.42.3-bin",
+      "uxterm": "xterm-411",
+      "uz": "mtools-4.0.49",
+      "varlinkctl": "systemd-261.3",
+      "vdir": "coreutils-full-9.11",
+      "vdpa": "iproute2-7.1.0",
+      "vgcfgbackup": "lvm2-2.03.41-bin",
+      "vgcfgrestore": "lvm2-2.03.41-bin",
+      "vgchange": "lvm2-2.03.41-bin",
+      "vgck": "lvm2-2.03.41-bin",
+      "vgconvert": "lvm2-2.03.41-bin",
+      "vgcreate": "lvm2-2.03.41-bin",
+      "vgdisplay": "lvm2-2.03.41-bin",
+      "vgexport": "lvm2-2.03.41-bin",
+      "vgextend": "lvm2-2.03.41-bin",
+      "vgimport": "lvm2-2.03.41-bin",
+      "vgimportclone": "lvm2-2.03.41-bin",
+      "vgimportdevices": "lvm2-2.03.41-bin",
+      "vgmerge": "lvm2-2.03.41-bin",
+      "vgmknodes": "lvm2-2.03.41-bin",
+      "vgreduce": "lvm2-2.03.41-bin",
+      "vgremove": "lvm2-2.03.41-bin",
+      "vgrename": "lvm2-2.03.41-bin",
+      "vgs": "lvm2-2.03.41-bin",
+      "vgscan": "lvm2-2.03.41-bin",
+      "vgsplit": "lvm2-2.03.41-bin",
+      "vigr": "shadow-4.20.2",
+      "vipw": "shadow-4.20.2",
+      "visudo": "sudo-1.9.17p2",
+      "vmcore-dmesg": "kexec-tools-2.0.32",
+      "vmstat": "procps-4.0.7",
+      "w": "procps-4.0.7",
+      "waitpid": "util-linux-2.42.3-bin",
+      "wall": "util-linux-2.42.3-bin",
+      "watch": "procps-4.0.7",
+      "wc": "coreutils-full-9.11",
+      "wcurl": "curl-8.22.0-bin",
+      "wdctl": "util-linux-2.42.3-bin",
+      "wg": "wireguard-tools-1.0.20260223",
+      "wg-quick": "wireguard-tools-1.0.20260223",
+      "whatis": "man-db-2.13.1",
+      "whereis": "util-linux-2.42.3-bin",
+      "which": "which-2.25",
+      "who": "coreutils-full-9.11",
+      "whoami": "coreutils-full-9.11",
+      "wifi": "tlp-1.10.2",
+      "wipefs": "util-linux-2.42.3-bin",
+      "wireplumber": "wireplumber-0.5.18",
+      "wpa_cli": "wpa_supplicant-2.12",
+      "wpa_passphrase": "wpa_supplicant-2.12",
+      "wpa_supplicant": "wpa_supplicant-2.12",
+      "wpctl": "wireplumber-0.5.18",
+      "wpexec": "wireplumber-0.5.18",
+      "write": "util-linux-2.42.3-bin",
+      "wwan": "tlp-1.10.2",
+      "x86_64": "util-linux-2.42.3-bin",
+      "xargs": "findutils-4.11.0",
+      "xauth": "xauth-1.1.5",
+      "xdg-desktop-icon": "xdg-utils-1.2.1",
+      "xdg-desktop-menu": "xdg-utils-1.2.1",
+      "xdg-email": "xdg-utils-1.2.1",
+      "xdg-icon-resource": "xdg-utils-1.2.1",
+      "xdg-mime": "xdg-utils-1.2.1",
+      "xdg-open": "xdg-utils-1.2.1",
+      "xdg-screensaver": "xdg-utils-1.2.1",
+      "xdg-settings": "xdg-utils-1.2.1",
+      "xdg-terminal": "xdg-utils-1.2.1",
+      "xdg-user-dir": "xdg-user-dirs-0.20",
+      "xdg-user-dirs-update": "xdg-user-dirs-0.20",
+      "xfce4-about": "libxfce4ui-4.20.2",
+      "xfce4-accessibility-settings": "xfce4-settings-4.20.5",
+      "xfce4-appearance-settings": "xfce4-settings-4.20.5",
+      "xfce4-appfinder": "xfce4-appfinder-4.20.0",
+      "xfce4-color-settings": "xfce4-settings-4.20.5",
+      "xfce4-display-settings": "xfce4-settings-4.20.5",
+      "xfce4-find-cursor": "xfce4-settings-4.20.5",
+      "xfce4-keyboard-settings": "xfce4-settings-4.20.5",
+      "xfce4-mime-helper": "xfce4-settings-4.20.5",
+      "xfce4-mime-settings": "xfce4-settings-4.20.5",
+      "xfce4-mouse-settings": "xfce4-settings-4.20.5",
+      "xfce4-notifyd-config": "xfce4-notifyd-0.9.7",
+      "xfce4-panel": "xfce4-panel-4.20.8",
+      "xfce4-pm-helper": "xfce4-power-manager-4.20.1",
+      "xfce4-popup-applicationsmenu": "xfce4-panel-4.20.8",
+      "xfce4-popup-directorymenu": "xfce4-panel-4.20.8",
+      "xfce4-popup-windowmenu": "xfce4-panel-4.20.8",
+      "xfce4-power-manager": "xfce4-power-manager-4.20.1",
+      "xfce4-power-manager-settings": "xfce4-power-manager-4.20.1",
+      "xfce4-screensaver": "xfce4-screensaver-4.20.2",
+      "xfce4-screensaver-command": "xfce4-screensaver-4.20.2",
+      "xfce4-screensaver-preferences": "xfce4-screensaver-4.20.2",
+      "xfce4-screenshooter": "xfce4-screenshooter-1.11.3",
+      "xfce4-session": "xfce4-session-4.20.4",
+      "xfce4-session-logout": "xfce4-session-4.20.4",
+      "xfce4-session-settings": "xfce4-session-4.20.4",
+      "xfce4-settings-editor": "xfce4-settings-4.20.5",
+      "xfce4-settings-manager": "xfce4-settings-4.20.5",
+      "xfce4-taskmanager": "xfce4-taskmanager-1.6.0",
+      "xfce4-terminal": "xfce4-terminal-1.2.0",
+      "xfce4-volumed-pulse": "xfce4-volumed-pulse-0.3.0",
+      "xfconf-query": "xfconf-4.20.0",
+      "xfdesktop": "xfdesktop-4.20.2",
+      "xfdesktop-settings": "xfdesktop-4.20.2",
+      "xflock4": "xfce4-session-4.20.4",
+      "xfpm-power-backlight-helper": "xfce4-power-manager-4.20.1",
+      "xfrun4": "xfce4-appfinder-4.20.0",
+      "xfsettingsd": "xfce4-settings-4.20.5",
+      "xfwm4": "xfwm4-4.20.0",
+      "xfwm4-settings": "xfwm4-4.20.0",
+      "xfwm4-tweaks-settings": "xfwm4-4.20.0",
+      "xfwm4-workspace-settings": "xfwm4-4.20.0",
+      "xinput": "xinput-1.6.4",
+      "xlsclients": "xlsclients-1.1.6",
+      "xprop": "xprop-1.2.8",
+      "xrandr": "xrandr-1.5.4",
+      "xrdb": "xrdb-1.2.3",
+      "xset": "xset-1.2.6",
+      "xsetroot": "xsetroot-1.1.4",
+      "xsubpp": "perl-5.42.3",
+      "xtables-legacy-multi": "iptables-1.8.13",
+      "xtables-monitor": "iptables-1.8.13",
+      "xtables-nft-multi": "iptables-1.8.13",
+      "xterm": "xterm-411",
+      "xtrace": "glibc-2.44-25-bin",
+      "xz": "xz-5.8.4-bin",
+      "xzcat": "xz-5.8.4-bin",
+      "xzcmp": "xz-5.8.4-bin",
+      "xzdec": "xz-5.8.4-bin",
+      "xzdiff": "xz-5.8.4-bin",
+      "xzegrep": "xz-5.8.4-bin",
+      "xzfgrep": "xz-5.8.4-bin",
+      "xzgrep": "xz-5.8.4-bin",
+      "xzless": "xz-5.8.4-bin",
+      "xzmore": "xz-5.8.4-bin",
+      "yes": "coreutils-full-9.11",
+      "zcat": "gzip-1.14",
+      "zcmp": "gzip-1.14",
+      "zdiff": "gzip-1.14",
+      "zdump": "glibc-2.44-25-bin",
+      "zegrep": "gzip-1.14",
+      "zfgrep": "gzip-1.14",
+      "zforce": "gzip-1.14",
+      "zgrep": "gzip-1.14",
+      "zic": "glibc-2.44-25-bin",
+      "zipdetails": "perl-5.42.3",
+      "zless": "gzip-1.14",
+      "zmore": "gzip-1.14",
+      "znew": "gzip-1.14",
+      "zramctl": "util-linux-2.42.3-bin",
+      "zstd": "zstd-1.5.7-bin",
+      "zstdcat": "zstd-1.5.7-bin",
+      "zstdgrep": "zstd-1.5.7-bin",
+      "zstdless": "zstd-1.5.7-bin",
+      "zstdmt": "zstd-1.5.7-bin"
+    },
+    "user:khamui": {
+      "accessdb": "man-db-2.13.1",
+      "alacritty": "alacritty-0.17.0",
+      "apropos": "man-db-2.13.1",
+      "btop": "btop-1.4.7",
+      "catman": "man-db-2.13.1",
+      "fzf": "fzf-0.74.5",
+      "fzf-share": "fzf-0.74.5",
+      "fzf-tmux": "fzf-0.74.5",
+      "git": "git-2.55.0",
+      "git-credential-netrc": "git-2.55.0",
+      "git-cvsserver": "git-2.55.0",
+      "git-http-backend": "git-2.55.0",
+      "git-jump": "git-2.55.0",
+      "git-receive-pack": "git-2.55.0",
+      "git-shell": "git-2.55.0",
+      "git-upload-archive": "git-2.55.0",
+      "git-upload-pack": "git-2.55.0",
+      "lazygit": "lazygit-0.66.1",
+      "lexgrog": "man-db-2.13.1",
+      "man": "man-db-2.13.1",
+      "man-recode": "man-db-2.13.1",
+      "mandb": "man-db-2.13.1",
+      "manpath": "man-db-2.13.1",
+      "nvf-print-config": "nvf-print-config",
+      "nvf-print-config-path": "nvf-print-config-path",
+      "nvim": "mnw-0.12.5",
+      "rg": "ripgrep-15.2.0",
+      "rofi": "rofi-unwrapped-2.0.0",
+      "rofi-sensible-terminal": "rofi-unwrapped-2.0.0",
+      "rofi-theme-selector": "rofi-unwrapped-2.0.0",
+      "scalar": "git-2.55.0",
+      "starship": "starship-1.26.0",
+      "thunderbird": "thunderbird-157.0.1",
+      "tmux": "tmux-3.7c",
+      "update-mime-database": "shared-mime-info-2.5.1",
+      "vi": "mnw-0.12.5",
+      "vim": "mnw-0.12.5",
+      "whatis": "man-db-2.13.1",
+      "which": "which-2.25",
+      "zoxide": "zoxide-0.10.0",
+      "zsh": "zsh-5.9.2"
+    }
+  },
+  "packages": {
+    "X11-fonts": [
+      ""
+    ],
+    "accountsservice": [
+      "26.27.3"
+    ],
+    "acl": [
+      "2.4.0-bin",
+      "2.4.0-doc",
+      "2.4.0-man"
+    ],
+    "adwaita-icon-theme": [
+      "50.0"
+    ],
+    "alacritty": [
+      "0.17.0",
+      "0.17.0-terminfo"
+    ],
+    "alsa-utils": [
+      "1.2.16"
+    ],
+    "attr": [
+      "2.6.0-bin",
+      "2.6.0-doc",
+      "2.6.0-man"
+    ],
+    "bash-interactive": [
+      "5.3p15",
+      "5.3p15-doc",
+      "5.3p15-info",
+      "5.3p15-man"
+    ],
+    "bcache-tools": [
+      "1.1"
+    ],
+    "bind": [
+      "9.20.29-host",
+      "9.20.29-man"
+    ],
+    "btop": [
+      "1.4.7"
+    ],
+    "bzip2": [
+      "1.0.8-bin",
+      "1.0.8-man"
+    ],
+    "claude-code": [
+      "2.1.296"
+    ],
+    "colord": [
+      "1.4.8",
+      "1.4.8-man"
+    ],
+    "coreutils-full": [
+      "9.11",
+      "9.11-info"
+    ],
+    "cpio": [
+      "2.15"
+    ],
+    "cups": [
+      "2.4.19",
+      "2.4.19-man"
+    ],
+    "cups-pk-helper": [
+      "0.2.6"
+    ],
+    "curl": [
+      "8.22.0-bin",
+      "8.22.0-man"
+    ],
+    "dbus": [
+      "1.16.2",
+      "1.16.2-doc",
+      "1.16.2-man"
+    ],
+    "dbus-broker": [
+      "37"
+    ],
+    "dconf": [
+      "0.49.0",
+      "0.49.0-man"
+    ],
+    "desktop-file-utils": [
+      "0.28"
+    ],
+    "diffutils": [
+      "3.12",
+      "3.12-info"
+    ],
+    "dosfstools": [
+      "4.2",
+      "4.2-doc",
+      "4.2-man"
+    ],
+    "e2fsprogs": [
+      "1.47.4-bin",
+      "1.47.4-info",
+      "1.47.4-man"
+    ],
+    "exo": [
+      "4.20.0"
+    ],
+    "findutils": [
+      "4.11.0",
+      "4.11.0-info"
+    ],
+    "firefox": [
+      "157.0.1"
+    ],
+    "flake-agent": [
+      "0.1.0"
+    ],
+    "fontconfig": [
+      "2.18.3-bin"
+    ],
+    "fprintd": [
+      "1.94.5"
+    ],
+    "fuse": [
+      "2.9.9-bin",
+      "2.9.9-man",
+      "3.18.2-bin",
+      "3.18.2-man"
+    ],
+    "fwupd": [
+      "2.1.8",
+      "2.1.8-man"
+    ],
+    "fzf": [
+      "0.74.5",
+      "0.74.5-man"
+    ],
+    "garcon": [
+      "4.20.0"
+    ],
+    "gawk": [
+      "5.4.1",
+      "5.4.1-info",
+      "5.4.1-man"
+    ],
+    "getent-glibc": [
+      "2.44-25"
+    ],
+    "gh": [
+      "2.102.0"
+    ],
+    "gimp": [
+      "3.2.6",
+      "3.2.6-man"
+    ],
+    "git": [
+      "2.55.0"
+    ],
+    "glib": [
+      "2.88.3-bin"
+    ],
+    "glibc": [
+      "2.44-25-bin"
+    ],
+    "glibc-locales": [
+      "2.44-25"
+    ],
+    "gnome-keyring": [
+      "50.0"
+    ],
+    "gnome-themes-extra": [
+      "3.28"
+    ],
+    "gnugrep": [
+      "3.12",
+      "3.12-info"
+    ],
+    "gnused": [
+      "4.10",
+      "4.10-info"
+    ],
+    "gnutar": [
+      "1.35",
+      "1.35-info"
+    ],
+    "google-chrome": [
+      "155.0.8059.39"
+    ],
+    "gtk+3": [
+      "3.24.52"
+    ],
+    "gvfs": [
+      "1.60.3"
+    ],
+    "gzip": [
+      "1.14",
+      "1.14-info",
+      "1.14-man"
+    ],
+    "hm-session-vars.sh": [
+      ""
+    ],
+    "home-configuration-reference-manpage": [
+      ""
+    ],
+    "hostname-hostname-debian": [
+      "3.25"
+    ],
+    "iceauth": [
+      "1.0.11"
+    ],
+    "iproute2": [
+      "7.1.0",
+      "7.1.0-man"
+    ],
+    "iptables": [
+      "1.8.13",
+      "1.8.13-man"
+    ],
+    "iputils": [
+      "20250605",
+      "20250605-man"
+    ],
+    "kbd": [
+      "2.9.0",
+      "2.9.0-man"
+    ],
+    "kexec-tools": [
+      "2.0.32"
+    ],
+    "kmod": [
+      "31",
+      "31-man"
+    ],
+    "lazygit": [
+      "0.66.1"
+    ],
+    "less": [
+      "710",
+      "710-man"
+    ],
+    "libcap": [
+      "2.78",
+      "2.78-doc",
+      "2.78-man"
+    ],
+    "libressl": [
+      "4.3.2-man",
+      "4.3.2-nc"
+    ],
+    "libxfce4ui": [
+      "4.20.2"
+    ],
+    "lightdm": [
+      "1.33.1"
+    ],
+    "linux-pam": [
+      "1.7.2",
+      "1.7.2-doc",
+      "1.7.2-man"
+    ],
+    "lvm2": [
+      "2.03.41-bin",
+      "2.03.41-man"
+    ],
+    "man-db": [
+      "2.13.1",
+      "2.13.1-doc"
+    ],
+    "mkpasswd": [
+      "5.6.6",
+      "5.6.6-man"
+    ],
+    "modemmanager": [
+      "1.24.2"
+    ],
+    "mousepad": [
+      "0.7.0"
+    ],
+    "mtools": [
+      "4.0.49",
+      "4.0.49-info",
+      "4.0.49-man"
+    ],
+    "nano": [
+      "9.2",
+      "9.2-doc",
+      "9.2-info",
+      "9.2-man"
+    ],
+    "ncurses": [
+      "6.6",
+      "6.6-man"
+    ],
+    "nerd-fonts-fira-code": [
+      "3.5.0+6.2"
+    ],
+    "network-manager-applet": [
+      "1.36.0",
+      "1.36.0-man"
+    ],
+    "networkmanager": [
+      "1.58.1",
+      "1.58.1-doc",
+      "1.58.1-man"
+    ],
+    "nix": [
+      "2.34.8",
+      "2.34.8-doc",
+      "2.34.8-man"
+    ],
+    "nix-bash-completions": [
+      "0.6.8"
+    ],
+    "nix-info": [
+      ""
+    ],
+    "nix-zsh-completions": [
+      "0.5.1-unstable-2025-12-12"
+    ],
+    "nixos-build-vms": [
+      ""
+    ],
+    "nixos-configuration-reference-manpage": [
+      ""
+    ],
+    "nixos-enter": [
+      ""
+    ],
+    "nixos-firewall-tool": [
+      "26.11"
+    ],
+    "nixos-generate-config": [
+      ""
+    ],
+    "nixos-help": [
+      ""
+    ],
+    "nixos-icons": [
+      "0-unstable-2025-06-28"
+    ],
+    "nixos-install": [
+      ""
+    ],
+    "nixos-manual-html": [
+      ""
+    ],
+    "nixos-option": [
+      "26.11"
+    ],
+    "nixos-rebuild-ng": [
+      "26.11"
+    ],
+    "nixos-version": [
+      ""
+    ],
+    "nvf-with-helpers": [
+      ""
+    ],
+    "opencode": [
+      "1.19.0"
+    ],
+    "openresolv": [
+      "3.17.4"
+    ],
+    "openssh": [
+      "10.5p1",
+      "10.5p1-man"
+    ],
+    "pamixer": [
+      "1.6"
+    ],
+    "parole": [
+      "4.20.0"
+    ],
+    "patch": [
+      "2.8"
+    ],
+    "pavucontrol": [
+      "6.2"
+    ],
+    "perl": [
+      "5.42.3",
+      "5.42.3-man"
+    ],
+    "pipewire": [
+      "1.6.9",
+      "1.6.9-doc",
+      "1.6.9-man"
+    ],
+    "polkit": [
+      "127",
+      "127-bin"
+    ],
+    "polkit-gnome": [
+      "0.105"
+    ],
+    "powertop": [
+      "2.15",
+      "2.15-man"
+    ],
+    "procps": [
+      "4.0.7",
+      "4.0.7-doc",
+      "4.0.7-man"
+    ],
+    "ripgrep": [
+      "15.2.0"
+    ],
+    "ristretto": [
+      "0.14.0"
+    ],
+    "rofi-unwrapped": [
+      "2.0.0"
+    ],
+    "rsync": [
+      "3.5.0"
+    ],
+    "rtkit": [
+      "0.14"
+    ],
+    "ryzen-monitor-ng": [
+      "0-unstable-2026-03-28"
+    ],
+    "setxkbmap": [
+      "1.3.4"
+    ],
+    "shadow": [
+      "4.20.2",
+      "4.20.2-man",
+      "4.20.2-su"
+    ],
+    "shared-mime-info": [
+      "2.5.1"
+    ],
+    "sound-theme-freedesktop": [
+      "0.8"
+    ],
+    "speech-dispatcher": [
+      "0.12.1"
+    ],
+    "starship": [
+      "1.26.0"
+    ],
+    "strace": [
+      "7.2",
+      "7.2-man"
+    ],
+    "sudo": [
+      "1.9.17p2",
+      "1.9.17p2-doc",
+      "1.9.17p2-man"
+    ],
+    "systemd": [
+      "261.3",
+      "261.3-man"
+    ],
+    "tango-icon-theme": [
+      "0.8.90"
+    ],
+    "teams-for-linux": [
+      "2.23.0"
+    ],
+    "texinfo-interactive": [
+      "7.3"
+    ],
+    "thunar": [
+      "4.20.10"
+    ],
+    "thunderbird": [
+      "157.0.1"
+    ],
+    "time": [
+      "1.10",
+      "1.10-info"
+    ],
+    "tlp": [
+      "1.10.2"
+    ],
+    "tmux": [
+      "3.7c",
+      "3.7c-man"
+    ],
+    "tumbler": [
+      "4.20.2"
+    ],
+    "udisks": [
+      "2.11.2",
+      "2.11.2-man"
+    ],
+    "upower": [
+      "1.91.4"
+    ],
+    "util-linux": [
+      "2.42.3-bin",
+      "2.42.3-man"
+    ],
+    "which": [
+      "2.25",
+      "2.25-info",
+      "2.25-man"
+    ],
+    "wireguard-tools": [
+      "1.0.20260223",
+      "1.0.20260223-man"
+    ],
+    "wireplumber": [
+      "0.5.18",
+      "0.5.18-doc"
+    ],
+    "wpa_supplicant": [
+      "2.12"
+    ],
+    "wrapped-obs-studio": [
+      "32.2.2"
+    ],
+    "xauth": [
+      "1.1.5"
+    ],
+    "xdg-desktop-portal": [
+      "1.22.1"
+    ],
+    "xdg-desktop-portal-gtk": [
+      "1.15.3"
+    ],
+    "xdg-desktop-portal-xapp": [
+      "1.1.3"
+    ],
+    "xdg-user-dirs": [
+      "0.20",
+      "0.20-man"
+    ],
+    "xdg-utils": [
+      "1.2.1"
+    ],
+    "xf86-input-evdev": [
+      "2.11.0"
+    ],
+    "xf86-input-libinput": [
+      "1.5.0"
+    ],
+    "xfce4-appfinder": [
+      "4.20.0"
+    ],
+    "xfce4-genmon-plugin": [
+      "4.3.0"
+    ],
+    "xfce4-icon-theme": [
+      "4.4.3"
+    ],
+    "xfce4-notifyd": [
+      "0.9.7"
+    ],
+    "xfce4-panel": [
+      "4.20.8"
+    ],
+    "xfce4-power-manager": [
+      "4.20.1"
+    ],
+    "xfce4-pulseaudio-plugin": [
+      "0.5.1"
+    ],
+    "xfce4-screensaver": [
+      "4.20.2"
+    ],
+    "xfce4-screenshooter": [
+      "1.11.3"
+    ],
+    "xfce4-session": [
+      "4.20.4"
+    ],
+    "xfce4-settings": [
+      "4.20.5"
+    ],
+    "xfce4-taskmanager": [
+      "1.6.0"
+    ],
+    "xfce4-terminal": [
+      "1.2.0"
+    ],
+    "xfce4-volumed-pulse": [
+      "0.3.0"
+    ],
+    "xfconf": [
+      "4.20.0"
+    ],
+    "xfdesktop": [
+      "4.20.2"
+    ],
+    "xfwm4": [
+      "4.20.0"
+    ],
+    "xfwm4-themes": [
+      "4.10.0"
+    ],
+    "xinput": [
+      "1.6.4"
+    ],
+    "xlsclients": [
+      "1.1.6"
+    ],
+    "xorg-server": [
+      "21.1.24"
+    ],
+    "xprop": [
+      "1.2.8"
+    ],
+    "xrandr": [
+      "1.5.4"
+    ],
+    "xrdb": [
+      "1.2.3"
+    ],
+    "xset": [
+      "1.2.6"
+    ],
+    "xsetroot": [
+      "1.1.4"
+    ],
+    "xterm": [
+      "411"
+    ],
+    "xz": [
+      "5.8.4-bin",
+      "5.8.4-doc",
+      "5.8.4-man"
+    ],
+    "zoxide": [
+      "0.10.0"
+    ],
+    "zsh": [
+      "5.9.2",
+      "5.9.2-man"
+    ],
+    "zstd": [
+      "1.5.7-bin",
+      "1.5.7-man"
+    ]
+  },
+  "tier": "T0"
+}

@@ -18,4 +18,11 @@
     enableGitIntegration = true;
     options.navigate = true;
   };
+
+  my.tips = [
+    {
+      cmd = "git diff (n / N)";
+      hint = "delta: jump to next / previous file in a diff";
+    }
+  ];
 }

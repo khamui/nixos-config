@@ -1,6 +1,7 @@
 {
   imports = [
     ./alacritty.nix
+    ./autostart.nix
     ./claude.nix
     ./cli.nix
     ./direnv.nix
@@ -12,6 +13,7 @@
     ./rofi.nix
     ./ssh.nix
     ./starship.nix
+    ./tips.nix
     ./tmux.nix
     ./zoxide.nix
     ./zsh.nix

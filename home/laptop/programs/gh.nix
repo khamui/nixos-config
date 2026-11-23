@@ -11,4 +11,15 @@
   };
 
   programs.gh-dash.enable = true;
+
+  my.tips = [
+    {
+      cmd = "gh dash";
+      hint = "dashboard of your PRs and issues";
+    }
+    {
+      cmd = "gh co <number>";
+      hint = "check out a pull request locally";
+    }
+  ];
 }

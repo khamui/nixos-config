@@ -7,4 +7,11 @@
     nix-direnv.enable = true;
     silent = true;
   };
+
+  my.tips = [
+    {
+      cmd = "echo 'use flake' > .envrc && direnv allow";
+      hint = "load this repo's flake devShell automatically on cd";
+    }
+  ];
 }

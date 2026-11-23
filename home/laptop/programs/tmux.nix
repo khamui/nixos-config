@@ -30,7 +30,7 @@
       unbind %
 
       # reload config file (change file location to your the tmux.conf you want to use)
-      bind r source-file ~/.tmux.conf
+      bind r source-file ~/.config/tmux/tmux.conf \; display "config reloaded"
 
       is_vim="ps -o state= -o comm= -t '#{pane_tty}' \
         | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?\\.?g?(view|l?n?vim?x?|fzf)(diff)?(-wrapped)?$'"
@@ -62,4 +62,31 @@
       set -g message-style bg=#1a1b26,fg=#7aa2f7
     '';
   };
+
+  my.tips = [
+    {
+      cmd = "Ctrl+N then Alt+L / Alt+J";
+      hint = "tmux: split pane right / below";
+    }
+    {
+      cmd = "Ctrl+H/J/K/L";
+      hint = "move between tmux panes and nvim splits";
+    }
+    {
+      cmd = "Ctrl+N then c / n / p";
+      hint = "tmux: new window / next / previous";
+    }
+    {
+      cmd = "Ctrl+N then s";
+      hint = "tmux: switch session from a tree";
+    }
+    {
+      cmd = "Ctrl+N then [";
+      hint = "tmux: scroll/copy mode (vi keys, y copies to clipboard)";
+    }
+    {
+      cmd = "Ctrl+N then r";
+      hint = "tmux: reload config";
+    }
+  ];
 }

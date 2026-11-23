@@ -5,4 +5,15 @@
 {...}: {
   programs.nix-index.enable = true;
   programs.nix-index-database.comma.enable = true;
+
+  my.tips = [
+    {
+      cmd = ", <cmd>";
+      hint = "run any program without installing it (e.g. , cowsay hi)";
+    }
+    {
+      cmd = "nix-locate bin/<cmd>";
+      hint = "which package provides a command";
+    }
+  ];
 }

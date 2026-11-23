@@ -14,6 +14,10 @@
 
     # unattended updates; its nixpkgs is not followed, so updating nixpkgs never rebuilds the updater itself
     flake-updater.url = "github:khamui/flake-updater";
+
+    # agent skills for Claude Code, linked by home/laptop/programs/claude.nix
+    mattpocock-skills.url = "github:mattpocock/skills";
+    mattpocock-skills.flake = false;
   };
 
   outputs = {
@@ -22,6 +26,7 @@
     home-manager,
     alacritty-theme,
     flake-updater,
+    mattpocock-skills,
     ...
   }: {
     nixosConfigurations = {
@@ -65,7 +70,7 @@
 
             # Pass alacritty theme input to home.nix
             home-manager.extraSpecialArgs = {
-              inherit alacritty-theme nvf;
+              inherit alacritty-theme nvf mattpocock-skills;
             };
           }
 

@@ -1,6 +1,7 @@
 {
   imports = [
     ./alacritty.nix
+    ./claude.nix
     ./git.nix
     ./lazygit.nix
     ./nvf.nix

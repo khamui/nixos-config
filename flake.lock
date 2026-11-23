@@ -108,6 +108,22 @@
         "type": "github"
       }
     },
+    "mattpocock-skills": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1795095298,
+        "narHash": "sha256-fc5+qmchp1IQ/rQP1olWKC1eC4VdYhaB7YYzC3+JBe0=",
+        "owner": "mattpocock",
+        "repo": "skills",
+        "rev": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mattpocock",
+        "repo": "skills",
+        "type": "github"
+      }
+    },
     "mnw": {
       "locked": {
         "lastModified": 1784154424,
@@ -213,6 +229,7 @@
         "alacritty-theme": "alacritty-theme",
         "flake-updater": "flake-updater",
         "home-manager": "home-manager",
+        "mattpocock-skills": "mattpocock-skills",
         "nixpkgs": "nixpkgs_3",
         "nvf": "nvf"
       }

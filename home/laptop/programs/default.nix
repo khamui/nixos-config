@@ -2,8 +2,12 @@
   imports = [
     ./alacritty.nix
     ./claude.nix
+    ./cli.nix
+    ./direnv.nix
+    ./gh.nix
     ./git.nix
     ./lazygit.nix
+    ./nix-index.nix
     ./nvf.nix
     ./rofi.nix
     ./ssh.nix

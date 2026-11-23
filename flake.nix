@@ -18,6 +18,10 @@
     # agent skills for Claude Code, linked by home/laptop/programs/claude.nix
     mattpocock-skills.url = "github:mattpocock/skills";
     mattpocock-skills.flake = false;
+
+    # prebuilt nix-index database for `nix-locate` and comma (`, <cmd>`)
+    nix-index-database.url = "github:nix-community/nix-index-database";
+    nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
@@ -27,6 +31,7 @@
     alacritty-theme,
     flake-updater,
     mattpocock-skills,
+    nix-index-database,
     ...
   }: {
     nixosConfigurations = {
@@ -67,6 +72,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.khamui = import ./home/laptop;
+            home-manager.sharedModules = [nix-index-database.homeModules.nix-index];
 
             # Pass alacritty theme input to home.nix
             home-manager.extraSpecialArgs = {

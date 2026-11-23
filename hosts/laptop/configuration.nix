@@ -93,6 +93,15 @@
     "10.8.0.1" = ["portainer.helpa.ws" "me.helpa.ws" "proxyman.helpa.ws" "vault.helpa.ws"];
   };
 
+  # `nh os switch` rebuilds this flake and shows what changed (gc stays with nix.gc)
+  programs.nh = {
+    enable = true;
+    flake = "/home/khamui/Repos/nixos-config";
+  };
+
+  # nix-index (home-manager) handles unknown commands instead
+  programs.command-not-found.enable = false;
+
   # unattended flake updates (github:khamui/flake-updater)
   services.flake-agent = {
     enable = true;

@@ -11,4 +11,11 @@
     # user.email lives in an untracked local file (kept out of this public repo)
     includes = [{path = "~/.config/git/local";}];
   };
+
+  # readable diffs for git diff/log/show; `n`/`N` jump between files
+  programs.delta = {
+    enable = true;
+    enableGitIntegration = true;
+    options.navigate = true;
+  };
 }

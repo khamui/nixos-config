@@ -80,6 +80,12 @@
   # Disable conflicting daemon
   services.power-profiles-daemon.enable = false;
 
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+  };
+  services.blueman.enable = true; # tray applet + manager; XFCE has no built-in BT UI
+
   programs.firefox.enable = true;
   #services.pcscd.enable = true;
   #services.pcscd.plugins = [pkgs.ccid];
@@ -90,7 +96,7 @@
   };
 
   networking.hosts = {
-    "10.8.0.1" = ["portainer.helpa.ws" "me.helpa.ws" "proxyman.helpa.ws" "vault.helpa.ws"];
+    "10.8.0.1" = ["portainer.helpa.ws" "me.helpa.ws" "proxyman.helpa.ws" "vault.helpa.ws" "stats.helpa.ws"];
   };
 
   # `nh os switch` rebuilds this flake and shows what changed (gc stays with nix.gc)
